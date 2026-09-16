@@ -20,8 +20,8 @@
       "terminal": "T2",
       "baggage": "托运行李1×23kg，手提行李1×10kg",
       "baggage_source": "用户提供",
-      "origin_label": "上海虹桥T2航站楼",
-      "destination_label": "北京首都T2航站楼",
+      "origin_label": "上海虹桥T2",
+      "destination_label": "北京首都T2",
       "departure_timezone_label": "UTC+08:00",
       "arrival_timezone_label": "UTC+08:00"
     },
@@ -35,10 +35,10 @@
       "terminal": "T2",
       "baggage": "托运行李1×23kg，手提行李1×10kg",
       "baggage_source": "用户提供",
-      "origin_label": "北京首都T2航站楼",
-      "destination_label": "贝尔格莱德T2航站楼",
+      "origin_label": "北京首都T2",
+      "destination_label": "贝尔格莱德T2",
       "departure_timezone_label": "UTC+08:00",
-      "arrival_timezone_label": "CEST · UTC+02:00"
+      "arrival_timezone_label": "UTC+02:00"
     },
     {
       "id": "flight_3",
@@ -50,9 +50,9 @@
       "terminal": "T2",
       "baggage": "托运行李1×23kg，手提行李1×10kg",
       "baggage_source": "用户提供",
-      "origin_label": "贝尔格莱德T2航站楼",
-      "destination_label": "北京首都T2航站楼",
-      "departure_timezone_label": "CEST · UTC+02:00",
+      "origin_label": "贝尔格莱德T2",
+      "destination_label": "北京首都T2",
+      "departure_timezone_label": "UTC+02:00",
       "arrival_timezone_label": "UTC+08:00"
     },
     {
@@ -65,8 +65,8 @@
       "terminal": "T2",
       "baggage": "托运行李1×23kg，手提行李1×10kg",
       "baggage_source": "用户提供",
-      "origin_label": "北京首都T2航站楼",
-      "destination_label": "上海虹桥T2航站楼",
+      "origin_label": "北京首都T2",
+      "destination_label": "上海虹桥T2",
       "departure_timezone_label": "UTC+08:00",
       "arrival_timezone_label": "UTC+08:00"
     }
@@ -424,7 +424,6 @@
       "date": "2026-09-22",
       "title": "初见贝尔格莱德 · 多瑙河畔慢时光",
       "description": "取车后采购，再入住、走河岸；不进市中心。",
-      "budget_note": "10:30–11:15前往采购点，14:45–15:15赴河岸；均为含停车／步行的计划预算。",
       "time_guard": "航班、取车延误则缩短河岸，保持正常入住与用餐。",
       "nodes": [
         {
@@ -662,7 +661,6 @@
       "date": "2026-09-23",
       "title": "漫步贝尔格莱德 · 从老城到河岸",
       "description": "先找正规停车点；公园→步行街→午餐→广场→老街，最后返回实际停车处。",
-      "budget_note": "09:00–09:45入城；城内步行；16:30–17:15取车、17:15–18:15回泽蒙（Zemun）。",
       "time_guard": "路线图中返回公园只是停车区域示意；以实际停好的车位为准，非已预约停车场。",
       "nodes": [
         {
@@ -962,7 +960,6 @@
       "date": "2026-09-24",
       "title": "沿德里纳河西行 · 跨境萨拉热窝",
       "description": "从贝尔格莱德（Belgrade）前往德里纳河小屋（Drina River House），在塞尔维亚（Serbia）侧河岸观景；随后经Mokra Gora方向至Kotroman／Vardište跨境，傍晚抵达萨拉热窝（Sarajevo）。",
-      "budget_note": "06:45出发，河小屋停留约30分钟；18:00左右采购、19:15左右入住、20:00左右晚餐。全日按约12–14小时活动窗口预留，含驾驶、口岸、午餐与短休。",
       "time_guard": "这是较长的转场日，时间为规划预算，并非实时导航结果。提前告知酒店傍晚抵达；如延误则缩短采购、联系餐厅确认厨房与订位时间，不追加老城游览。",
       "nodes": [
         {
@@ -1245,7 +1242,6 @@
       "date": "2026-09-25",
       "title": "跟着瓦尔特走老城 · 黄堡日落",
       "description": "早上走传统街巷，下午沿河返回老城，提前吃晚餐再经Kovači方向上黄堡（Yellow Fortress / Žuta tabija）。",
-      "budget_note": "17:00–17:45上坡，17:45–19:00观景，19:00–19:45返回Hotel Aziza｜酒店。",
       "time_guard": "不默认驾车直达黄堡（Yellow Fortress / Žuta tabija）；Bistrik旧站替代下午自由时段，不叠加。",
       "nodes": [
         {
@@ -1591,7 +1587,6 @@
       "date": "2026-09-26",
       "title": "穿行内雷特瓦河谷 · 邂逅莫斯塔尔",
       "description": "经Konjic河谷到Mostar，先放行李，再去老桥（Stari Most）；晚餐MEGI后回酒店。",
-      "budget_note": "09:00–13:30河谷转场含午餐和短停；16:45–17:15取车赴MEGI。",
       "time_guard": "河谷仅正规停车处短停；老桥（Stari Most）后留返回停车点的时间。",
       "nodes": [
         {
@@ -1799,7 +1794,6 @@
       "date": "2026-09-27",
       "title": "布纳河源秘境 · 跨越亚得里亚山海",
       "description": "布纳河源（Vrelo Bune）后经Trebinje、Zupci／Sitnica进入黑山（Montenegro）；在科托尔（Kotor）先到管理办公室。",
-      "budget_note": "10:00–17:00到办公室含短休与跨境；17:20–17:40去公寓是预留，非已核实车程。",
       "time_guard": "提前确认办公室周日接待及晚到方案；导航核对不经克罗地亚。",
       "nodes": [
         {
@@ -2047,7 +2041,6 @@
       "date": "2026-09-28",
       "title": "洛夫琴山林 · 俯瞰科托尔峡湾",
       "description": "采用Budva／Cetinje方向抵达Ivanova Korita，沿来路方向回科托尔（Kotor）购物和晚餐。",
-      "budget_note": "08:30–11:00上山，14:00–16:30返科托尔（Kotor）；含短休与道路机动。",
       "time_guard": "Budva和Cetinje是路线途经，不增加老城游览；不自动改走科托尔（Kotor）急弯山路。",
       "nodes": [
         {
@@ -2311,7 +2304,6 @@
       "date": "2026-09-29",
       "title": "佩拉斯特海湾 · 从峡湾驶向高山",
       "description": "公寓退房处理垃圾→Perast短游→经Nikšić、Šavnik方向进入山区，先Voli再公寓。",
-      "budget_note": "10:30–16:30至Žabljak镇含午餐短休；17:15–18:00赴公寓为含找路的预算。",
       "time_guard": "公寓精确入口仍待确认；镇区不是住宿定位，晚到先联系房东。",
       "nodes": [
         {
@@ -2581,7 +2573,6 @@
       "date": "2026-09-30",
       "title": "杜米托尔秘境 · 黑湖与高原森林",
       "description": "主线公寓→黑湖（Crno jezero）→Izvor｜餐厅 午餐→公寓；Vražje湖单独作为午后分支。",
-      "budget_note": "09:00–09:45赴黑湖（Crno jezero），09:45–12:15湖岸；12:15–13:00赴Izvor｜餐厅。",
       "time_guard": "不要求完整环湖；午后湖泊仅天气好且能正规停车时执行。",
       "nodes": [
         {
@@ -2785,7 +2776,6 @@
       "date": "2026-10-01",
       "title": "塔拉峡谷之巅 · 穿越边境回到塞尔维亚",
       "description": "先塔拉大桥一带看峡谷，再经Dobrakovo／Gostun入塞，抵达Zlatibor入住。",
-      "budget_note": "08:00–09:15赴桥；09:45–17:00到Zlatibor含午餐、短休、口岸机动。",
       "time_guard": "桥边只短停30分钟；道路或天气差则取消观景支线，不安排滑索或漂流。",
       "nodes": [
         {
@@ -2973,7 +2963,6 @@
       "date": "2026-10-02",
       "title": "黄金缆车越群山 · 重返贝尔格莱德",
       "description": "乘黄金缆车（Gold Gondola）欣赏高原山景，午餐后返回贝尔格莱德（Belgrade）；入住Villa 1927｜酒店，再到米哈伊洛大公街（Knez Mihailova）挑选伴手礼、享用晚餐。",
-      "budget_note": "09:00–11:15缆车以已开放为前提；11:45–16:30直接返城为含短休预算。",
       "time_guard": "若缆车10:00才开放，后续时间顺延；返城较晚则缩短购物，并联系餐厅确认晚餐时间。",
       "nodes": [
         {
@@ -3211,7 +3200,6 @@
       "date": "2026-10-03",
       "title": "告别贝尔格莱德 · 启程回家",
       "description": "Villa 1927｜酒店→SIXT机场还车区→航站楼；不插入采购或观景。",
-      "budget_note": "06:45–07:30赴机场；建议07:30–08:00还车，08:15前后进入值机流程。",
       "time_guard": "原订单10:00还车未修改；提前还车须获车行确认，11:00为票面起飞。",
       "nodes": [
         {
@@ -3561,36 +3549,7 @@
       "Lorenzo & Kakalamba": "餐厅"
     },
     "preparationTitle": "行前准备",
-    "topNavigation": [
-      [
-        "flights",
-        "航班"
-      ],
-      [
-        "overview",
-        "总览"
-      ],
-      [
-        "daily",
-        "每日"
-      ],
-      [
-        "hotels",
-        "住宿"
-      ],
-      [
-        "rental",
-        "租车"
-      ],
-      [
-        "tools",
-        "待办"
-      ],
-      [
-        "packing",
-        "衣物"
-      ]
-    ],
+    "topNavigation": [],
     "bottomNavigation": [
       [
         "flights",
@@ -3608,7 +3567,9 @@
         "tools",
         "清单"
       ]
-    ]
+    ],
+    "overviewRouteLayout": "wrap",
+    "ticketFooterLayout": "departure_countdown_then_baggage_left_aligned"
   },
   "packing_guide": [
     {
