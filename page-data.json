@@ -83,7 +83,7 @@
       "checkOutBy": "12:00",
       "parking": "免费停车；需预留车位",
       "meal": "不含餐食",
-      "price": "€300.80 / 本次住宿",
+      "price": "€300.80 / 2 nights",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20LoRa%20Starca%20Vujadina%208%2C%20Zemun%2C%20Zemun%2C%2011080%20Belgrade%2C%20Serbia"
     },
     {
@@ -97,7 +97,7 @@
       "checkOutBy": "11:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€243.37 / 本次住宿",
+      "price": "€243.37 / 2 nights",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Aziza%20Saburina%202%2C%2071000%20Sarajevo%2C%20Bosnia%20and%20Herzegovina"
     },
     {
@@ -111,7 +111,7 @@
       "checkOutBy": "11:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€133.68 / 本次住宿",
+      "price": "€133.68 / 1 night",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Karting%20Vukovarska%20bb%2C%2088000%20Mostar%2C%20Bosnia%20and%20Herzegovina"
     },
     {
@@ -123,9 +123,9 @@
       "address": "房东定位：42.465551, 18.765607（科托尔（Kotor）湾）",
       "checkInFrom": "15:00",
       "checkOutBy": "10:00",
-      "parking": "楼前首个空余车位；费用及车位保障待确认",
-      "meal": "餐食待确认",
-      "price": "金额待确认",
+      "parking": "楼前空余车位",
+      "meal": "不含早餐",
+      "price": "€315 / 2 nights",
       "mapUrl": "https://maps.app.goo.gl/q9Yrv17WPa2ddiJG8",
       "coordinates": {
         "latitude": 42.465551,
@@ -139,11 +139,11 @@
       "checkOutDate": "2026-10-01",
       "nights": 2,
       "address": "Smrcevo Brdo, Žabljak, Montenegro",
-      "checkInFrom": "待确认",
-      "checkOutBy": "待确认",
-      "parking": "停车费用与安排待确认",
-      "meal": "餐食待确认",
-      "price": "金额待确认",
+      "checkInFrom": "14:00",
+      "checkOutBy": "11:00",
+      "parking": "免费停车",
+      "meal": "含早餐",
+      "price": "€250 / 2 nights",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Smrcevo%20Brdo%20Apartments%20Smrcevo%20Brdo%2C%20%C5%BDabljak%2C%20Montenegro"
     },
     {
@@ -157,7 +157,7 @@
       "checkOutBy": "12:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€98.27 / 本次住宿",
+      "price": "€98.27 / 1 night",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran%20Zlatibor%20Krfska%2C%2031315%20Zlatibor%2C%20Serbia"
     },
     {
@@ -171,7 +171,7 @@
       "checkOutBy": "11:00",
       "parking": "停车 €13/天；需预留车位",
       "meal": "不含餐食",
-      "price": "€102.60 / 本次住宿",
+      "price": "€102.60 / 1 night",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Villa%201927%2026%20Ruzveltova%2C%20Zvezdara%2C%20Zvezdara%2C%2011050%20Belgrade%2C%20Serbia"
     }
   ],
