@@ -83,7 +83,7 @@
       "checkOutBy": "12:00",
       "parking": "免费停车；需预留车位",
       "meal": "不含餐食",
-      "price": "€300.80 / 2 nights",
+      "price": "€300.80",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20LoRa%20Starca%20Vujadina%208%2C%20Zemun%2C%20Zemun%2C%2011080%20Belgrade%2C%20Serbia"
     },
     {
@@ -97,7 +97,7 @@
       "checkOutBy": "11:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€243.37 / 2 nights",
+      "price": "€243.37",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Aziza%20Saburina%202%2C%2071000%20Sarajevo%2C%20Bosnia%20and%20Herzegovina"
     },
     {
@@ -111,7 +111,7 @@
       "checkOutBy": "11:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€133.68 / 1 night",
+      "price": "€133.68",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Karting%20Vukovarska%20bb%2C%2088000%20Mostar%2C%20Bosnia%20and%20Herzegovina"
     },
     {
@@ -125,7 +125,7 @@
       "checkOutBy": "10:00",
       "parking": "楼前空余车位",
       "meal": "不含早餐",
-      "price": "€315 / 2 nights",
+      "price": "€315",
       "mapUrl": "https://maps.app.goo.gl/q9Yrv17WPa2ddiJG8",
       "coordinates": {
         "latitude": 42.465551,
@@ -143,7 +143,7 @@
       "checkOutBy": "11:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€250 / 2 nights",
+      "price": "€250",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Smrcevo%20Brdo%20Apartments%20Smrcevo%20Brdo%2C%20%C5%BDabljak%2C%20Montenegro"
     },
     {
@@ -157,7 +157,7 @@
       "checkOutBy": "12:00",
       "parking": "免费停车",
       "meal": "含早餐",
-      "price": "€98.27 / 1 night",
+      "price": "€98.27",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran%20Zlatibor%20Krfska%2C%2031315%20Zlatibor%2C%20Serbia"
     },
     {
@@ -171,7 +171,7 @@
       "checkOutBy": "11:00",
       "parking": "停车 €13/天；需预留车位",
       "meal": "不含餐食",
-      "price": "€102.60 / 1 night",
+      "price": "€102.60",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Villa%201927%2026%20Ruzveltova%2C%20Zvezdara%2C%20Zvezdara%2C%2011050%20Belgrade%2C%20Serbia"
     }
   ],
@@ -206,7 +206,9 @@
         "by_car": "机场位于贝尔格莱德市中心以西约18公里，可经A3到达。"
       },
       "agreed_time_binding": true,
-      "courtesy_minutes_within_opening_hours": 60
+      "courtesy_minutes_within_opening_hours": 60,
+      "display_location": "贝尔格莱德机场 · 经T1出口前往停车楼五层",
+      "verified_source": "https://www.sixt.com/car-rental/serbia/belgrade/belgrade-airport/"
     },
     "return_as_booked": {
       "local_datetime": "2026-10-03T10:00",
@@ -218,7 +220,10 @@
       "source_refs": [
         "src_rental_sixt_20260910"
       ],
-      "directions_as_document": "接近主航站楼时跟随Garage标识进入右侧多层停车楼；入口自动识别SIXT车牌，还车区位于level four（四层）。"
+      "directions_as_document": "接近主航站楼时跟随Garage标识进入右侧多层停车楼；入口自动识别SIXT车牌，还车区位于level four（四层）。",
+      "display_location": "贝尔格莱德机场 · 停车楼四层还车，随后前往T2乘机",
+      "terminal_note": "SIXT指定停车楼还车，未指定航站楼内柜台；还车后前往票面T2办理乘机手续。",
+      "verified_source": "https://www.sixt.com/car-rental/serbia/belgrade/belgrade-airport/"
     },
     "rental_duration_days_derived": 11,
     "same_airport_return": true,
@@ -278,7 +283,7 @@
       "local_tax": 70.45,
       "expected_gross": 422.7,
       "status": "expected_rental_price_as_confirmation_not_final_invoice",
-      "payment_status": "not_proven_paid",
+      "payment_status": "prepaid_user_confirmed",
       "paid_amount": null,
       "tax_rate_percent": 20,
       "discounts_included": true,
@@ -313,7 +318,8 @@
       ],
       "source_refs": [
         "src_rental_sixt_20260910"
-      ]
+      ],
+      "payment_status_source": "用户2026-09-16确认租金已提前支付"
     },
     "deposit": null,
     "fuel_policy": null,
@@ -330,17 +336,6 @@
     },
     "additional_driver": null,
     "breakdown_assistance_contact": null,
-    "proposed_change": {
-      "return_window_local": [
-        "2026-10-03T07:30",
-        "2026-10-03T08:00"
-      ],
-      "status": "proposal_only_not_amended",
-      "reason": "与11:00航班衔接，原还车时刻仅提前1小时。",
-      "source_refs": [
-        "prior_agent_draft"
-      ]
-    },
     "source_refs": [
       "src_4aa34b2b28",
       "src_rental_sixt_20260910"
@@ -416,6 +411,12 @@
       "source_refs": [
         "src_rental_sixt_20260910"
       ]
+    },
+    "location_source": "https://www.sixt.com/car-rental/serbia/belgrade/belgrade-airport/",
+    "return_plan": {
+      "time": "2026-10-03T07:30/08:00",
+      "source": "用户行程安排",
+      "is_booking_amendment": false
     }
   },
   "days": [
@@ -424,54 +425,199 @@
       "date": "2026-09-22",
       "title": "多瑙河畔初见贝城",
       "description": "抵达贝尔格莱德后取车，在泽蒙采购、入住，下午沿多瑙河轻松散步。首日不进市中心，以休整为主。",
-      "time_guard": [],
+      "time_guard": "",
       "nodes": [
         {
           "id": "airport",
           "name": "贝尔格莱德尼古拉·特斯拉机场（Belgrade Nikola Tesla Airport）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Belgrade+Nikola+Tesla+Airport",
           "navigation_query": "Belgrade Nikola Tesla Airport",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "机场",
+            "intro": "贝尔格莱德尼古拉·特斯拉机场，航班票面标注 T2。",
+            "activities": [
+              "还车后前往 T2 办理值机、托运及安检。"
+            ],
+            "photo": null,
+            "photo_source": null,
+            "source_url": "https://en.wikipedia.org/wiki/Belgrade_Nikola_Tesla_Airport"
+          }
+        },
+        {
+          "id": "pickup",
+          "name": "SIXT取车",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=SIXT+Belgrade+Airport",
+          "visit": {
+            "intro": "从贝尔格莱德机场T1出口前往多层停车楼五层，与SIXT工作人员会合。",
+            "photo": null
+          }
         },
         {
           "id": "shop-lidl-zemun",
           "name": "Lidl Tošin bunar｜超市",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Lidl+To%C5%A1in+bunar+To%C5%A1in+bunar+41%2C+Zemun",
           "navigation_query": "Lidl Tošin bunar Tošin bunar 41, Zemun",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "采购",
+            "intro": "行程中的超市补给点。",
+            "activities": [
+              "补充饮用水、早餐和儿童零食。",
+              "按当天需要采购，避免冷藏食品长时间放在车内。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "hotel-lora",
           "name": "Hotel LoRa｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
           "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel LoRa｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 12:00 前。",
+              "免费停车；需预留车位"
+            ],
+            "photo": "assets/hotel-lora.webp",
+            "photo_source": "https://hotellorabelgrade.com/",
+            "source_url": "https://www.booking.cn/Share-WpFIEb"
+          }
         },
         {
           "id": "zemun",
           "name": "泽蒙多瑙河岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Zemunski+Kej",
           "navigation_query": "Zemunski Kej",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "多瑙河畔的泽蒙步道，适合抵达后轻松认识贝城。",
+            "activities": [
+              "沿平缓河岸往返散步",
+              "找一处河景座位喝水、休息"
+            ],
+            "photo": "assets/zemun.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Kej_oslobo%C4%91enja_(1).JPG",
+            "source_url": "https://en.wikipedia.org/wiki/Zemunski_Kej"
+          }
         },
         {
           "id": "saran",
           "name": "Šaran｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Kej+Oslobo%C4%91enja+53+Zemun",
           "navigation_query": "Kej Oslobođenja 53 Zemun",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
-          "id": "hotel-lora",
-          "name": "Hotel LoRa｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
-          "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "泽蒙河岸餐厅，适合把河畔散步与当地鱼类料理连在一起。",
+            "activities": [
+              "鱼汤、鱼柳和配菜按食量分享",
+              "儿童食物注意鱼刺，预约时说明3成人1儿童"
+            ],
+            "photo": "assets/saran.webp",
+            "photo_source": "https://saran.co.rs/",
+            "source_url": "https://saran.co.rs/"
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "08:00–10:00",
+          "title": "抵达贝尔格莱德",
+          "activity": "入境、领取行李，在机场简单早餐。",
+          "duration_minutes": 120,
+          "place_ids": [
+            "airport"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "10:00–11:15",
+          "title": "SIXT取车 · 前往泽蒙",
+          "activity": "核对跨境许可、儿童座椅和车况后出发。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "pickup"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:15–12:00",
+          "title": "Lidl采购",
+          "activity": "补充未来两天的早餐、饮水、水果和儿童食品。",
+          "duration_minutes": 45,
+          "place_ids": [
+            "shop-lidl-zemun"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "12:00–14:00",
+          "title": "午餐 · 前往酒店",
+          "activity": "在泽蒙就近午餐，随后前往 Hotel LoRa。",
+          "duration_minutes": 120,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:00–15:00",
+          "title": "入住 Hotel LoRa",
+          "activity": "放好行李，稍作休整。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "hotel-lora"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "15:00–17:30",
+          "title": "泽蒙多瑙河岸",
+          "activity": "沿河散步，看河景和水鸟，中途找河岸咖啡馆休息。",
+          "duration_minutes": 150,
+          "place_ids": [
+            "zemun"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:30–18:30",
+          "title": "Šaran 晚餐",
+          "activity": "在多瑙河畔享用河鱼料理。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "saran"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:30 后",
+          "title": "返回酒店",
+          "activity": "早点休息，调整长途飞行后的状态。",
+          "duration_minutes": null,
+          "place_ids": [
+            "hotel-lora"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_lora",
       "overnight_label": "Hotel LoRa｜酒店",
       "source_refs": [
@@ -484,75 +630,213 @@
       "date": "2026-09-23",
       "title": "贝尔格莱德城市漫步",
       "description": "全天游览贝尔格莱德市中心。自驾停车后以步行为主，从卡莱梅格丹一路走到共和国广场和斯卡达利亚。",
-      "time_guard": [],
+      "time_guard": "",
       "nodes": [
         {
-          "id": "hotel-lora",
-          "name": "Hotel LoRa｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
-          "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
           "id": "kalemegdan",
-          "name": "卡莱梅格丹公园（Kalemegdan Park）",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Kalemegdan+Park",
-          "navigation_query": "Kalemegdan Park",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "name": "卡莱梅格丹公园",
+          "map_url": null,
+          "navigation_query": null,
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "取车",
+            "intro": "卡莱梅格丹的堡垒、公园与两河交汇景色，是贝尔格莱德城市漫步的起点。",
+            "activities": [
+              "以当天保存的停车定位为准。"
+            ],
+            "photo": "assets/kalemegdan.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%98%D0%B5%D1%82%D0%BB%D0%BE%D0%BF%D0%B8%D1%81_%D0%B4%D0%B8%D1%98%D0%B5%D0%BB%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0_%D0%B8_%D1%80%D0%B8%D1%98%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B0%D0%B2%D0%B5_%D0%B7%D0%B8%D0%BC%D0%B8.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Kalemegdan_Park"
+          }
         },
         {
           "id": "knez-mihailova",
           "name": "米哈伊洛大公街（Knez Mihailova）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Knez+Mihailova+Belgrade",
           "navigation_query": "Knez Mihailova Belgrade",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "贝尔格莱德老城步行主街，沿途可看建筑、橱窗和街头生活。",
+            "activities": [
+              "顺路逛街，不折返追店",
+              "选择咖啡馆短休"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "meal-casanova",
           "name": "Casa Nova｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Casa+Nova+Gospodar+Jovanova+42a%2C+Belgrade",
           "navigation_query": "Casa Nova Gospodar Jovanova 42a, Belgrade",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "贝尔格莱德市中心的午餐点，与当天老城步行线路衔接。",
+            "activities": [
+              "按菜单选择主菜和儿童易食餐食",
+              "建议提前预约，确认儿童座位"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "republic-square",
           "name": "共和国广场（Trg republike）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Trg+Republike+Belgrade",
           "navigation_query": "Trg Republike Belgrade",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "15–25分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "共和国广场是市中心的地标广场，周边可看国家博物馆和剧院外观。",
+            "activities": [
+              "在米哈伊洛王子雕像附近停留",
+              "看建筑外观后继续前往老街"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "skadarlija",
           "name": "斯卡达利亚老街（Skadarlija）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Skadarlija+Belgrade",
           "navigation_query": "Skadarlija Belgrade",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "meal-seayou",
-          "name": "Sea You｜甜品",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Sea+You+Belgrade",
-          "navigation_query": "Cara Lazara 13, Beograd 11000, Serbia",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "kalemegdan",
-          "name": "返回早上实际停车点",
-          "map_url": null,
-          "navigation_query": null,
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "30–45分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "斯卡达利亚以石板路和传统餐馆街景形成鲜明的老城氛围。",
+            "activities": [
+              "沿街慢走、看店面",
+              "石板路不平，推车缓行"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "hotel-lora",
           "name": "Hotel LoRa｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
           "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel LoRa｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 12:00 前。",
+              "免费停车；需预留车位"
+            ],
+            "photo": "assets/hotel-lora.webp",
+            "photo_source": "https://hotellorabelgrade.com/",
+            "source_url": "https://www.booking.cn/Share-WpFIEb"
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "08:15–09:00",
+          "title": "早餐",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–09:45",
+          "title": "前往市中心",
+          "activity": "停车后开始全天步行游览。",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:45–11:15",
+          "title": "卡莱梅格丹公园",
+          "activity": "漫步堡垒与公园，眺望萨瓦河与多瑙河交汇。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "kalemegdan"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:15–12:30",
+          "title": "米哈伊洛大公街",
+          "activity": "沿步行街看老建筑、街景和沿街小店。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "knez-mihailova"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "12:30–13:30",
+          "title": "Casa Nova 午餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "meal-casanova"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:30–15:00",
+          "title": "共和国广场",
+          "activity": "经过市中心街区，看看国家博物馆、国家剧院等建筑。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "republic-square"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "15:00–16:30",
+          "title": "斯卡达利亚老街",
+          "activity": "漫步石板街，在老街找咖啡或甜点稍作休息。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "skadarlija"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:30–18:15",
+          "title": "取车 · 返回泽蒙",
+          "activity": "",
+          "duration_minutes": 105,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:15 后",
+          "title": "晚餐 · 准备次日跨境",
+          "activity": "住宿附近用餐，整理证件和车上用品。",
+          "duration_minutes": null,
+          "place_ids": [
+            "hotel-lora"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_lora",
       "overnight_label": "Hotel LoRa｜酒店",
       "source_refs": [
@@ -565,68 +849,216 @@
       "date": "2026-09-24",
       "title": "德里纳河一路向西",
       "description": "从贝尔格莱德一路向西，经德里纳河小屋和 Mokra Gora，从 Kotroman / Vardište 进入波黑，傍晚抵达萨拉热窝。",
-      "time_guard": [],
+      "time_guard": "",
       "nodes": [
         {
           "id": "hotel-lora",
           "name": "Hotel LoRa｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
           "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel LoRa｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 12:00 前。",
+              "免费停车；需预留车位"
+            ],
+            "photo": "assets/hotel-lora.webp",
+            "photo_source": "https://hotellorabelgrade.com/",
+            "source_url": "https://www.booking.cn/Share-WpFIEb"
+          }
         },
         {
           "id": "drina-house",
           "name": "德里纳河小屋（Drina River House）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Drina+River+House+Bajina+Basta+Serbia",
           "navigation_query": "Drina River House Bajina Basta Serbia",
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "德里纳河小屋建在河中岩石上，是 Bajina Bašta 一带的代表性景观。",
+            "activities": [
+              "从塞尔维亚一侧岸边观景",
+              "在正规停车处停靠，不下水或登屋"
+            ],
+            "photo": "assets/drina-house.webp",
+            "photo_source": "https://taradrina.com/en/turisticka-ponuda/drina-river-house/"
+          }
         },
         {
           "id": "kotroman-rs",
           "name": "Kotroman Border Crossing 塞尔维亚口岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Kotroman+Border+Crossing+Serbia",
           "navigation_query": "Kotroman Border Crossing Serbia",
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
-        {
-          "id": "vardiste-ba",
-          "name": "Vardište 波黑口岸",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Vardiste+border+crossing+Bosnia+Herzegovina",
-          "navigation_query": "Vardiste border crossing Bosnia Herzegovina",
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "过境",
+            "intro": "按既定路线经过此口岸办理出入境手续。",
+            "activities": [
+              "备好同行人员护照和车辆跨境文件。",
+              "停留随现场通关进度，不安排固定游览时长。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "shop-bingo-alta",
           "name": "Bingo Plus ALTA｜超市",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Bingo+Plus+ALTA+Bulevar+Franca+Lehara+2%2C+Sarajevo",
           "navigation_query": "Bingo Plus ALTA Bulevar Franca Lehara 2, Sarajevo",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "采购",
+            "intro": "行程中的超市补给点。",
+            "activities": [
+              "补充饮用水、早餐和儿童零食。",
+              "按当天需要采购，避免冷藏食品长时间放在车内。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "hotel-aziza",
           "name": "Hotel Aziza｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
           "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel Aziza｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/hotel-aziza.webp",
+            "photo_source": "https://www.hotelaziza.ba/",
+            "source_url": "https://www.booking.cn/Share-aVV76e"
+          }
         },
         {
-          "id": "Ćevabdžinica Željo",
-          "name": "Ćevabdžinica Željo｜餐厅",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Ćevabdžinica+Željo+Sarajevo",
-          "navigation_query": "Kundurdžiluk 19, Sarajevo 71000, Bosnia & Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
-          "id": "hotel-aziza",
-          "name": "Hotel Aziza｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
-          "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "id": "dveri",
+          "name": "Dveri｜餐厅",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Dveri+Prote+Bakovica+12+Sarajevo",
+          "navigation_query": "Dveri Prote Bakovica 12 Sarajevo",
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "萨拉热窝老城庭院餐厅，适合坐下享用一顿当地家常风味餐食。",
+            "activities": [
+              "选主菜搭配面包或汤",
+              "如计划堂食，可提前联系订位"
+            ],
+            "photo": "assets/dveri.webp",
+            "photo_source": "https://dveri.co.ba/?lang=en",
+            "source_url": "https://dveri.co.ba/?lang=en"
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "06:00–06:45",
+          "title": "早餐 · 退房",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [
+            "hotel-lora"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "06:45–10:45",
+          "title": "前往德里纳河小屋",
+          "activity": "一路向西前往 Bajina Bašta。",
+          "duration_minutes": 240,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "10:45–11:15",
+          "title": "德里纳河小屋",
+          "activity": "在塞尔维亚一侧河岸短暂停留，看看著名的河中小屋。",
+          "duration_minutes": 30,
+          "place_ids": [
+            "drina-house"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:15–13:45",
+          "title": "前往边境",
+          "activity": "经 Mokra Gora 方向行驶，途中安排简便午餐。",
+          "duration_minutes": 150,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:45–14:45",
+          "title": "Kotroman / Vardište 跨境",
+          "activity": "离开塞尔维亚，进入波黑。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "kotroman-rs"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:45–18:00",
+          "title": "前往萨拉热窝",
+          "activity": "经 Višegrad 一路西行。",
+          "duration_minutes": 195,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:00–18:45",
+          "title": "Bingo Plus ALTA 采购",
+          "activity": "补充饮水、早餐和儿童零食。",
+          "duration_minutes": 45,
+          "place_ids": [
+            "shop-bingo-alta"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:45–19:45",
+          "title": "入住 Hotel Aziza",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "hotel-aziza"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "20:00–21:00",
+          "title": "Dveri 晚餐",
+          "activity": "品尝波黑家常菜，结束当天长途转场。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "dveri"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_aziza",
       "overnight_label": "Hotel Aziza｜酒店",
       "source_refs": [
@@ -637,79 +1069,165 @@
     {
       "day": 4,
       "date": "2026-09-25",
-      "title": "跟着瓦尔特走老城",
+      "title": "瓦尔特老城与黄堡日落",
       "description": "全天步行游览萨拉热窝老城，寻找《瓦尔特保卫萨拉热窝》的城市记忆，傍晚上黄堡看日落。",
-      "time_guard": [],
+      "time_guard": "",
       "nodes": [
         {
           "id": "hotel-aziza",
           "name": "Hotel Aziza｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
           "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel Aziza｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/hotel-aziza.webp",
+            "photo_source": "https://www.hotelaziza.ba/",
+            "source_url": "https://www.booking.cn/Share-aVV76e"
+          }
         },
         {
           "id": "bascarsija",
           "name": "萨拉热窝老集市（Baščaršija）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Ba%C5%A1%C4%8Dar%C5%A1ija",
           "navigation_query": "Baščaršija",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "巴什查尔希亚是萨拉热窝老城的传统市集区，木亭喷泉与街巷相互连接。",
+            "activities": [
+              "从 Sebilj 喷泉附近开始散步",
+              "慢逛小店，留意铜器和传统点心"
+            ],
+            "photo": "assets/bascarsija.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Ba%C5%A1%C4%8Dar%C5%A1ija_Sarajevo.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Ba%C5%A1%C4%8Dar%C5%A1ija"
+          }
         },
         {
           "id": "kazandziluk",
           "name": "铜匠街（Kazandžiluk）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Kazandziluk+Sarajevo",
           "navigation_query": "Kazandziluk Sarajevo",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "铜匠街以金属器皿和手工艺店面为特色，适合与老集市连着逛。",
+            "activities": [
+              "看铜壶、咖啡器具与店铺陈列",
+              "拍摄手艺人前先征得同意"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "sarajevo-clock",
           "name": "萨拉热窝钟楼（Sahat-kula）与加齐胡斯雷夫贝清真寺（Gazi Husrev-beg Mosque）周边",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sahat+kula+Sarajevo",
           "navigation_query": "Sahat kula Sarajevo",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "30–45分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "钟楼与加齐胡斯雷夫贝清真寺是老城的重要地标，也呼应此次瓦尔特主题散步。",
+            "activities": [
+              "以钟楼与清真寺外观为主",
+              "入内参观须尊重现场开放及着装要求"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "dveri",
           "name": "Dveri｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Dveri+Prote+Bakovica+12+Sarajevo",
           "navigation_query": "Dveri Prote Bakovica 12 Sarajevo",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "萨拉热窝老城庭院餐厅，适合坐下享用一顿当地家常风味餐食。",
+            "activities": [
+              "选主菜搭配面包或汤",
+              "如计划堂食，可提前联系订位"
+            ],
+            "photo": "assets/dveri.webp",
+            "photo_source": "https://dveri.co.ba/?lang=en",
+            "source_url": "https://dveri.co.ba/?lang=en"
+          }
         },
         {
           "id": "latin-bridge",
           "name": "拉丁桥（Latin Bridge）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Latin+Bridge+Sarajevo",
           "navigation_query": "Latin Bridge Sarajevo",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "15–25分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "拉丁桥横跨米利亚茨卡河，是认识萨拉热窝历史与河岸空间的一站。",
+            "activities": [
+              "步行过桥、看河岸景色",
+              "阅读附近历史说明牌"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "sarajevo-cityhall",
           "name": "萨拉热窝市政厅（Vijećnica）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sarajevo+City+Hall",
           "navigation_query": "Sarajevo City Hall",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "bascarsija",
-          "name": "萨拉热窝老集市（Baščaršija）",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Ba%C5%A1%C4%8Dar%C5%A1ija",
-          "navigation_query": "Baščaršija",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "市政厅 Vijećnica 的立面是萨拉热窝河岸最容易辨认的建筑景观之一。",
+            "activities": [
+              "沿河欣赏建筑外观",
+              "入内参观作为自选加项，另留时间"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "yellow-fortress",
           "name": "黄堡（Yellow Fortress / Žuta tabija）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Yellow+Fortress+Sarajevo",
           "navigation_query": "Yellow Fortress Sarajevo",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "hotel-aziza",
-          "name": "Hotel Aziza｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
-          "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "黄堡位于老城上方，适合在傍晚俯瞰街区、山坡与城市天际线。",
+            "activities": [
+              "日落前约45分钟抵达观景区",
+              "准备外套，天色变暗前安排下山"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
@@ -728,7 +1246,115 @@
           "condition": "先核实开放与往返；替换14:45–16:15咖啡自由时段，不增加一段行程。"
         }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "08:00–09:00",
+          "title": "酒店早餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "hotel-aziza"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–10:00",
+          "title": "巴什察尔希亚",
+          "activity": "从 Hotel Aziza 步行进入老城，从 Sebilj 喷泉开始慢慢逛。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "bascarsija"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "10:00–11:00",
+          "title": "铜匠街 · 老城街巷",
+          "activity": "看看传统铜器店和奥斯曼时期街景。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "kazandziluk"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:00–12:00",
+          "title": "钟楼与清真寺周边",
+          "activity": "对照电影画面寻找熟悉的城市视角。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "sarajevo-clock"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "12:00–13:00",
+          "title": "午餐",
+          "activity": "如前一晚未去 Dveri，可安排在今天午餐。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "dveri"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:00–14:45",
+          "title": "拉丁桥 · 河岸 · 市政厅",
+          "activity": "沿米利亚茨卡河一路向东，串联几个代表性的城市地标。",
+          "duration_minutes": 105,
+          "place_ids": [
+            "latin-bridge",
+            "sarajevo-cityhall"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:45–16:15",
+          "title": "老城自由时间",
+          "activity": "喝咖啡、逛小店；如想继续寻找电影记忆，可改去 Bistrik 旧火车站。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "bascarsija"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:15–17:00",
+          "title": "提前晚餐",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:00–17:45",
+          "title": "经 Kovači 前往黄堡",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:45–19:00",
+          "title": "黄堡日落",
+          "activity": "俯瞰萨拉热窝全城，在山坡上等待暮色降临。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "yellow-fortress"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:00 后",
+          "title": "返回酒店",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "hotel-aziza"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_aziza",
       "overnight_label": "Hotel Aziza｜酒店",
       "source_refs": [
@@ -741,54 +1367,181 @@
       "date": "2026-09-26",
       "title": "内雷特瓦河谷与莫斯塔尔",
       "description": "离开萨拉热窝，沿内雷特瓦河谷南下，经 Konjic 前往莫斯塔尔，下午游览老桥和老城。",
-      "time_guard": [],
+      "time_guard": "",
       "nodes": [
         {
           "id": "hotel-aziza",
           "name": "Hotel Aziza｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
           "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel Aziza｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/hotel-aziza.webp",
+            "photo_source": "https://www.hotelaziza.ba/",
+            "source_url": "https://www.booking.cn/Share-aVV76e"
+          }
         },
         {
           "id": "konjic",
           "name": "途经Konjic河谷",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Konjic+Bosnia+Herzegovina",
           "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": "15–20分钟，可选",
+            "duration_type": "suggested",
+            "category": "可选短停",
+            "intro": "Konjic 是河谷南下途中的城镇，可在不赶路时短暂停靠。",
+            "activities": [
+              "仅在正规停车处休息",
+              "如停靠位置合适，可看河岸或桥景"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "hotel-karting",
           "name": "Hotel Karting｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina",
           "navigation_query": "Hotel Karting, Vukovarska bb, 88000 Mostar, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel Karting｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/hotel-karting.webp",
+            "photo_source": "https://www.kartingklub.ba/",
+            "source_url": "https://www.booking.cn/Share-C9kBxE4"
+          }
         },
         {
           "id": "mostar",
           "name": "莫斯塔尔老桥（Stari Most）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Stari+Most",
           "navigation_query": "Stari Most",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "莫斯塔尔老桥横跨内雷特瓦河，两侧石巷构成紧凑的老城游览区。",
+            "activities": [
+              "从两岸步道欣赏老桥",
+              "慢走石巷，桥面陡滑处牵好儿童"
+            ],
+            "photo": "assets/mostar.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Stari_Most"
+          }
         },
         {
           "id": "meal-megi",
           "name": "MEGI Le Petit Restaurant｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=MEGI+Le+Petit+Restaurant+Kralja+Tomislava+29%2C+Mostar",
           "navigation_query": "MEGI Le Petit Restaurant Kralja Tomislava 29, Mostar",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "hotel-karting",
-          "name": "Hotel Karting｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina",
-          "navigation_query": "Hotel Karting, Vukovarska bb, 88000 Mostar, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "MEGI Le Petit Restaurant 是莫斯塔尔当天的晚餐安排。",
+            "activities": [
+              "游览后返回取车，再前往餐厅",
+              "建议提前预约并确认停车位置"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "08:00–09:00",
+          "title": "早餐 · 退房",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "hotel-aziza"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–13:30",
+          "title": "沿内雷特瓦河谷南下",
+          "activity": "途中安排午餐，并选择一处河谷位置短暂停留。",
+          "duration_minutes": 270,
+          "place_ids": [
+            "konjic"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:30–14:45",
+          "title": "入住 Hotel Karting",
+          "activity": "放好行李后前往老城。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "hotel-karting"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:45–16:45",
+          "title": "莫斯塔尔老桥 · 老城",
+          "activity": "漫步老桥两侧石板街，欣赏内雷特瓦河与老桥风光。",
+          "duration_minutes": 120,
+          "place_ids": [
+            "mostar"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:45–17:15",
+          "title": "返回停车处 · 前往晚餐",
+          "activity": "",
+          "duration_minutes": 30,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:15–18:30",
+          "title": "MEGI 晚餐",
+          "activity": "",
+          "duration_minutes": 75,
+          "place_ids": [
+            "meal-megi"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:30 后",
+          "title": "返回酒店",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "hotel-karting"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_karting",
       "overnight_label": "Hotel Karting｜酒店",
       "source_refs": [
@@ -801,42 +1554,86 @@
       "date": "2026-09-27",
       "title": "布纳河源与亚得里亚山海",
       "description": "上午游览布拉加伊布纳河源，随后经 Trebinje 和 Zupci / Sitnica 跨境进入黑山，傍晚抵达科托尔。",
-      "time_guard": "提前确认办公室周日接待及晚到方案。",
+      "time_guard": "",
       "nodes": [
         {
           "id": "hotel-karting",
           "name": "Hotel Karting｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina",
           "navigation_query": "Hotel Karting, Vukovarska bb, 88000 Mostar, Bosnia and Herzegovina",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Hotel Karting｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/hotel-karting.webp",
+            "photo_source": "https://www.kartingklub.ba/",
+            "source_url": "https://www.booking.cn/Share-C9kBxE4"
+          }
         },
         {
           "id": "blagaj",
           "name": "布拉加伊（Blagaj）布纳河源（Vrelo Bune）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Vrelo+Bune",
           "navigation_query": "Vrelo Bune",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
-          "id": "trebinje",
-          "name": "途经Trebinje",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Trebinje+Bosnia+Herzegovina",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "布纳河源位于岩壁脚下，清澈水流与崖边建筑构成布拉加伊的标志性景观。",
+            "activities": [
+              "在河源两侧观景、短步行",
+              "修道院入内为自选项目，遵守现场要求"
+            ],
+            "photo": "assets/blagaj.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Mostar_(16636279160).jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Vrelo_Bune"
+          }
         },
         {
           "id": "sitnica",
           "name": "Zupci／Sitnica口岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sitnica+border+crossing+Montenegro",
           "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "过境",
+            "intro": "按既定路线经过此口岸办理出入境手续。",
+            "activities": [
+              "备好同行人员护照和车辆跨境文件。",
+              "停留随现场通关进度，不安排固定游览时长。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "office",
           "name": "黑山旅行社办公室",
           "map_url": "https://goo.gl/maps/LXH6jhJyKaMQ8QJm7",
           "navigation_query": null,
-          "coordinate_status": "host_link_only"
+          "coordinate_status": "host_link_only",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "登记",
+            "intro": "先到旅行社办公室办理登记，再前往公寓。",
+            "activities": [
+              "按已确认的位置导航。",
+              "办理旅游登记与相关手续。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "stay_prosperus",
@@ -847,6 +1644,19 @@
           "coordinates": {
             "latitude": 42.465551,
             "longitude": 18.765607
+          },
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Apartment Prosperus with Sea View｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 15:00 起；退房 10:00 前。",
+              "楼前空余车位"
+            ],
+            "photo": null,
+            "photo_source": null
           }
         },
         {
@@ -854,23 +1664,94 @@
           "name": "BBQ Tanjga｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=BBQ+Tanjga+E65%2C+Kotor",
           "navigation_query": "BBQ Tanjga E65, Kotor",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "stay_prosperus",
-          "name": "Apartment Prosperus with Sea View｜公寓民宿",
-          "map_url": "https://maps.app.goo.gl/q9Yrv17WPa2ddiJG8",
-          "navigation_query": null,
-          "coordinate_status": "host_map_pin_resolved",
-          "coordinates": {
-            "latitude": 42.465551,
-            "longitude": 18.765607
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "BBQ Tanjga 是科托尔抵达日晚餐点，以烧烤类餐食为用餐方向。",
+            "activities": [
+              "办完入住后用餐",
+              "堂食或打包视现场情况，排队时间另留余量"
+            ],
+            "photo": null,
+            "photo_source": null
           }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "07:30–08:15",
+          "title": "早餐 · 退房",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [
+            "hotel-karting"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "08:15–09:00",
+          "title": "前往布拉加伊",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–10:00",
+          "title": "布纳河源",
+          "activity": "看看岩壁下涌出的泉水、河畔建筑和修道院外观。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "blagaj"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "10:00–17:00",
+          "title": "前往科托尔",
+          "activity": "经 Trebinje 南下，从 Zupci / Sitnica 进入黑山，途中安排午餐和休息。",
+          "duration_minutes": 420,
+          "place_ids": [
+            "sitnica"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:00–18:15",
+          "title": "办理入住",
+          "activity": "先到管理办公室办理旅游税登记，再前往 Apartment Prosperus with Sea View。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "office",
+            "stay_prosperus"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:15–19:45",
+          "title": "科托尔晚餐",
+          "activity": "前往 BBQ Tanjga，品尝当地烤肉。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "meal-tanjga"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:45 后",
+          "title": "返回公寓",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "stay_prosperus"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_prosperus",
       "overnight_label": "Apartment Prosperus with Sea View｜公寓民宿",
       "source_refs": [
@@ -883,67 +1764,65 @@
       "date": "2026-09-28",
       "title": "洛夫琴山林与科托尔湾",
       "description": "从科托尔出发，经 Cetinje 前往洛夫琴国家公园，在山林中轻松散步，下午返回科托尔采购和晚餐。",
-      "time_guard": "Budva和Cetinje是路线途经，不增加老城游览；不自动改走科托尔（Kotor）急弯山路。",
+      "time_guard": "",
       "nodes": [
-        {
-          "id": "stay_prosperus",
-          "name": "Apartment Prosperus with Sea View｜公寓民宿",
-          "map_url": "https://maps.app.goo.gl/q9Yrv17WPa2ddiJG8",
-          "navigation_query": null,
-          "coordinate_status": "host_map_pin_resolved",
-          "coordinates": {
-            "latitude": 42.465551,
-            "longitude": 18.765607
-          }
-        },
-        {
-          "id": "budva",
-          "name": "途经Budva方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Budva+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
-        {
-          "id": "cetinje",
-          "name": "途经Cetinje方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
         {
           "id": "lovcen",
           "name": "洛夫琴（Lovćen）森林与山景",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Ivanova+Korita+Lovcen+Montenegro",
           "navigation_query": "Ivanova Korita Lovcen Montenegro",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
-          "id": "cetinje",
-          "name": "途经Cetinje方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
-        {
-          "id": "budva",
-          "name": "途经Budva方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Budva+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "90–120分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "洛夫琴此日以 Ivanova Korita 一带的山林散步为主，山顶陵墓不列为必走项目。",
+            "activities": [
+              "在村落与林间选择平缓短线",
+              "山中饮水短休后沿原路方向返回"
+            ],
+            "photo": "assets/lovcen.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Lovcen-008-p1010045.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Lov%C4%87en"
+          }
         },
         {
           "id": "shop-aroma-kamelija",
           "name": "Aroma Kamelija｜超市",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Aroma+Kamelija+Trg+Mata+Petrovi%C4%87a%2C+Kotor",
           "navigation_query": "Aroma Kamelija Trg Mata Petrovića, Kotor",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "采购",
+            "intro": "行程中的超市补给点。",
+            "activities": [
+              "补充饮用水、早餐和儿童零食。",
+              "按当天需要采购，避免冷藏食品长时间放在车内。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "meal-scala",
           "name": "Konoba Scala Santa｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba+Scala+Santa+Kotor+Old+Town",
           "navigation_query": "Konoba Scala Santa Kotor Old Town",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "Konoba Scala Santa 是科托尔晚餐点，可与返城后的老城散步衔接。",
+            "activities": [
+              "按当天菜单点餐",
+              "如计划堂食，可提前联系订位"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "stay_prosperus",
@@ -954,12 +1833,108 @@
           "coordinates": {
             "latitude": 42.465551,
             "longitude": 18.765607
+          },
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Apartment Prosperus with Sea View｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 15:00 起；退房 10:00 前。",
+              "楼前空余车位"
+            ],
+            "photo": null,
+            "photo_source": null
           }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "07:45–08:30",
+          "title": "早餐 · 出发准备",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "08:30–11:00",
+          "title": "前往洛夫琴",
+          "activity": "经 Cetinje 方向驶向 Ivanova Korita。",
+          "duration_minutes": 150,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:00–12:30",
+          "title": "洛夫琴山林漫步",
+          "activity": "选择适合带孩子的短线，在森林和山景间慢慢走走。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "lovcen"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "12:30–13:30",
+          "title": "山间午餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:30–14:00",
+          "title": "自由观景",
+          "activity": "",
+          "duration_minutes": 30,
+          "place_ids": [
+            "lovcen"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:00–16:30",
+          "title": "返回科托尔",
+          "activity": "",
+          "duration_minutes": 150,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:30–17:15",
+          "title": "Aroma Kamelija 采购",
+          "activity": "补充后续山区行程需要的早餐、饮水和零食。",
+          "duration_minutes": 45,
+          "place_ids": [
+            "shop-aroma-kamelija"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:45–19:00",
+          "title": "Scala Santa 晚餐",
+          "activity": "进入科托尔老城，享用海鲜或烩饭。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "meal-scala"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:00 后",
+          "title": "返回公寓",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "stay_prosperus"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_prosperus",
       "overnight_label": "Apartment Prosperus with Sea View｜公寓民宿",
       "source_refs": [
@@ -972,7 +1947,7 @@
       "date": "2026-09-29",
       "title": "佩拉斯特湾驶向高山",
       "description": "告别科托尔湾，上午游览佩拉斯特，随后穿越黑山内陆一路向北，傍晚抵达杜米托尔山区。",
-      "time_guard": "公寓精确入口仍待确认；镇区不是住宿定位，晚到先联系房东。",
+      "time_guard": "",
       "nodes": [
         {
           "id": "stay_prosperus",
@@ -983,68 +1958,180 @@
           "coordinates": {
             "latitude": 42.465551,
             "longitude": 18.765607
+          },
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Apartment Prosperus with Sea View｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 15:00 起；退房 10:00 前。",
+              "楼前空余车位"
+            ],
+            "photo": null,
+            "photo_source": null
           }
-        },
-        {
-          "id": "garbage",
-          "name": "房东垃圾点",
-          "map_url": "https://maps.app.goo.gl/jnTtJp3oineoL7FT7",
-          "navigation_query": null,
-          "coordinate_status": "host_link_only"
         },
         {
           "id": "perast",
           "name": "佩拉斯特（Perast）海湾",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Perast",
           "navigation_query": "Perast",
-          "coordinate_status": "recorded_not_freshly_geocoded"
-        },
-        {
-          "id": "niksic",
-          "name": "途经Nikšić方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Niksic+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
-        {
-          "id": "savnik",
-          "name": "途经Šavnik方向",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Savnik+Montenegro",
-          "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "佩拉斯特沿科托尔湾展开，海滨建筑、山体与离岸小岛构成主要风景。",
+            "activities": [
+              "沿海滨往返慢走",
+              "乘船为自选，不挤占当日山区转场时间"
+            ],
+            "photo": "assets/perast.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:Perast_100.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Perast"
+          }
         },
         {
           "id": "shop-voli-zabljak",
           "name": "Voli Žabljak｜超市",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Voli+%C5%BDabljak+Narodnih+heroja+1%2C+%C5%BDabljak",
           "navigation_query": "Voli Žabljak Narodnih heroja 1, Žabljak",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "采购",
+            "intro": "行程中的超市补给点。",
+            "activities": [
+              "补充饮用水、早餐和儿童零食。",
+              "按当天需要采购，避免冷藏食品长时间放在车内。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "stay_smrcevo",
           "name": "Smrcevo Brdo Apartments｜公寓民宿",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
           "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
-          "coordinate_status": "address_query"
+          "coordinate_status": "address_query",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Smrcevo Brdo Apartments｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "meal-izvor",
           "name": "Izvor｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Izvor+R-5%2C+%C5%BDabljak",
           "navigation_query": "Izvor R-5, Žabljak",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "stay_smrcevo",
-          "name": "Smrcevo Brdo Apartments｜公寓民宿",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
-          "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
-          "coordinate_status": "address_query"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "Izvor 是此次杜米托尔山区行程安排的用餐点。",
+            "activities": [
+              "选择热汤和主食补充体力",
+              "建议当天电话确认营业及座位"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "07:30–08:30",
+          "title": "早餐 · 退房",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "stay_prosperus"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "08:30–09:15",
+          "title": "前往佩拉斯特",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:15–10:30",
+          "title": "佩拉斯特海滨",
+          "activity": "沿海湾散步，远眺圣母岩岛和峡湾群山。",
+          "duration_minutes": 75,
+          "place_ids": [
+            "perast"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "10:30–16:30",
+          "title": "驶向札布利亚克",
+          "activity": "经 Nikšić、Šavnik 穿越黑山内陆，途中午餐和休息。",
+          "duration_minutes": 360,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:30–17:15",
+          "title": "Voli 超市采购",
+          "activity": "准备两天早餐、饮水和黑湖游览食品。",
+          "duration_minutes": 45,
+          "place_ids": [
+            "shop-voli-zabljak"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:15–18:30",
+          "title": "入住 Smrcevo Brdo Apartments",
+          "activity": "",
+          "duration_minutes": 75,
+          "place_ids": [
+            "stay_smrcevo"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:00–20:00",
+          "title": "Izvor 晚餐",
+          "activity": "热汤、炖肉或烤鸡，体验黑山山区料理。",
+          "duration_minutes": 60,
+          "place_ids": [
+            "meal-izvor"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "20:00 后",
+          "title": "返回公寓休息",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "stay_smrcevo"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_smrcevo",
       "overnight_label": "Smrcevo Brdo Apartments｜公寓民宿",
       "source_refs": [
@@ -1057,35 +2144,75 @@
       "date": "2026-09-30",
       "title": "杜米托尔黑湖与森林",
       "description": "今天不赶路，把一天留给杜米托尔。上午漫步黑湖与森林，午后视天气前往高原湖泊。",
-      "time_guard": "不要求完整环湖；午后湖泊仅天气好且能正规停车时执行。",
+      "time_guard": "",
       "nodes": [
-        {
-          "id": "stay_smrcevo",
-          "name": "Smrcevo Brdo Apartments｜公寓民宿",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
-          "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
-          "coordinate_status": "address_query"
-        },
         {
           "id": "blacklake",
           "name": "杜米托尔（Durmitor）黑湖（Crno jezero）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Crno+jezero",
           "navigation_query": "Crno jezero",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "90–150分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "黑湖的高山水面、林地与山影，是杜米托尔自然风景的核心体验。",
+            "activities": [
+              "选择入口一侧容易返回的湖岸",
+              "分段散步和休息，不要求完整环湖"
+            ],
+            "photo": "assets/blacklake.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:The_Black_Lake_in_Montenegro.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Black_Lake_(Montenegro)"
+          }
         },
         {
           "id": "meal-izvor",
           "name": "Izvor｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Izvor+R-5%2C+%C5%BDabljak",
           "navigation_query": "Izvor R-5, Žabljak",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "Izvor 是此次杜米托尔山区行程安排的用餐点。",
+            "activities": [
+              "选择热汤和主食补充体力",
+              "建议当天电话确认营业及座位"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
+        },
+        {
+          "id": "vrazje",
+          "name": "Vražje 湖",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Vrazje%20jezero%20Montenegro",
+          "visit": {
+            "intro": "杜米托尔高原湖泊，按天气安排湖边短停与草原观景。",
+            "photo": null
+          }
         },
         {
           "id": "stay_smrcevo",
           "name": "Smrcevo Brdo Apartments｜公寓民宿",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
           "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
-          "coordinate_status": "address_query"
+          "coordinate_status": "address_query",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Smrcevo Brdo Apartments｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
@@ -1118,7 +2245,80 @@
           "condition": "天气好、可正规停车才走；14:00–14:30前往，14:30–15:30短游，15:30–16:15返回。否则午餐后直接回公寓。"
         }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "08:15–09:00",
+          "title": "早餐 · 出发",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–09:45",
+          "title": "前往黑湖",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:45–12:15",
+          "title": "黑湖与森林",
+          "activity": "走到主湖景观区，再沿湖岸选择一段轻松步道慢慢散步。",
+          "duration_minutes": 150,
+          "place_ids": [
+            "blacklake"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "12:15–13:00",
+          "title": "前往 Izvor",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "13:00–14:00",
+          "title": "Izvor 午餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "meal-izvor"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "14:00–15:30",
+          "title": "Vražje 湖 · 高原风光",
+          "activity": "天气合适时前往高原湖泊，在湖边和草原短暂停留。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "vrazje"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "15:30–17:30",
+          "title": "返回公寓 · 自由时间",
+          "activity": "休息、整理照片，在住宿周边看看山景。",
+          "duration_minutes": 120,
+          "place_ids": [
+            "stay_smrcevo"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:30 后",
+          "title": "晚餐 · 整理行李",
+          "activity": "为第二天跨境长途做好准备。",
+          "duration_minutes": null,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_smrcevo",
       "overnight_label": "Smrcevo Brdo Apartments｜公寓民宿",
       "source_refs": [
@@ -1131,54 +2331,188 @@
       "date": "2026-10-01",
       "title": "塔拉峡谷穿越边境",
       "description": "离开杜米托尔，先在塔拉大桥看峡谷风光，再经 Dobrakovo / Gostun 返回塞尔维亚，傍晚抵达兹拉蒂博尔。",
-      "time_guard": "桥边只短停30分钟；道路或天气差则取消观景支线，不安排滑索或漂流。",
+      "time_guard": "",
       "nodes": [
         {
           "id": "stay_smrcevo",
           "name": "Smrcevo Brdo Apartments｜公寓民宿",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
           "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
-          "coordinate_status": "address_query"
+          "coordinate_status": "address_query",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Smrcevo Brdo Apartments｜公寓民宿是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "免费停车"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "tara",
           "name": "塔拉河大桥（Đurđevića Tara Bridge）与峡谷",
           "map_url": "https://www.google.com/maps/search/?api=1&query=%C4%90ur%C4%91evi%C4%87a+Tara+Bridge",
           "navigation_query": "Đurđevića Tara Bridge",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": "20–30分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "塔拉河大桥跨越峡谷，桥拱与河谷层次适合短暂停留欣赏。",
+            "activities": [
+              "在桥边安全观景处看峡谷",
+              "桥上注意车辆，不安排滑索或漂流"
+            ],
+            "photo": "assets/tara.webp",
+            "photo_source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D1%81%D1%82_%D0%94%D0%B6%D1%83%D1%80%D0%B4%D0%B6%D0%B5%D0%B2%D0%B8%D1%87%D0%B0.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/%C4%90ur%C4%91evi%C4%87a_Tara_Bridge"
+          }
         },
         {
           "id": "dobrakovo",
           "name": "Dobrakovo／Gostun口岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Dobrakovo+border+crossing+Montenegro",
           "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "过境",
+            "intro": "按既定路线经过此口岸办理出入境手续。",
+            "activities": [
+              "备好同行人员护照和车辆跨境文件。",
+              "停留随现场通关进度，不安排固定游览时长。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "safran",
           "name": "Šafran Zlatibor｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia",
           "navigation_query": "Šafran Zlatibor, Krfska, 31315 Zlatibor, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Šafran Zlatibor｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 15:00 起；退房 12:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/safran.webp",
+            "photo_source": "https://www.hoteles.com/en/ho3601954176/safran-zlatibor/",
+            "source_url": "https://www.booking.cn/Share-3W2JkgU"
+          }
         },
         {
           "id": "meal-akustik",
           "name": "Konoba Akustik｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba+Akustik+Strahinje+Popovi%C4%87a%2C+Zlatibor",
           "navigation_query": "Konoba Akustik Strahinje Popovića, Zlatibor",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "safran",
-          "name": "Šafran Zlatibor｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia",
-          "navigation_query": "Šafran Zlatibor, Krfska, 31315 Zlatibor, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "60–75分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "Konoba Akustik 是兹拉蒂博尔入住后的晚餐安排。",
+            "activities": [
+              "安顿行李后就餐",
+              "建议提前预约；抵达延误及时联系"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "07:15–08:00",
+          "title": "早餐 · 退房",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [
+            "stay_smrcevo"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "08:00–09:15",
+          "title": "前往塔拉大桥",
+          "activity": "",
+          "duration_minutes": 75,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:15–09:45",
+          "title": "塔拉峡谷",
+          "activity": "在大桥附近短暂停留，俯瞰峡谷和塔拉河。",
+          "duration_minutes": 30,
+          "place_ids": [
+            "tara"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:45–17:00",
+          "title": "跨境前往兹拉蒂博尔",
+          "activity": "经 Dobrakovo / Gostun 进入塞尔维亚，途中安排午餐和休息。",
+          "duration_minutes": 435,
+          "place_ids": [
+            "dobrakovo"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:00–17:45",
+          "title": "入住 Šafran Zlatibor",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [
+            "safran"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:45–18:15",
+          "title": "前往湖区",
+          "activity": "",
+          "duration_minutes": 30,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "18:15–19:15",
+          "title": "Konoba Akustik 晚餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "meal-akustik"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:15 后",
+          "title": "返回酒店",
+          "activity": "",
+          "duration_minutes": null,
+          "place_ids": [
+            "safran"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_safran",
       "overnight_label": "Šafran Zlatibor｜酒店",
       "source_refs": [
@@ -1189,56 +2523,198 @@
     {
       "day": 11,
       "date": "2026-10-02",
-      "title": "黄金缆车越群山",
+      "title": "黄金缆车重返贝城",
       "description": "上午乘黄金缆车俯瞰兹拉蒂博尔高原，午餐后返回贝尔格莱德，最后逛一次市中心并采购伴手礼。",
-      "time_guard": "若缆车10:00才开放，后续时间顺延；返城较晚则缩短购物，并联系餐厅确认晚餐时间。",
+      "time_guard": "",
       "nodes": [
         {
           "id": "safran",
           "name": "Šafran Zlatibor｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia",
           "navigation_query": "Šafran Zlatibor, Krfska, 31315 Zlatibor, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Šafran Zlatibor｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 15:00 起；退房 12:00 前。",
+              "免费停车"
+            ],
+            "photo": "assets/safran.webp",
+            "photo_source": "https://www.hoteles.com/en/ho3601954176/safran-zlatibor/",
+            "source_url": "https://www.booking.cn/Share-3W2JkgU"
+          }
         },
         {
           "id": "gold-gondola",
           "name": "黄金缆车（Gold Gondola）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Gold%20Gondola%20Zlatibor%20Ulica%20Sportova",
           "navigation_query": "黄金缆车 Gold Gondola",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "约2–2.5小时",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "黄金缆车连接兹拉蒂博尔与 Tornik 方向，沿线可看湖泊、林地和高原山景。",
+            "activities": [
+              "安排往返乘坐及山顶短停",
+              "出发前查看官方运行状态；停运则直接返城"
+            ],
+            "photo": "assets/gold-gondola.webp",
+            "photo_source": "https://goldgondola.rs/"
+          }
         },
         {
           "id": "villa-1927",
           "name": "Villa 1927｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia",
           "navigation_query": "Villa 1927, 26 Ruzveltova, Zvezdara, Zvezdara, 11050 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Villa 1927｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "停车 €13/天；需预留车位"
+            ],
+            "photo": "assets/villa-1927.webp",
+            "photo_source": "https://www.hotels.com/ho3080825536/villa-1927-belgrade-serbia/",
+            "source_url": "https://www.booking.cn/Share-ol0uut"
+          }
         },
         {
           "id": "souvenir-knez",
           "name": "米哈伊洛大公街（Knez Mihailova）伴手礼购物",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Souvenirs%20Knez%20Mihailova%20Belgrade",
           "navigation_query": "米哈伊洛大公街伴手礼购物",
-          "coordinate_status": "not_resolved"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "45–60分钟",
+            "duration_type": "suggested",
+            "category": "游览",
+            "intro": "在米哈伊洛大公街一带完成返程前的伴手礼采购。",
+            "activities": [
+              "优先挑选冰箱贴、钥匙扣",
+              "先买赠礼数量，再选自留款"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         },
         {
           "id": "meal-lorenzo",
           "name": "Lorenzo & Kakalamba｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Lorenzo+%26+Kakalamba+Cviji%C4%87eva+110%2C+Belgrade%EF%BC%88Vladetina%E8%A1%97%E5%85%A5%E5%8F%A3%EF%BC%89",
           "navigation_query": "Lorenzo & Kakalamba Cvijićeva 110, Belgrade（Vladetina街入口）",
-          "coordinate_status": "not_resolved"
-        },
-        {
-          "id": "villa-1927",
-          "name": "Villa 1927｜酒店",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia",
-          "navigation_query": "Villa 1927, 26 Ruzveltova, Zvezdara, Zvezdara, 11050 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "not_resolved",
+          "visit": {
+            "duration": "60–90分钟",
+            "duration_type": "suggested",
+            "category": "用餐",
+            "intro": "Lorenzo & Kakalamba 是返程前在贝尔格莱德安排的晚餐点。",
+            "activities": [
+              "伴手礼采购后前往",
+              "建议提前1–2天预约；返城延误需改时间"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "07:30–08:15",
+          "title": "酒店早餐",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [
+            "safran"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "08:15–09:00",
+          "title": "退房 · 前往黄金缆车",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "09:00–11:15",
+          "title": "Gold Gondola",
+          "activity": "乘缆车穿越高原、Ribnica 湖和 Tornik 山区，在山顶短暂停留。",
+          "duration_minutes": 135,
+          "place_ids": [
+            "gold-gondola"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:15–11:45",
+          "title": "简便午餐",
+          "activity": "",
+          "duration_minutes": 30,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "11:45–16:30",
+          "title": "返回贝尔格莱德",
+          "activity": "",
+          "duration_minutes": 285,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "16:30–17:00",
+          "title": "入住 Villa 1927",
+          "activity": "",
+          "duration_minutes": 30,
+          "place_ids": [
+            "villa-1927"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "17:00–18:30",
+          "title": "米哈伊洛大公街 · 伴手礼采购",
+          "activity": "最后逛逛市中心，购买冰箱贴、钥匙扣等纪念品。",
+          "duration_minutes": 90,
+          "place_ids": [
+            "souvenir-knez"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "19:00–20:00",
+          "title": "Lorenzo & Kakalamba 晚餐",
+          "activity": "",
+          "duration_minutes": 60,
+          "place_ids": [
+            "meal-lorenzo"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "20:00 后",
+          "title": "返回酒店",
+          "activity": "整理行李、证件和次日还车用品。",
+          "duration_minutes": null,
+          "place_ids": [
+            "villa-1927"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": "stay_villa1927",
       "overnight_label": "Villa 1927｜酒店",
       "source_refs": [
@@ -1249,35 +2725,83 @@
     {
       "day": 12,
       "date": "2026-10-03",
-      "title": "启程回家",
-      "description": "早起退房，前往机场还车。",
-      "time_guard": [],
+      "title": "告别贝城启程回家",
+      "description": "早起退房，前往机场还车，搭乘 HU7970 返回北京。",
+      "time_guard": "",
       "nodes": [
         {
           "id": "villa-1927",
           "name": "Villa 1927｜酒店",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia",
           "navigation_query": "Villa 1927, 26 Ruzveltova, Zvezdara, Zvezdara, 11050 Belgrade, Serbia",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "recorded_not_freshly_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "住宿",
+            "intro": "Villa 1927｜酒店是当晚的住宿点。",
+            "activities": [
+              "出发前整理行李，核对随身物品。",
+              "入住 14:00 起；退房 11:00 前。",
+              "停车 €13/天；需预留车位"
+            ],
+            "photo": "assets/villa-1927.webp",
+            "photo_source": "https://www.hotels.com/ho3080825536/villa-1927-belgrade-serbia/",
+            "source_url": "https://www.booking.cn/Share-ol0uut"
+          }
         },
         {
           "id": "airport-return",
           "name": "SIXT还车",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sixt+Belgrade+Airport",
           "navigation_query": null,
-          "coordinate_status": "named_waypoint_not_geocoded"
-        },
-        {
-          "id": "airport",
-          "name": "贝尔格莱德尼古拉·特斯拉机场（Belgrade Nikola Tesla Airport）",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Belgrade+Nikola+Tesla+Airport",
-          "navigation_query": "Belgrade Nikola Tesla Airport",
-          "coordinate_status": "recorded_not_freshly_geocoded"
+          "coordinate_status": "named_waypoint_not_geocoded",
+          "visit": {
+            "duration": null,
+            "duration_type": null,
+            "category": "还车",
+            "intro": "贝尔格莱德机场多层停车楼四层 SIXT 还车区。",
+            "activities": [
+              "跟随 Garage 标识进入停车楼。",
+              "完成验车及钥匙交接，带齐随身行李。"
+            ],
+            "photo": null,
+            "photo_source": null
+          }
         }
       ],
       "edges": [],
       "alternatives": [],
-      "timeline": [],
+      "timeline": [
+        {
+          "time": "06:00–06:45",
+          "title": "早餐 · 退房",
+          "activity": "检查护照、行李和随身物品。",
+          "duration_minutes": 45,
+          "place_ids": [
+            "villa-1927"
+          ],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "06:45–07:30",
+          "title": "前往贝尔格莱德机场",
+          "activity": "",
+          "duration_minutes": 45,
+          "place_ids": [],
+          "time_source": "user_supplied_plan"
+        },
+        {
+          "time": "07:30–08:00",
+          "title": "SIXT还车",
+          "activity": "完成验车、交接并取好全部行李。",
+          "duration_minutes": 30,
+          "place_ids": [
+            "airport-return"
+          ],
+          "time_source": "user_supplied_plan"
+        }
+      ],
       "stay_id": null,
       "overnight_label": "机上",
       "source_refs": [
@@ -1614,5 +3138,1519 @@
       "title": "收纳",
       "requirements": "行李分装袋、脏衣袋、密封袋"
     }
-  ]
+  ],
+  "point_media_manifest": {
+    "zemun": {
+      "file": "assets/zemun.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Kej_oslobo%C4%91enja_%281%29.JPG/1280px-Kej_oslobo%C4%91enja_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kej_oslobo%C4%91enja_(1).JPG",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "河岸步道与多瑙河水面，来源文件对应泽蒙河岸。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] Nicolo at Serbian Wikipedia , the copyright holder of this work, hereby publishes it under the following licenses: This file is licensed under the Creative Commons Attribution 3.0 Serbia license. Attribution: Nicolo at Serbian Wikipedia You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. https://creativecommons.org/licenses/by/3.0/rs/deed.en CC BY 3.0 rs Creative Commons Attribution 3.0 rs true true Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License , Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License . Subject to disclaimers . http://www.gnu.org/copyleft/fdl.html GFDL GNU Free Documentation License true true You may select the license of your choice. I, the copyright holder of this work, hereby publish it under the following licenses: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License , Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, an",
+      "visual_confirmation_note": "河岸步道与多瑙河水面，来源文件对应泽蒙河岸。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Nicolo at Serbian Wikipedia",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/rs/deed.en",
+      "attribution": "Nicolo at Serbian Wikipedia",
+      "place_id": "zemun"
+    },
+    "kalemegdan": {
+      "file": "assets/kalemegdan.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%D0%A1%D0%B2%D1%98%D0%B5%D1%82%D0%BB%D0%BE%D0%BF%D0%B8%D1%81_%D0%B4%D0%B8%D1%98%D0%B5%D0%BB%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0_%D0%B8_%D1%80%D0%B8%D1%98%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B0%D0%B2%D0%B5_%D0%B7%D0%B8%D0%BC%D0%B8.jpg/1280px-%D0%A1%D0%B2%D1%98%D0%B5%D1%82%D0%BB%D0%BE%D0%BF%D0%B8%D1%81_%D0%B4%D0%B8%D1%98%D0%B5%D0%BB%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0_%D0%B8_%D1%80%D0%B8%D1%98%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B0%D0%B2%D0%B5_%D0%B7%D0%B8%D0%BC%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%98%D0%B5%D1%82%D0%BB%D0%BE%D0%BF%D0%B8%D1%81_%D0%B4%D0%B8%D1%98%D0%B5%D0%BB%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0_%D0%B8_%D1%80%D0%B8%D1%98%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B0%D0%B2%D0%B5_%D0%B7%D0%B8%D0%BC%D0%B8.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "卡莱梅格丹公园俯看萨瓦河的冬季雪景；明确标注季节参考。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true File history Click on a date/time to view the file as it appeared at that time. Date/Time Thumbnail Dimensions User Comment current 10:56, 2 February 2022 3,264 × 2,448 (3.11 MB) Andrija12345678 ( talk | contribs ) Uploaded own work with UploadWizard You cannot overwrite this file. File usage on Commons The following page uses this file: User:Velopilger/2022, 02. February File usage on other wikis The following other wikis use this file: Usage on en.wikipedia.org Kalemegdan Park Usage on hr.wikipedia.org Kalemegdan Usage on it.wikipedia.org Kalemegdan Usage on ru.wikipedia.org Калемегдан Metadata This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used t",
+      "visual_confirmation_note": "卡莱梅格丹公园俯看萨瓦河的冬季雪景；明确标注季节参考。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Andrija12345678",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Andrija12345678",
+      "place_id": "kalemegdan"
+    },
+    "bascarsija": {
+      "file": "assets/bascarsija.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ba%C5%A1%C4%8Dar%C5%A1ija_Sarajevo.jpg/1280px-Ba%C5%A1%C4%8Dar%C5%A1ija_Sarajevo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ba%C5%A1%C4%8Dar%C5%A1ija_Sarajevo.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "萨拉热窝Sebilj木亭与鸽群。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true File history Click on a date/time to view the file as it appeared at that time. Date/Time Thumbnail Dimensions User Comment current 19:40, 25 September 2022 6,000 × 3,375 (17.53 MB) Stechshotme ( talk | contribs ) Uploaded own work with UploadWizard You cannot overwrite this file. File usage on Commons There are no pages that use this file. File usage on other wikis The following other wikis use this file: Usage on en.wikipedia.org Baščaršija Usage on sl.wikipedia.org Baščaršija Usage on ur.wikipedia.org باشچارشیا Metadata This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original st",
+      "visual_confirmation_note": "萨拉热窝Sebilj木亭与鸽群。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Stechshotme",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Stechshotme",
+      "place_id": "bascarsija"
+    },
+    "mostar": {
+      "file": "assets/mostar.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mostar_Old_Town_Panorama_2007.jpg/1280px-Mostar_Old_Town_Panorama_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "老桥单拱横跨河流，两岸老城。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] I, the copyright holder of this work, hereby publish it under the following licenses: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License , Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License . http://www.gnu.org/copyleft/fdl.html GFDL GNU Free Documentation License true true This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International , 3.0 Unported , 2.5 Generic , 2.0 Generic and 1.0 Generic license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true You may select the license of your choice. .mw-parser-output table.annotationboxforwikipedia{width:100%}.mw-parser-output table.annotationboxforwikipedia.annotationbox-demo{display:table!important}.mw-parser-output table.annotationboxforwik",
+      "visual_confirmation_note": "老桥单拱横跨河流，两岸老城。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Ramirez",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Ramirez",
+      "place_id": "mostar"
+    },
+    "perast": {
+      "file": "assets/perast.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Perast_100.jpg/1280px-Perast_100.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Perast_100.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "佩拉斯特海湾岸线、教堂与船。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true File history Click on a date/time to view the file as it appeared at that time. Date/Time Thumbnail Dimensions User Comment current 08:45, 26 August 2021 3,888 × 2,592 (8.66 MB) FrDr ( talk | contribs ) Uploaded own work with UploadWizard You cannot overwrite this file. File usage on Commons The following page uses this file: Perast File usage on other wikis The following other wikis use this file: Usage on en.wikipedia.org Perast Coastal Montenegro Usage on ko.wikipedia.org 페라스트 Usage on ur.wikipedia.org پیراسٹ Metadata This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original stat",
+      "visual_confirmation_note": "佩拉斯特海湾岸线、教堂与船。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "FrDr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "FrDr",
+      "place_id": "perast"
+    },
+    "lovcen": {
+      "file": "assets/lovcen.webp",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lovcen-008-p1010045.jpg",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lovcen-008-p1010045.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "洛夫琴山体及山顶设施全景，仅表示国家公园山景。",
+      "license_evidence": "",
+      "visual_confirmation_note": "洛夫琴山体及山顶设施全景，仅表示国家公园山景。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Michal Krumnikl",
+      "license_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+      "attribution": "详见来源文件页面",
+      "place_id": "lovcen"
+    },
+    "tara": {
+      "file": "assets/tara.webp",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/%D0%9C%D0%BE%D1%81%D1%82_%D0%94%D0%B6%D1%83%D1%80%D0%B4%D0%B6%D0%B5%D0%B2%D0%B8%D1%87%D0%B0.jpg",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D1%81%D1%82_%D0%94%D0%B6%D1%83%D1%80%D0%B4%D0%B6%D0%B5%D0%B2%D0%B8%D1%87%D0%B0.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "塔拉峡谷中的Đurđevića多拱桥。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/3.0 CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 true true .mw-parser-output .license-review-passed{width:100%;margin:0.5em auto;background:var(--background-color-success-subtle,#d5fdf4);padding:5px;border:1px solid var(--border-color-base,#a2a9b1)}.mw-parser-output .license-review-failed{width:100%;margin:0.5em auto;background:var(--background-color-error-subtle,#fee7e6);padding:5px;border:1px solid var(--border-color-base,#a2a9b1)}.mw-parser-output .license-review-needed{width:100%;margin:0.5em auto;background:var(--background-color-warning-subtle,#fef6e7);padding:5px;border:1px solid var(--border-color-base,#a2a9b1)} This file, which was originally posted to https://500px.com/photo/84587475/bridge-over-tara-river-by-daniel-borsos , was reviewed on 3 January 2017 by reviewer INeverCry , who confirmed that it was available there under the stated license on that date. File history Click o",
+      "visual_confirmation_note": "塔拉峡谷中的Đurđevića多拱桥。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Daniel Borsos",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Daniel Borsos",
+      "place_id": "tara"
+    },
+    "saran": {
+      "file": "assets/saran.webp",
+      "download_url": "https://saran.co.rs/wp-content/uploads/2024/05/Restoran-Saran-fotografija-prozora.jpg",
+      "source_type": "official_website",
+      "media_class": "official_photo",
+      "original_media_class": "official_photo",
+      "visual_subject_type": "place_exterior",
+      "source_page": "https://saran.co.rs/",
+      "source_identity_bound": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "Šaran官网窗边外立面照片。",
+      "license_evidence": "官方地点页面提供的照片；保留来源链接",
+      "visual_confirmation_note": "Šaran官网窗边外立面照片。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "place_id": "saran"
+    },
+    "hotel-lora": {
+      "download_url": "https://hotellorabelgrade.com/wp-content/uploads/2015/04/DSC02073.jpg",
+      "source_page": "https://hotellorabelgrade.com/",
+      "file": "assets/hotel-lora.webp",
+      "source_type": "official_website",
+      "media_class": "official_photo",
+      "original_media_class": "official_photo",
+      "visual_subject_type": "place_exterior",
+      "source_identity_bound": true,
+      "http_accessible": true,
+      "decoded": true,
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visual_confirmation_note": "官网外立面：放大可见Hotel LoRa牌匾及Starca Vujadina 6–8门牌，符合订单8号。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "alt": "官网外立面：放大可见Hotel LoRa牌匾及Starca Vujadina 6–8门牌，符合订单8号。",
+      "retrieved_at": "2026-09-11",
+      "place_id": "hotel-lora"
+    },
+    "hotel-aziza": {
+      "download_url": "https://synergy.booking-channel.com/api/hotels/2773/medias/123",
+      "source_page": "https://www.hotelaziza.ba/",
+      "file": "assets/hotel-aziza.webp",
+      "source_type": "official_website",
+      "media_class": "official_photo",
+      "original_media_class": "official_photo",
+      "visual_subject_type": "place_exterior",
+      "source_identity_bound": true,
+      "http_accessible": true,
+      "decoded": true,
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visual_confirmation_note": "Aziza酒店招牌及外立面，与官方物业身份对应。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "alt": "Aziza酒店招牌及外立面，与官方物业身份对应。",
+      "retrieved_at": "2026-09-11",
+      "place_id": "hotel-aziza"
+    },
+    "hotel-karting": {
+      "download_url": "https://www.kartingklub.ba/assets/optimized/images/hotelKarting/hotel1.webp",
+      "source_page": "https://www.kartingklub.ba/",
+      "file": "assets/hotel-karting.webp",
+      "source_type": "official_website",
+      "media_class": "official_photo",
+      "original_media_class": "official_photo",
+      "visual_subject_type": "place_exterior",
+      "source_identity_bound": true,
+      "http_accessible": true,
+      "decoded": true,
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visual_confirmation_note": "Karting官网大堂前台与休息区。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "alt": "Karting官网大堂前台与休息区。",
+      "retrieved_at": "2026-09-11",
+      "place_id": "hotel-karting"
+    },
+    "safran": {
+      "download_url": "https://images.trvl-media.com/lodging/113000000/112530000/112529900/112529818/95140b71.jpg?impolicy=resizecrop&ra=fill&rh=575&rw=575",
+      "source_page": "https://www.hoteles.com/en/ho3601954176/safran-zlatibor/",
+      "file": "assets/safran.webp",
+      "source_type": "official_property_listing",
+      "media_class": "real_photo",
+      "original_media_class": "real_photo",
+      "visual_subject_type": "place_exterior",
+      "source_identity_bound": true,
+      "http_accessible": true,
+      "decoded": true,
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visual_confirmation_note": "Šafran精确物业房源图库，入口ŠAFRAN招牌清晰。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "alt": "Šafran精确物业房源图库，入口ŠAFRAN招牌清晰。",
+      "retrieved_at": "2026-09-11",
+      "place_id": "safran"
+    },
+    "villa-1927": {
+      "download_url": "https://images.trvl-media.com/lodging/97000000/96250000/96244600/96244548/f2b024bf.jpg?impolicy=resizecrop&ra=fill&rh=575&rw=575",
+      "source_page": "https://www.hotels.com/ho3080825536/villa-1927-belgrade-serbia/",
+      "file": "assets/villa-1927.webp",
+      "source_type": "official_property_listing",
+      "media_class": "real_photo",
+      "original_media_class": "real_photo",
+      "visual_subject_type": "place_exterior",
+      "source_identity_bound": true,
+      "http_accessible": true,
+      "decoded": true,
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "verification_evidence": "qa-evidence/all-selected.jpg",
+      "visual_confirmation_note": "Villa1927精确物业图库，转角米黄色建筑和红雨篷。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "alt": "Villa1927精确物业图库，转角米黄色建筑和红雨篷。",
+      "retrieved_at": "2026-09-11",
+      "place_id": "villa-1927"
+    },
+    "blacklake": {
+      "file": "assets/blacklake.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Black_Lake_in_Montenegro.jpg/1280px-The_Black_Lake_in_Montenegro.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Black_Lake_in_Montenegro.jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa/new-photos-review.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "黑湖水面倒影与背后森林山峰。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true File history Click on a date/time to view the file as it appeared at that time. Date/Time Thumbnail Dimensions User Comment current 16:27, 8 May 2016 3,888 × 2,592 (6.94 MB) Jshnay ( talk | contribs ) User created page with UploadWizard You cannot overwrite this file. File usage on Commons There are no pages that use this file. File usage on other wikis The following other wikis use this file: Usage on bs.wikipedia.org Nacionalni park Skadarsko jezero Nacionalni park Biogradska gora Nacionalni park Lovćen Nacionalni park Prokletije Šablon:Nacionalni parkovi u Crnoj Gori Usage on en.wikipedia.org Montenegro List of national parks of Montenegro Black Lake (Montenegro) Wikipedia:Featured pictures/Places/Landscapes List of World Heritage Sites in",
+      "visual_confirmation_note": "黑湖水面倒影与背后森林山峰。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "Jshnay",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Jshnay",
+      "place_id": "blacklake"
+    },
+    "blagaj": {
+      "file": "assets/blagaj.webp",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Mostar_%2816636279160%29.jpg/1280px-Mostar_%2816636279160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_type": "wikimedia_commons",
+      "media_class": "licensed_photo",
+      "original_media_class": "licensed_photo",
+      "visual_subject_type": "landscape",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mostar_(16636279160).jpg",
+      "source_identity_bound": true,
+      "verification_evidence": "qa/new-photos-review.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "布纳河泉源岩壁旁的Tekke建筑。",
+      "license_evidence": "id=\"Licensing\">Licensing [ edit ] This file is licensed under the Creative Commons Attribution 2.0 Generic license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. https://creativecommons.org/licenses/by/2.0 CC BY 2.0 Creative Commons Attribution 2.0 true true This image was originally posted to Flickr by lasserbua at https://www.flickr.com/photos/112769137@N06/16636279160 . It was reviewed on 10 April 2015 by FlickreviewR and was confirmed to be licensed under the terms of the cc-by-2.0. 10 April 2015 File history Click on a date/time to view the file as it appeared at that time. Date/Time Thumbnail Dimensions User Comment current 08:10, 10 April 2015 4,928 × 3,264 (9.76 MB) Smooth O ( talk | contribs ) Transferred from Flickr via Flickr2Commons You cannot overwrite this file. File usage on Commons The following page uses this file: User:Dronebogus/Favorites File usage on other wikis The following other wikis use this file: Usage on en.wikipedia.org Vrelo Bune Karst spring Usage on eu.wikipedia.org Vrelo Bune Usage on fa.wikipedia.org کاربر:Simaahmadirad Usage on he.wikipedia.org מעיין קרסטי Usage on id.wikipedia.org Vrelo Bune Usage on tr.wikipedia.org Vrelo Bune Metadata This file contains additional information such as Exif metadata which may have been added by the digi",
+      "visual_confirmation_note": "布纳河泉源岩壁旁的Tekke建筑。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "creator": "lasserbua",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "lasserbua",
+      "place_id": "blagaj"
+    },
+    "dveri": {
+      "file": "assets/dveri.webp",
+      "download_url": "https://dveri.co.ba/wp-content/uploads/2015/05/1.jpg",
+      "source_type": "official_website",
+      "media_class": "official_photo",
+      "original_media_class": "official_photo",
+      "visual_subject_type": "place_interior",
+      "source_page": "https://dveri.co.ba/?lang=en",
+      "source_identity_bound": true,
+      "verification_evidence": "qa/new-photos-review.jpg",
+      "visually_confirmed": true,
+      "watermark_checked": true,
+      "subject_verified": true,
+      "http_accessible": true,
+      "decoded": true,
+      "alt": "Dveri官网有绿植的狭长室内餐区。",
+      "license_evidence": "官方地点页面提供的照片；保留来源链接",
+      "visual_confirmation_note": "Dveri官网有绿植的狭长室内餐区。",
+      "visual_evidence_file": "qa-evidence/all-selected.jpg",
+      "checked_at": "2026-09-11",
+      "retrieved_at": "2026-09-11",
+      "place_id": "dveri"
+    },
+    "drina-house": {
+      "file": "assets/drina-house.webp",
+      "place_id": "drina-house",
+      "source_page": "https://taradrina.com/en/turisticka-ponuda/drina-river-house/",
+      "download_url": "https://taradrina.com/wp-content/uploads/2019/03/kucica-na-drini-slider.jpg",
+      "verification_evidence": "qa/new-photos-review.jpg",
+      "visual_confirmation_note": "已核对河中岩石小屋／湖面上方黄金缆车与对应官网来源",
+      "retrieved_at": "2026-09-16"
+    },
+    "gold-gondola": {
+      "file": "assets/gold-gondola.webp",
+      "place_id": "gold-gondola",
+      "source_page": "https://goldgondola.rs/",
+      "download_url": "https://goldgondola.rs/images/ggmain.jpg",
+      "verification_evidence": "qa/new-photos-review.jpg",
+      "visual_confirmation_note": "已核对河中岩石小屋／湖面上方黄金缆车与对应官网来源",
+      "retrieved_at": "2026-09-16"
+    }
+  },
+  "places": {
+    "airport": {
+      "id": "airport",
+      "name": "贝尔格莱德尼古拉·特斯拉机场（Belgrade Nikola Tesla Airport）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Belgrade+Nikola+Tesla+Airport",
+      "navigation_query": "Belgrade Nikola Tesla Airport",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "机场",
+        "intro": "贝尔格莱德尼古拉·特斯拉机场，航班票面标注 T2。",
+        "activities": [
+          "还车后前往 T2 办理值机、托运及安检。"
+        ],
+        "photo": null,
+        "photo_source": null,
+        "source_url": "https://en.wikipedia.org/wiki/Belgrade_Nikola_Tesla_Airport"
+      }
+    },
+    "shop-lidl-zemun": {
+      "id": "shop-lidl-zemun",
+      "name": "Lidl Tošin bunar｜超市",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Lidl+To%C5%A1in+bunar+To%C5%A1in+bunar+41%2C+Zemun",
+      "navigation_query": "Lidl Tošin bunar Tošin bunar 41, Zemun",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "采购",
+        "intro": "行程中的超市补给点。",
+        "activities": [
+          "补充饮用水、早餐和儿童零食。",
+          "按当天需要采购，避免冷藏食品长时间放在车内。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "hotel-lora": {
+      "id": "hotel-lora",
+      "name": "Hotel LoRa｜酒店",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia",
+      "navigation_query": "Hotel LoRa, Starca Vujadina 8, Zemun, Zemun, 11080 Belgrade, Serbia",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Hotel LoRa｜酒店是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 14:00 起；退房 12:00 前。",
+          "免费停车；需预留车位"
+        ],
+        "photo": "assets/hotel-lora.webp",
+        "photo_source": "https://hotellorabelgrade.com/",
+        "source_url": "https://www.booking.cn/Share-WpFIEb"
+      }
+    },
+    "zemun": {
+      "id": "zemun",
+      "name": "泽蒙多瑙河岸",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Zemunski+Kej",
+      "navigation_query": "Zemunski Kej",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "多瑙河畔的泽蒙步道，适合抵达后轻松认识贝城。",
+        "activities": [
+          "沿平缓河岸往返散步",
+          "找一处河景座位喝水、休息"
+        ],
+        "photo": "assets/zemun.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kej_oslobo%C4%91enja_(1).JPG",
+        "source_url": "https://en.wikipedia.org/wiki/Zemunski_Kej"
+      }
+    },
+    "saran": {
+      "id": "saran",
+      "name": "Šaran｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Kej+Oslobo%C4%91enja+53+Zemun",
+      "navigation_query": "Kej Oslobođenja 53 Zemun",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–75分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "泽蒙河岸餐厅，适合把河畔散步与当地鱼类料理连在一起。",
+        "activities": [
+          "鱼汤、鱼柳和配菜按食量分享",
+          "儿童食物注意鱼刺，预约时说明3成人1儿童"
+        ],
+        "photo": "assets/saran.webp",
+        "photo_source": "https://saran.co.rs/",
+        "source_url": "https://saran.co.rs/"
+      }
+    },
+    "kalemegdan": {
+      "id": "kalemegdan",
+      "name": "卡莱梅格丹公园",
+      "map_url": null,
+      "navigation_query": null,
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "取车",
+        "intro": "卡莱梅格丹的堡垒、公园与两河交汇景色，是贝尔格莱德城市漫步的起点。",
+        "activities": [
+          "以当天保存的停车定位为准。"
+        ],
+        "photo": "assets/kalemegdan.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%98%D0%B5%D1%82%D0%BB%D0%BE%D0%BF%D0%B8%D1%81_%D0%B4%D0%B8%D1%98%D0%B5%D0%BB%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0_%D0%B8_%D1%80%D0%B8%D1%98%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B0%D0%B2%D0%B5_%D0%B7%D0%B8%D0%BC%D0%B8.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Kalemegdan_Park"
+      }
+    },
+    "knez-mihailova": {
+      "id": "knez-mihailova",
+      "name": "米哈伊洛大公街（Knez Mihailova）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Knez+Mihailova+Belgrade",
+      "navigation_query": "Knez Mihailova Belgrade",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "贝尔格莱德老城步行主街，沿途可看建筑、橱窗和街头生活。",
+        "activities": [
+          "顺路逛街，不折返追店",
+          "选择咖啡馆短休"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-casanova": {
+      "id": "meal-casanova",
+      "name": "Casa Nova｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Casa+Nova+Gospodar+Jovanova+42a%2C+Belgrade",
+      "navigation_query": "Casa Nova Gospodar Jovanova 42a, Belgrade",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "60–75分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "贝尔格莱德市中心的午餐点，与当天老城步行线路衔接。",
+        "activities": [
+          "按菜单选择主菜和儿童易食餐食",
+          "建议提前预约，确认儿童座位"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "republic-square": {
+      "id": "republic-square",
+      "name": "共和国广场（Trg republike）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Trg+Republike+Belgrade",
+      "navigation_query": "Trg Republike Belgrade",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "15–25分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "共和国广场是市中心的地标广场，周边可看国家博物馆和剧院外观。",
+        "activities": [
+          "在米哈伊洛王子雕像附近停留",
+          "看建筑外观后继续前往老街"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "skadarlija": {
+      "id": "skadarlija",
+      "name": "斯卡达利亚老街（Skadarlija）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Skadarlija+Belgrade",
+      "navigation_query": "Skadarlija Belgrade",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "30–45分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "斯卡达利亚以石板路和传统餐馆街景形成鲜明的老城氛围。",
+        "activities": [
+          "沿街慢走、看店面",
+          "石板路不平，推车缓行"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-seayou": {
+      "id": "meal-seayou",
+      "name": "Sea You｜甜品",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Sea+You+Belgrade",
+      "navigation_query": "Cara Lazara 13, Beograd 11000, Serbia",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "甜品",
+        "intro": "Sea You 是你补充的甜品停留点，位于 Cara Lazara 13。",
+        "activities": [
+          "挑选甜品、饮品并短休",
+          "通常按现场情况就座，营业和是否需预约以门店为准"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "drina-house": {
+      "id": "drina-house",
+      "name": "德里纳河小屋（Drina River House）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Drina+River+House+Bajina+Basta+Serbia",
+      "navigation_query": "Drina River House Bajina Basta Serbia",
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "德里纳河小屋建在河中岩石上，是 Bajina Bašta 一带的代表性景观。",
+        "activities": [
+          "从塞尔维亚一侧岸边观景",
+          "在正规停车处停靠，不下水或登屋"
+        ],
+        "photo": "assets/drina-house.webp",
+        "photo_source": "https://taradrina.com/en/turisticka-ponuda/drina-river-house/"
+      }
+    },
+    "kotroman-rs": {
+      "id": "kotroman-rs",
+      "name": "Kotroman Border Crossing 塞尔维亚口岸",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Kotroman+Border+Crossing+Serbia",
+      "navigation_query": "Kotroman Border Crossing Serbia",
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "过境",
+        "intro": "按既定路线经过此口岸办理出入境手续。",
+        "activities": [
+          "备好同行人员护照和车辆跨境文件。",
+          "停留随现场通关进度，不安排固定游览时长。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "vardiste-ba": {
+      "id": "vardiste-ba",
+      "name": "Vardište 波黑口岸",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Vardiste+border+crossing+Bosnia+Herzegovina",
+      "navigation_query": "Vardiste border crossing Bosnia Herzegovina",
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "过境",
+        "intro": "按既定路线经过此口岸办理出入境手续。",
+        "activities": [
+          "备好同行人员护照和车辆跨境文件。",
+          "停留随现场通关进度，不安排固定游览时长。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "shop-bingo-alta": {
+      "id": "shop-bingo-alta",
+      "name": "Bingo Plus ALTA｜超市",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Bingo+Plus+ALTA+Bulevar+Franca+Lehara+2%2C+Sarajevo",
+      "navigation_query": "Bingo Plus ALTA Bulevar Franca Lehara 2, Sarajevo",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "采购",
+        "intro": "行程中的超市补给点。",
+        "activities": [
+          "补充饮用水、早餐和儿童零食。",
+          "按当天需要采购，避免冷藏食品长时间放在车内。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "hotel-aziza": {
+      "id": "hotel-aziza",
+      "name": "Hotel Aziza｜酒店",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina",
+      "navigation_query": "Hotel Aziza, Saburina 2, 71000 Sarajevo, Bosnia and Herzegovina",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Hotel Aziza｜酒店是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 14:00 起；退房 11:00 前。",
+          "免费停车"
+        ],
+        "photo": "assets/hotel-aziza.webp",
+        "photo_source": "https://www.hotelaziza.ba/",
+        "source_url": "https://www.booking.cn/Share-aVV76e"
+      }
+    },
+    "Ćevabdžinica Željo": {
+      "id": "Ćevabdžinica Željo",
+      "name": "Ćevabdžinica Željo｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Ćevabdžinica+Željo+Sarajevo",
+      "navigation_query": "Kundurdžiluk 19, Sarajevo 71000, Bosnia & Herzegovina",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "30–45分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "萨拉热窝老城的 ćevapi 烤肉用餐点，作为跨境抵达后的简便晚餐。",
+        "activities": [
+          "按食量点烤肉与面饼",
+          "按现场排队；未核实为必须预约"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "bascarsija": {
+      "id": "bascarsija",
+      "name": "萨拉热窝老集市（Baščaršija）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Ba%C5%A1%C4%8Dar%C5%A1ija",
+      "navigation_query": "Baščaršija",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "巴什查尔希亚是萨拉热窝老城的传统市集区，木亭喷泉与街巷相互连接。",
+        "activities": [
+          "从 Sebilj 喷泉附近开始散步",
+          "慢逛小店，留意铜器和传统点心"
+        ],
+        "photo": "assets/bascarsija.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Ba%C5%A1%C4%8Dar%C5%A1ija_Sarajevo.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Ba%C5%A1%C4%8Dar%C5%A1ija"
+      }
+    },
+    "kazandziluk": {
+      "id": "kazandziluk",
+      "name": "铜匠街（Kazandžiluk）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Kazandziluk+Sarajevo",
+      "navigation_query": "Kazandziluk Sarajevo",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "铜匠街以金属器皿和手工艺店面为特色，适合与老集市连着逛。",
+        "activities": [
+          "看铜壶、咖啡器具与店铺陈列",
+          "拍摄手艺人前先征得同意"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "sarajevo-clock": {
+      "id": "sarajevo-clock",
+      "name": "萨拉热窝钟楼（Sahat-kula）与加齐胡斯雷夫贝清真寺（Gazi Husrev-beg Mosque）周边",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Sahat+kula+Sarajevo",
+      "navigation_query": "Sahat kula Sarajevo",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "30–45分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "钟楼与加齐胡斯雷夫贝清真寺是老城的重要地标，也呼应此次瓦尔特主题散步。",
+        "activities": [
+          "以钟楼与清真寺外观为主",
+          "入内参观须尊重现场开放及着装要求"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "dveri": {
+      "id": "dveri",
+      "name": "Dveri｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Dveri+Prote+Bakovica+12+Sarajevo",
+      "navigation_query": "Dveri Prote Bakovica 12 Sarajevo",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–75分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "萨拉热窝老城庭院餐厅，适合坐下享用一顿当地家常风味餐食。",
+        "activities": [
+          "选主菜搭配面包或汤",
+          "如计划堂食，可提前联系订位"
+        ],
+        "photo": "assets/dveri.webp",
+        "photo_source": "https://dveri.co.ba/?lang=en",
+        "source_url": "https://dveri.co.ba/?lang=en"
+      }
+    },
+    "latin-bridge": {
+      "id": "latin-bridge",
+      "name": "拉丁桥（Latin Bridge）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Latin+Bridge+Sarajevo",
+      "navigation_query": "Latin Bridge Sarajevo",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "15–25分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "拉丁桥横跨米利亚茨卡河，是认识萨拉热窝历史与河岸空间的一站。",
+        "activities": [
+          "步行过桥、看河岸景色",
+          "阅读附近历史说明牌"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "sarajevo-cityhall": {
+      "id": "sarajevo-cityhall",
+      "name": "萨拉热窝市政厅（Vijećnica）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Sarajevo+City+Hall",
+      "navigation_query": "Sarajevo City Hall",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "市政厅 Vijećnica 的立面是萨拉热窝河岸最容易辨认的建筑景观之一。",
+        "activities": [
+          "沿河欣赏建筑外观",
+          "入内参观作为自选加项，另留时间"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "yellow-fortress": {
+      "id": "yellow-fortress",
+      "name": "黄堡（Yellow Fortress / Žuta tabija）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Yellow+Fortress+Sarajevo",
+      "navigation_query": "Yellow Fortress Sarajevo",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "黄堡位于老城上方，适合在傍晚俯瞰街区、山坡与城市天际线。",
+        "activities": [
+          "日落前约45分钟抵达观景区",
+          "准备外套，天色变暗前安排下山"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "konjic": {
+      "id": "konjic",
+      "name": "途经Konjic河谷",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Konjic+Bosnia+Herzegovina",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": "15–20分钟，可选",
+        "duration_type": "suggested",
+        "category": "可选短停",
+        "intro": "Konjic 是河谷南下途中的城镇，可在不赶路时短暂停靠。",
+        "activities": [
+          "仅在正规停车处休息",
+          "如停靠位置合适，可看河岸或桥景"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "hotel-karting": {
+      "id": "hotel-karting",
+      "name": "Hotel Karting｜酒店",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina",
+      "navigation_query": "Hotel Karting, Vukovarska bb, 88000 Mostar, Bosnia and Herzegovina",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Hotel Karting｜酒店是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 14:00 起；退房 11:00 前。",
+          "免费停车"
+        ],
+        "photo": "assets/hotel-karting.webp",
+        "photo_source": "https://www.kartingklub.ba/",
+        "source_url": "https://www.booking.cn/Share-C9kBxE4"
+      }
+    },
+    "mostar": {
+      "id": "mostar",
+      "name": "莫斯塔尔老桥（Stari Most）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Stari+Most",
+      "navigation_query": "Stari Most",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "莫斯塔尔老桥横跨内雷特瓦河，两侧石巷构成紧凑的老城游览区。",
+        "activities": [
+          "从两岸步道欣赏老桥",
+          "慢走石巷，桥面陡滑处牵好儿童"
+        ],
+        "photo": "assets/mostar.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Stari_Most"
+      }
+    },
+    "meal-megi": {
+      "id": "meal-megi",
+      "name": "MEGI Le Petit Restaurant｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=MEGI+Le+Petit+Restaurant+Kralja+Tomislava+29%2C+Mostar",
+      "navigation_query": "MEGI Le Petit Restaurant Kralja Tomislava 29, Mostar",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "60–75分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "MEGI Le Petit Restaurant 是莫斯塔尔当天的晚餐安排。",
+        "activities": [
+          "游览后返回取车，再前往餐厅",
+          "建议提前预约并确认停车位置"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "blagaj": {
+      "id": "blagaj",
+      "name": "布拉加伊（Blagaj）布纳河源（Vrelo Bune）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Vrelo+Bune",
+      "navigation_query": "Vrelo Bune",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "布纳河源位于岩壁脚下，清澈水流与崖边建筑构成布拉加伊的标志性景观。",
+        "activities": [
+          "在河源两侧观景、短步行",
+          "修道院入内为自选项目，遵守现场要求"
+        ],
+        "photo": "assets/blagaj.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Mostar_(16636279160).jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Vrelo_Bune"
+      }
+    },
+    "trebinje": {
+      "id": "trebinje",
+      "name": "途经Trebinje",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Trebinje+Bosnia+Herzegovina",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "途经",
+        "intro": "当天自驾路线的途经方向。",
+        "activities": [
+          "随导航通行，不单独安排游览；有需要时在正规停车处休息。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "sitnica": {
+      "id": "sitnica",
+      "name": "Zupci／Sitnica口岸",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Sitnica+border+crossing+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "过境",
+        "intro": "按既定路线经过此口岸办理出入境手续。",
+        "activities": [
+          "备好同行人员护照和车辆跨境文件。",
+          "停留随现场通关进度，不安排固定游览时长。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "office": {
+      "id": "office",
+      "name": "黑山旅行社办公室",
+      "map_url": "https://goo.gl/maps/LXH6jhJyKaMQ8QJm7",
+      "navigation_query": null,
+      "coordinate_status": "host_link_only",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "登记",
+        "intro": "先到旅行社办公室办理登记，再前往公寓。",
+        "activities": [
+          "按已确认的位置导航。",
+          "办理旅游登记与相关手续。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "stay_prosperus": {
+      "id": "stay_prosperus",
+      "name": "Apartment Prosperus with Sea View｜公寓民宿",
+      "map_url": "https://maps.app.goo.gl/q9Yrv17WPa2ddiJG8",
+      "navigation_query": null,
+      "coordinate_status": "host_map_pin_resolved",
+      "coordinates": {
+        "latitude": 42.465551,
+        "longitude": 18.765607
+      },
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Apartment Prosperus with Sea View｜公寓民宿是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 15:00 起；退房 10:00 前。",
+          "楼前空余车位"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-tanjga": {
+      "id": "meal-tanjga",
+      "name": "BBQ Tanjga｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=BBQ+Tanjga+E65%2C+Kotor",
+      "navigation_query": "BBQ Tanjga E65, Kotor",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "BBQ Tanjga 是科托尔抵达日晚餐点，以烧烤类餐食为用餐方向。",
+        "activities": [
+          "办完入住后用餐",
+          "堂食或打包视现场情况，排队时间另留余量"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "budva": {
+      "id": "budva",
+      "name": "途经Budva方向",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Budva+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "途经",
+        "intro": "当天自驾路线的途经方向。",
+        "activities": [
+          "随导航通行，不单独安排游览；有需要时在正规停车处休息。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "cetinje": {
+      "id": "cetinje",
+      "name": "途经Cetinje方向",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "途经",
+        "intro": "当天自驾路线的途经方向。",
+        "activities": [
+          "随导航通行，不单独安排游览；有需要时在正规停车处休息。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "lovcen": {
+      "id": "lovcen",
+      "name": "洛夫琴（Lovćen）森林与山景",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Ivanova+Korita+Lovcen+Montenegro",
+      "navigation_query": "Ivanova Korita Lovcen Montenegro",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "90–120分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "洛夫琴此日以 Ivanova Korita 一带的山林散步为主，山顶陵墓不列为必走项目。",
+        "activities": [
+          "在村落与林间选择平缓短线",
+          "山中饮水短休后沿原路方向返回"
+        ],
+        "photo": "assets/lovcen.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Lovcen-008-p1010045.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Lov%C4%87en"
+      }
+    },
+    "shop-aroma-kamelija": {
+      "id": "shop-aroma-kamelija",
+      "name": "Aroma Kamelija｜超市",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Aroma+Kamelija+Trg+Mata+Petrovi%C4%87a%2C+Kotor",
+      "navigation_query": "Aroma Kamelija Trg Mata Petrovića, Kotor",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "采购",
+        "intro": "行程中的超市补给点。",
+        "activities": [
+          "补充饮用水、早餐和儿童零食。",
+          "按当天需要采购，避免冷藏食品长时间放在车内。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-scala": {
+      "id": "meal-scala",
+      "name": "Konoba Scala Santa｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba+Scala+Santa+Kotor+Old+Town",
+      "navigation_query": "Konoba Scala Santa Kotor Old Town",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "Konoba Scala Santa 是科托尔晚餐点，可与返城后的老城散步衔接。",
+        "activities": [
+          "按当天菜单点餐",
+          "如计划堂食，可提前联系订位"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "garbage": {
+      "id": "garbage",
+      "name": "房东垃圾点",
+      "map_url": "https://maps.app.goo.gl/jnTtJp3oineoL7FT7",
+      "navigation_query": null,
+      "coordinate_status": "host_link_only",
+      "visit": {
+        "duration": "约5分钟",
+        "duration_type": "suggested",
+        "category": "生活",
+        "intro": "离开公寓前按房东要求处理垃圾。",
+        "activities": [
+          "将封好的垃圾袋投放至房东指定位置。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "perast": {
+      "id": "perast",
+      "name": "佩拉斯特（Perast）海湾",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Perast",
+      "navigation_query": "Perast",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "佩拉斯特沿科托尔湾展开，海滨建筑、山体与离岸小岛构成主要风景。",
+        "activities": [
+          "沿海滨往返慢走",
+          "乘船为自选，不挤占当日山区转场时间"
+        ],
+        "photo": "assets/perast.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Perast_100.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Perast"
+      }
+    },
+    "niksic": {
+      "id": "niksic",
+      "name": "途经Nikšić方向",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Niksic+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "途经",
+        "intro": "当天自驾路线的途经方向。",
+        "activities": [
+          "随导航通行，不单独安排游览；有需要时在正规停车处休息。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "savnik": {
+      "id": "savnik",
+      "name": "途经Šavnik方向",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Savnik+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "途经",
+        "intro": "当天自驾路线的途经方向。",
+        "activities": [
+          "随导航通行，不单独安排游览；有需要时在正规停车处休息。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "shop-voli-zabljak": {
+      "id": "shop-voli-zabljak",
+      "name": "Voli Žabljak｜超市",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Voli+%C5%BDabljak+Narodnih+heroja+1%2C+%C5%BDabljak",
+      "navigation_query": "Voli Žabljak Narodnih heroja 1, Žabljak",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "采购",
+        "intro": "行程中的超市补给点。",
+        "activities": [
+          "补充饮用水、早餐和儿童零食。",
+          "按当天需要采购，避免冷藏食品长时间放在车内。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "stay_smrcevo": {
+      "id": "stay_smrcevo",
+      "name": "Smrcevo Brdo Apartments｜公寓民宿",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro",
+      "navigation_query": "Smrcevo Brdo Apartments Smrcevo Brdo, Žabljak, Montenegro",
+      "coordinate_status": "address_query",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Smrcevo Brdo Apartments｜公寓民宿是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 14:00 起；退房 11:00 前。",
+          "免费停车"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-izvor": {
+      "id": "meal-izvor",
+      "name": "Izvor｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Izvor+R-5%2C+%C5%BDabljak",
+      "navigation_query": "Izvor R-5, Žabljak",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "Izvor 是此次杜米托尔山区行程安排的用餐点。",
+        "activities": [
+          "选择热汤和主食补充体力",
+          "建议当天电话确认营业及座位"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "blacklake": {
+      "id": "blacklake",
+      "name": "杜米托尔（Durmitor）黑湖（Crno jezero）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Crno+jezero",
+      "navigation_query": "Crno jezero",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "90–150分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "黑湖的高山水面、林地与山影，是杜米托尔自然风景的核心体验。",
+        "activities": [
+          "选择入口一侧容易返回的湖岸",
+          "分段散步和休息，不要求完整环湖"
+        ],
+        "photo": "assets/blacklake.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:The_Black_Lake_in_Montenegro.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Black_Lake_(Montenegro)"
+      }
+    },
+    "tara": {
+      "id": "tara",
+      "name": "塔拉河大桥（Đurđevića Tara Bridge）与峡谷",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%C4%90ur%C4%91evi%C4%87a+Tara+Bridge",
+      "navigation_query": "Đurđevića Tara Bridge",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": "20–30分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "塔拉河大桥跨越峡谷，桥拱与河谷层次适合短暂停留欣赏。",
+        "activities": [
+          "在桥边安全观景处看峡谷",
+          "桥上注意车辆，不安排滑索或漂流"
+        ],
+        "photo": "assets/tara.webp",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D1%81%D1%82_%D0%94%D0%B6%D1%83%D1%80%D0%B4%D0%B6%D0%B5%D0%B2%D0%B8%D1%87%D0%B0.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/%C4%90ur%C4%91evi%C4%87a_Tara_Bridge"
+      }
+    },
+    "dobrakovo": {
+      "id": "dobrakovo",
+      "name": "Dobrakovo／Gostun口岸",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Dobrakovo+border+crossing+Montenegro",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "过境",
+        "intro": "按既定路线经过此口岸办理出入境手续。",
+        "activities": [
+          "备好同行人员护照和车辆跨境文件。",
+          "停留随现场通关进度，不安排固定游览时长。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "safran": {
+      "id": "safran",
+      "name": "Šafran Zlatibor｜酒店",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia",
+      "navigation_query": "Šafran Zlatibor, Krfska, 31315 Zlatibor, Serbia",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Šafran Zlatibor｜酒店是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 15:00 起；退房 12:00 前。",
+          "免费停车"
+        ],
+        "photo": "assets/safran.webp",
+        "photo_source": "https://www.hoteles.com/en/ho3601954176/safran-zlatibor/",
+        "source_url": "https://www.booking.cn/Share-3W2JkgU"
+      }
+    },
+    "meal-akustik": {
+      "id": "meal-akustik",
+      "name": "Konoba Akustik｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba+Akustik+Strahinje+Popovi%C4%87a%2C+Zlatibor",
+      "navigation_query": "Konoba Akustik Strahinje Popovića, Zlatibor",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "60–75分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "Konoba Akustik 是兹拉蒂博尔入住后的晚餐安排。",
+        "activities": [
+          "安顿行李后就餐",
+          "建议提前预约；抵达延误及时联系"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "gold-gondola": {
+      "id": "gold-gondola",
+      "name": "黄金缆车（Gold Gondola）",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Gold%20Gondola%20Zlatibor%20Ulica%20Sportova",
+      "navigation_query": "黄金缆车 Gold Gondola",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "约2–2.5小时",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "黄金缆车连接兹拉蒂博尔与 Tornik 方向，沿线可看湖泊、林地和高原山景。",
+        "activities": [
+          "安排往返乘坐及山顶短停",
+          "出发前查看官方运行状态；停运则直接返城"
+        ],
+        "photo": "assets/gold-gondola.webp",
+        "photo_source": "https://goldgondola.rs/"
+      }
+    },
+    "villa-1927": {
+      "id": "villa-1927",
+      "name": "Villa 1927｜酒店",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia",
+      "navigation_query": "Villa 1927, 26 Ruzveltova, Zvezdara, Zvezdara, 11050 Belgrade, Serbia",
+      "coordinate_status": "recorded_not_freshly_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "住宿",
+        "intro": "Villa 1927｜酒店是当晚的住宿点。",
+        "activities": [
+          "出发前整理行李，核对随身物品。",
+          "入住 14:00 起；退房 11:00 前。",
+          "停车 €13/天；需预留车位"
+        ],
+        "photo": "assets/villa-1927.webp",
+        "photo_source": "https://www.hotels.com/ho3080825536/villa-1927-belgrade-serbia/",
+        "source_url": "https://www.booking.cn/Share-ol0uut"
+      }
+    },
+    "souvenir-knez": {
+      "id": "souvenir-knez",
+      "name": "米哈伊洛大公街（Knez Mihailova）伴手礼购物",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Souvenirs%20Knez%20Mihailova%20Belgrade",
+      "navigation_query": "米哈伊洛大公街伴手礼购物",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "45–60分钟",
+        "duration_type": "suggested",
+        "category": "游览",
+        "intro": "在米哈伊洛大公街一带完成返程前的伴手礼采购。",
+        "activities": [
+          "优先挑选冰箱贴、钥匙扣",
+          "先买赠礼数量，再选自留款"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "meal-lorenzo": {
+      "id": "meal-lorenzo",
+      "name": "Lorenzo & Kakalamba｜餐厅",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Lorenzo+%26+Kakalamba+Cviji%C4%87eva+110%2C+Belgrade%EF%BC%88Vladetina%E8%A1%97%E5%85%A5%E5%8F%A3%EF%BC%89",
+      "navigation_query": "Lorenzo & Kakalamba Cvijićeva 110, Belgrade（Vladetina街入口）",
+      "coordinate_status": "not_resolved",
+      "visit": {
+        "duration": "60–90分钟",
+        "duration_type": "suggested",
+        "category": "用餐",
+        "intro": "Lorenzo & Kakalamba 是返程前在贝尔格莱德安排的晚餐点。",
+        "activities": [
+          "伴手礼采购后前往",
+          "建议提前1–2天预约；返城延误需改时间"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "airport-return": {
+      "id": "airport-return",
+      "name": "SIXT还车",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Sixt+Belgrade+Airport",
+      "navigation_query": null,
+      "coordinate_status": "named_waypoint_not_geocoded",
+      "visit": {
+        "duration": null,
+        "duration_type": null,
+        "category": "还车",
+        "intro": "贝尔格莱德机场多层停车楼四层 SIXT 还车区。",
+        "activities": [
+          "跟随 Garage 标识进入停车楼。",
+          "完成验车及钥匙交接，带齐随身行李。"
+        ],
+        "photo": null,
+        "photo_source": null
+      }
+    },
+    "pickup": {
+      "id": "pickup",
+      "name": "SIXT取车",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=SIXT+Belgrade+Airport",
+      "visit": {
+        "intro": "从贝尔格莱德机场T1出口前往多层停车楼五层，与SIXT工作人员会合。",
+        "photo": null
+      }
+    },
+    "vrazje": {
+      "id": "vrazje",
+      "name": "Vražje 湖",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Vrazje%20jezero%20Montenegro",
+      "visit": {
+        "intro": "杜米托尔高原湖泊，按天气安排湖边短停与草原观景。",
+        "photo": null
+      }
+    }
+  }
 }

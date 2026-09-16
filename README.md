@@ -1,12 +1,11 @@
-# 巴尔干旅行计划
+# 巴尔干旅行网页
 
-打开 index.html 浏览，地图和图片已内嵌。
+直接打开 index.html；照片已内嵌，无需联网加载。地图和地点照片链接需要联网。
 
-- page-data.json：页面资料。
-- travel-data.json：完整旅行资料。
-- travel-routes.json：每日路线与分时安排。
-- maps/overall.svg：可编辑矢量地图；PNG为图片导出。
+修改每日安排：编辑 page-data.json 的 days[].timeline（time、title、activity、place_ids）；点位简介位于 places，照片位于 assets。
 
-网页展示完整旅行计划，不设置修改日志。修改JSON需同步更新静态HTML和地图。勾选和备忘仅保存在当前浏览器。尚未发布公网链接。
+运行 `python render.py` 重新生成 index.html（仅使用Python标准库）。page-template.html 保存整体布局、航班、住宿及清单；修改这些栏目时请同步模板和数据。
 
-地图采用 Natural Earth 1:10m 国界、水系及 OSRM 基于 OpenStreetMap 计算的道路线路；计算路线不含实时交通、口岸排队或未来封路信息。maps/road-routes.geojson 保存地图线路。
+每日时间为用户提供的计划。还车卡显示10月3日07:30–08:00行程安排，原订单时间保留在数据中，不表示车行已修改订单。
+
+18处点位有内嵌实景图；其余点位提供地图照片入口。图片来源与许可见卡片及point-media-manifest.json。
