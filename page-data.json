@@ -3568,8 +3568,17 @@
         "清单"
       ]
     ],
-    "overviewRouteLayout": "wrap",
-    "ticketFooterLayout": "departure_countdown_then_baggage_left_aligned"
+    "overviewRouteLayout": "horizontal_scroll_chinese_city_nodes",
+    "ticketFooterLayout": "departure_countdown_then_baggage_left_aligned",
+    "overviewStats": {
+      "days": 12,
+      "nights": 11,
+      "countries": 3,
+      "stops": 7,
+      "approximateDistanceKm": 1600,
+      "distanceSource": "user_supplied_estimate"
+    },
+    "overviewBorderLayout": "three_cards"
   },
   "packing_guide": [
     {
