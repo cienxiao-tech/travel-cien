@@ -534,7 +534,7 @@
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sea+You+Belgrade",
           "navigation_query": "Cara Lazara 13, Beograd 11000, Serbia",
           "coordinate_status": "not_resolved"
-        }
+        },
         {
           "id": "kalemegdan",
           "name": "返回早上实际停车点",
@@ -905,7 +905,7 @@
         },
         {
           "id": "cetinje",
-          "name": "途经Cetinje方向途经",
+          "name": "途经Cetinje方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"

@@ -105,10 +105,9 @@
     {
       "day": 1,
       "date": "2026-09-22",
-      "title": "初见贝尔格莱德（Belgrade） · 多瑙河（Danube）畔慢时光",
-      "description": "取车后采购，再入住、走河岸；不进市中心。",
-      "budget_note": "10:30–11:15前往采购点，14:45–15:15赴河岸；均为含停车／步行的计划预算。",
-      "time_guard": "航班、取车延误则缩短河岸，保持正常入住与用餐。",
+      "title": "多瑙河畔初见贝城",
+      "description": "抵达贝尔格莱德后取车，在泽蒙采购、入住，下午沿多瑙河轻松散步。首日不进市中心，以休整为主。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "airport",
@@ -133,14 +132,14 @@
         },
         {
           "id": "zemun",
-          "name": "泽蒙（Zemun）多瑙河（Danube）岸",
+          "name": "泽蒙多瑙河岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Zemunski+Kej",
           "navigation_query": "Zemunski Kej",
           "coordinate_status": "recorded_not_freshly_geocoded"
         },
         {
           "id": "saran",
-          "name": "泽蒙（Zemun） Šaran｜餐厅（河鱼料理）",
+          "name": "Šaran｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Kej+Oslobo%C4%91enja+53+Zemun",
           "navigation_query": "Kej Oslobođenja 53 Zemun",
           "coordinate_status": "recorded_not_freshly_geocoded"
@@ -153,186 +152,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Belgrade+Nikola+Tesla+Airport&destination=Lidl+To%C5%A1in+bunar+To%C5%A1in+bunar+41%2C+Zemun&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Lidl+To%C5%A1in+bunar+To%C5%A1in+bunar+41%2C+Zemun&destination=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia&destination=Zemunski+Kej&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Zemunski+Kej&destination=Kej+Oslobo%C4%91enja+53+Zemun&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_01_event_01",
-          "start_time": "08:00",
-          "end_time": "09:00",
-          "title": "抵达、入境与领取行李",
-          "description": "HU7969订单08:00抵达；手续按60分钟预算，出关速度不保证。",
-          "category": "arrival",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_02",
-          "start_time": "09:00",
-          "end_time": "10:00",
-          "title": "机场早餐、洗手间及取车前准备",
-          "description": "吃简单早餐，整理儿童随身用品，按SIXT指引前往接待位置。",
-          "category": "buffer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_03",
-          "start_time": "10:00",
-          "end_time": "10:30",
-          "title": "SIXT取车交接",
-          "description": "订单10:00取车；停车楼五层会合。核对跨境许可、儿童座椅和车辆情况，交接超时则顺延采购。",
-          "category": "rental",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_04",
-          "start_time": "10:30",
-          "end_time": "11:15",
-          "title": "开往泽蒙（Zemun）方向",
-          "description": "前往Lidl Tošin bunar｜超市 41，预留45分钟交通预算，实际随机场离场和路况调整。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_05",
-          "start_time": "11:15",
-          "end_time": "12:00",
-          "title": "第1次采购：Lidl泽蒙（Zemun）店",
-          "description": "采购9月22–24日早餐补充、饮水、常温奶、水果和纸巾。地点Tošin bunar 41；门店营业以当天为准，取车延误则压缩购物。",
-          "category": "supplies",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_06",
-          "start_time": "12:00",
-          "end_time": "13:00",
-          "title": "就近午餐",
-          "description": "选容易停车、出餐快的店，先吃饭再继续。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_07",
-          "start_time": "13:00",
-          "end_time": "14:00",
-          "title": "前往Hotel LoRa｜酒店 及入住前缓冲",
-          "description": "具体店铺未定，此段包含移动和机动时间，不承诺提前入住。",
-          "category": "buffer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_08",
-          "start_time": "14:00",
-          "end_time": "14:45",
-          "title": "办理入住、放行李和洗漱",
-          "description": "完成安顿即可出门，不安排固定睡觉时段。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_09",
-          "start_time": "14:45",
-          "end_time": "15:15",
-          "title": "前往泽蒙（Zemun）河岸",
-          "description": "根据实际步行距离和体力选择出行方式；预留30分钟。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_10",
-          "start_time": "15:15",
-          "end_time": "16:45",
-          "title": "多瑙河（Danube）岸慢走",
-          "description": "选择平缓河岸往返，观察水鸟、拍家庭照；每走20–30分钟可坐一会儿。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_11",
-          "start_time": "16:45",
-          "end_time": "17:30",
-          "title": "河岸饮品与晚餐前短休",
-          "description": "坐下喝水、上洗手间；天气不好可直接去吃饭。",
-          "category": "buffer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_01_event_12",
-          "start_time": "17:30",
-          "end_time": "18:30",
-          "title": "Šaran｜餐厅 河岸晚餐",
-          "description": "鱼汤、鱼柳及配菜按食量分享；建议预约17:30，尚未订位。Google本店评分未可靠核实，不宣称已达评分门槛。 【预约】建议提前1–2天预约；未核实为强制预约；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1–2天预约；未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_01_event_13",
-          "start_time": "18:30",
-          "end_time": "19:00",
-          "title": "回到Hotel LoRa｜酒店",
-          "description": "第一天尽早结束，适应长途飞行后的状态。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_lora",
       "overnight_label": "Hotel LoRa｜酒店",
       "source_refs": [
@@ -343,10 +165,9 @@
     {
       "day": 2,
       "date": "2026-09-23",
-      "title": "漫步贝尔格莱德（Belgrade） · 从老城到河岸",
-      "description": "先找正规停车点；公园→步行街→午餐→广场→老街，最后返回实际停车处。",
-      "budget_note": "09:00–09:45入城；城内步行；16:30–17:15取车、17:15–18:15回泽蒙（Zemun）。",
-      "time_guard": "路线图中返回公园只是停车区域示意；以实际停好的车位为准，非已预约停车场。",
+      "title": "贝尔格莱德城市漫步",
+      "description": "全天游览贝尔格莱德市中心。自驾停车后以步行为主，从卡莱梅格丹一路走到共和国广场和斯卡达利亚。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "hotel-lora",
@@ -391,6 +212,13 @@
           "coordinate_status": "not_resolved"
         },
         {
+          "id": "meal-seayou",
+          "name": "Sea You｜甜品",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Sea+You+Belgrade",
+          "navigation_query": "Cara Lazara 13, Beograd 11000, Serbia",
+          "coordinate_status": "not_resolved"
+        },
+        {
           "id": "kalemegdan",
           "name": "返回早上实际停车点",
           "map_url": null,
@@ -405,234 +233,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia&destination=Kalemegdan+Park&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Kalemegdan+Park&destination=Knez+Mihailova+Belgrade&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Knez+Mihailova+Belgrade&destination=Casa+Nova+Gospodar+Jovanova+42a%2C+Belgrade&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Casa+Nova+Gospodar+Jovanova+42a%2C+Belgrade&destination=Trg+Republike+Belgrade&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Trg+Republike+Belgrade&destination=Skadarlija+Belgrade&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_02_event_01",
-          "start_time": "08:15",
-          "end_time": "09:00",
-          "title": "早餐与出门准备",
-          "description": "Hotel LoRa｜酒店 订单不含早餐，可在附近用餐。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_02",
-          "start_time": "09:00",
-          "end_time": "09:45",
-          "title": "泽蒙（Zemun）前往市中心",
-          "description": "自驾进城后在正规停车场停一次，后续步行为主；预留交通、停车及步行至公园的时间，车位未预订。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_03",
-          "start_time": "09:45",
-          "end_time": "11:15",
-          "title": "卡莱梅格丹公园（Kalemegdan Park）与两河交汇",
-          "description": "公园、堡垒外观、河流交汇观景点慢走，留出坐下喝水时间，不安排多个展馆。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_04",
-          "start_time": "11:15",
-          "end_time": "11:30",
-          "title": "步行至米哈伊洛大公街（Knez Mihailova）方向",
-          "description": "由公园向市中心移动。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_05",
-          "start_time": "11:30",
-          "end_time": "12:00",
-          "title": "米哈伊洛大公街（Knez Mihailova）北段",
-          "description": "看老建筑、街头日常和沿街小店，遇到喜欢的再进去，不设必买清单。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_06",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "title": "步行前往Casa Nova｜餐厅",
-          "description": "从步行街前往Gospodar Jovanova 42a，含找入口时间；不额外挪车。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_07",
-          "start_time": "12:30",
-          "end_time": "13:30",
-          "title": "Casa Nova｜餐厅 午餐",
-          "description": "意面、烩饭或当日主菜，建议订12:30。Google第三方收录4.6/2287条，非实时。 【预约】建议提前1–2天预约；未核实为强制预约；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1–2天预约；未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_02_event_08",
-          "start_time": "13:30",
-          "end_time": "14:00",
-          "title": "步行回共和国广场（Trg republike）方向",
-          "description": "不再折返重逛步行街北段，沿街前往广场。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_09",
-          "start_time": "14:15",
-          "end_time": "14:45",
-          "title": "共和国广场（Trg republike）",
-          "description": "看骑马雕像、国家博物馆与国家剧院外观，拍照后继续；不默认安排博物馆入内。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_10",
-          "start_time": "14:45",
-          "end_time": "15:00",
-          "title": "前往斯卡达利亚街",
-          "description": "按现场步行导航，预留15分钟。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_11",
-          "start_time": "15:00",
-          "end_time": "15:45",
-          "title": "斯卡达利亚老街（Skadarlija）",
-          "description": "看石板街、老餐馆和街巷氛围；推车在不平路面慢行，雨天缩短。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_12",
-          "start_time": "15:45",
-          "end_time": "16:30",
-          "title": "咖啡或甜点短休",
-          "description": "找方便落座的位置，喝水、上洗手间；不为特定店排队。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_13",
-          "start_time": "16:30",
-          "end_time": "17:15",
-          "title": "步行返回停车点、取车",
-          "description": "按早上实际停车位置核算，预留45分钟；若选择其他进城方式，此段作为离城前机动。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_14",
-          "start_time": "17:15",
-          "end_time": "18:15",
-          "title": "返回泽蒙（Zemun）",
-          "description": "给晚间进出城交通留余量。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_15",
-          "start_time": "18:15",
-          "end_time": "19:15",
-          "title": "住宿附近晚餐",
-          "description": "吃完顺路补足次日饮水和简餐。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_02_event_16",
-          "start_time": "19:15",
-          "end_time": "19:45",
-          "title": "整理跨境用品",
-          "description": "准备次日车上用品和随身资料。",
-          "category": "preparation",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_lora",
       "overnight_label": "Hotel LoRa｜酒店",
       "source_refs": [
@@ -643,10 +246,9 @@
     {
       "day": 3,
       "date": "2026-09-24",
-      "title": "沿德里纳河（Drina）西行 · 跨境萨拉热窝（Sarajevo）",
-      "description": "从贝尔格莱德（Belgrade）前往德里纳河小屋（Drina River House），在塞尔维亚（Serbia）侧河岸观景；随后经Mokra Gora方向至Kotroman／Vardište跨境，傍晚抵达萨拉热窝（Sarajevo）。",
-      "budget_note": "06:45出发，河小屋停留约30分钟；18:00左右采购、19:15左右入住、20:00左右晚餐。全日按约12–14小时活动窗口预留，含驾驶、口岸、午餐与短休。",
-      "time_guard": "这是较长的转场日，时间为规划预算，并非实时导航结果。提前告知酒店傍晚抵达；如延误则缩短采购、联系餐厅确认厨房与订位时间，不追加老城游览。",
+      "title": "德里纳河一路向西",
+      "description": "从贝尔格莱德一路向西，经德里纳河小屋和 Mokra Gora，从 Kotroman / Vardište 进入波黑，傍晚抵达萨拉热窝。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "hotel-lora",
@@ -657,21 +259,21 @@
         },
         {
           "id": "drina-house",
-          "name": "德里纳河小屋 Drina River House",
+          "name": "德里纳河小屋（Drina River House）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Drina+River+House+Bajina+Basta+Serbia",
           "navigation_query": "Drina River House Bajina Basta Serbia",
           "coordinate_status": "named_waypoint_not_geocoded"
         },
         {
           "id": "kotroman-rs",
-          "name": "Kotroman Border Crossing 塞方口岸",
+          "name": "Kotroman Border Crossing 塞尔维亚口岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Kotroman+Border+Crossing+Serbia",
           "navigation_query": "Kotroman Border Crossing Serbia",
           "coordinate_status": "named_waypoint_not_geocoded"
         },
         {
           "id": "vardiste-ba",
-          "name": "Vardište 波黑（Bosnia and Herzegovina）口岸",
+          "name": "Vardište 波黑口岸",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Vardiste+border+crossing+Bosnia+Herzegovina",
           "navigation_query": "Vardiste border crossing Bosnia Herzegovina",
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -691,10 +293,10 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         },
         {
-          "id": "dveri",
-          "name": "Dveri｜餐厅 庭院家常菜",
-          "map_url": "https://www.google.com/maps/search/?api=1&query=Dveri+Prote+Bakovica+12+Sarajevo",
-          "navigation_query": "Dveri Prote Bakovica 12 Sarajevo",
+          "id": "Ćevabdžinica Željo",
+          "name": "Ćevabdžinica Željo｜餐厅",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Ćevabdžinica+Željo+Sarajevo",
+          "navigation_query": "Kundurdžiluk 19, Sarajevo 71000, Bosnia & Herzegovina",
           "coordinate_status": "recorded_not_freshly_geocoded"
         },
         {
@@ -705,217 +307,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+LoRa%2C+Starca+Vujadina+8%2C+Zemun%2C+Zemun%2C+11080+Belgrade%2C+Serbia&destination=Drina+River+House+Bajina+Basta+Serbia&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Drina+River+House+Bajina+Basta+Serbia&destination=Kotroman+Border+Crossing+Serbia&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Kotroman+Border+Crossing+Serbia&destination=Vardiste+border+crossing+Bosnia+Herzegovina&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Vardiste+border+crossing+Bosnia+Herzegovina&destination=Bingo+Plus+ALTA+Bulevar+Franca+Lehara+2%2C+Sarajevo&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Bingo+Plus+ALTA+Bulevar+Franca+Lehara+2%2C+Sarajevo&destination=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "driving",
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina&destination=Dveri+Prote+Bakovica+12+Sarajevo&travelmode=driving",
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "on_site_choice",
-          "navigation_url": null,
-          "duration_minutes": null,
-          "distance_km": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_03_1",
-          "start_time": "06:00",
-          "end_time": "06:45",
-          "title": "早餐、退房与装车",
-          "description": "准备简便早餐，整理行李后从Hotel LoRa｜酒店 出发。",
-          "category": "preparation",
-          "place_id": "hotel-lora",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_2",
-          "start_time": "06:45",
-          "end_time": "10:45",
-          "title": "前往德里纳河小屋（Drina River House）",
-          "description": "导航至塞尔维亚（Serbia）侧Bajina Bašta河岸；约4小时为含短休的规划预算，以实际导航为准。",
-          "category": "transfer",
-          "place_id": null,
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_3",
-          "start_time": "10:45",
-          "end_time": "11:15",
-          "title": "德里纳河小屋（Drina River House）观景",
-          "description": "停妥车辆，从塞尔维亚（Serbia）侧河岸看河中小屋；停留约30分钟，牵好孩子，不下水或登屋。",
-          "category": "nature",
-          "place_id": "drina-house",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_4",
-          "start_time": "11:15",
-          "end_time": "13:00",
-          "title": "前往Mokra Gora方向",
-          "description": "导航保持在塞尔维亚（Serbia）境内，经开放道路前往Mokra Gora／Kotroman方向；山路留足余量，不追加木头城或观光火车。",
-          "category": "transfer",
-          "place_id": null,
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_5",
-          "start_time": "13:00",
-          "end_time": "13:45",
-          "title": "途中简便午餐",
-          "description": "在Mokra Gora方向沿途选择停车方便、出餐快的简餐；具体门店现场确认。",
-          "category": "meal",
-          "place_id": null,
-          "reservation_guidance": "沿途简餐现场选择，通常无需预约；营业现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_03_6",
-          "start_time": "13:45",
-          "end_time": "14:45",
-          "title": "Kotroman／Vardište跨境",
-          "description": "经Kotroman办理塞尔维亚（Serbia）出境，再经Vardište进入波黑（Bosnia and Herzegovina）；此时间包含接近口岸和两侧查验，排队可能延长。",
-          "category": "border",
-          "place_id": "kotroman-rs",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_7",
-          "start_time": "14:45",
-          "end_time": "18:00",
-          "title": "前往萨拉热窝（Sarajevo）ALTA区域",
-          "description": "经Višegrad方向前往萨拉热窝（Sarajevo），包含途中短休；抵达时间随过境与路况顺延。",
-          "category": "transfer",
-          "place_id": null,
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_8",
-          "start_time": "18:00",
-          "end_time": "18:45",
-          "title": "采购：Bingo Plus ALTA｜超市",
-          "description": "购买饮水、早餐食品和孩子零食；先买当晚与次日必需品，营业时间出发前确认。",
-          "category": "supplies",
-          "place_id": "shop-bingo-alta",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_9",
-          "start_time": "18:45",
-          "end_time": "19:15",
-          "title": "前往Hotel Aziza｜酒店",
-          "description": "预留市区交通和停车时间，告知酒店预计抵达时间。",
-          "category": "transfer",
-          "place_id": null,
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_10",
-          "start_time": "19:15",
-          "end_time": "19:45",
-          "title": "Hotel Aziza｜酒店 入住",
-          "description": "办理入住、放好行李，稍作整理。",
-          "category": "lodging",
-          "place_id": "hotel-aziza",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_11",
-          "start_time": "19:45",
-          "end_time": "20:00",
-          "title": "前往Dveri｜餐厅",
-          "description": "按体力选择步行或接驳，坡路慢行。",
-          "category": "transfer",
-          "place_id": null,
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_03_12",
-          "start_time": "20:00",
-          "end_time": "21:00",
-          "title": "Dveri｜餐厅 波黑（Bosnia and Herzegovina）家常菜晚餐",
-          "description": "面包、汤或炖菜；建议预约20:00，当天再次确认抵达、厨房与订位时间；尚未订位。",
-          "category": "meal",
-          "place_id": "dveri",
-          "reservation_guidance": "建议提前预约；跨境日再次确认抵达时间、厨房和座位；尚未订位",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_03_13",
-          "start_time": "21:00",
-          "end_time": "21:20",
-          "title": "返回Hotel Aziza｜酒店 休息",
-          "description": "结束当天行程，留足次日游览的体力。",
-          "category": "transfer",
-          "place_id": "hotel-aziza",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_aziza",
       "overnight_label": "Hotel Aziza｜酒店",
       "source_refs": [
@@ -926,10 +320,9 @@
     {
       "day": 4,
       "date": "2026-09-25",
-      "title": "跟着瓦尔特走老城 · 黄堡（Yellow Fortress / Žuta tabija）日落",
-      "description": "早上走传统街巷，下午沿河返回老城，提前吃晚餐再经Kovači方向上黄堡（Yellow Fortress / Žuta tabija）。",
-      "budget_note": "17:00–17:45上坡，17:45–19:00观景，19:00–19:45返回Hotel Aziza｜酒店。",
-      "time_guard": "不默认驾车直达黄堡（Yellow Fortress / Žuta tabija）；Bistrik旧站替代下午自由时段，不叠加。",
+      "title": "跟着瓦尔特走老城",
+      "description": "全天步行游览萨拉热窝老城，寻找《瓦尔特保卫萨拉热窝》的城市记忆，傍晚上黄堡看日落。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "hotel-aziza",
@@ -961,7 +354,7 @@
         },
         {
           "id": "dveri",
-          "name": "Dveri｜餐厅 庭院家常菜",
+          "name": "Dveri｜餐厅",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Dveri+Prote+Bakovica+12+Sarajevo",
           "navigation_query": "Dveri Prote Bakovica 12 Sarajevo",
           "coordinate_status": "recorded_not_freshly_geocoded"
@@ -1002,89 +395,7 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina&destination=Ba%C5%A1%C4%8Dar%C5%A1ija&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Ba%C5%A1%C4%8Dar%C5%A1ija&destination=Kazandziluk+Sarajevo&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Kazandziluk+Sarajevo&destination=Sahat+kula+Sarajevo&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Sahat+kula+Sarajevo&destination=Dveri+Prote+Bakovica+12+Sarajevo&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Dveri+Prote+Bakovica+12+Sarajevo&destination=Latin+Bridge+Sarajevo&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Latin+Bridge+Sarajevo&destination=Sarajevo+City+Hall&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Sarajevo+City+Hall&destination=Ba%C5%A1%C4%8Dar%C5%A1ija&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 7,
-          "to_index": 8,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Ba%C5%A1%C4%8Dar%C5%A1ija&destination=Yellow+Fortress+Sarajevo&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 8,
-          "to_index": 9,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Yellow+Fortress+Sarajevo&destination=Hotel+Aziza%2C+Saburina+2%2C+71000+Sarajevo%2C+Bosnia+and+Herzegovina&travelmode=walking",
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [
         {
           "title": "Bistrik旧站替换下午自由时间",
@@ -1100,168 +411,7 @@
           "condition": "先核实开放与往返；替换14:45–16:15咖啡自由时段，不增加一段行程。"
         }
       ],
-      "timeline": [
-        {
-          "id": "day_04_event_01",
-          "start_time": "08:00",
-          "end_time": "09:00",
-          "title": "早餐与出门准备",
-          "description": "酒店订单含早餐；带外套、饮水及离线电影截图。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_02",
-          "start_time": "09:00",
-          "end_time": "09:30",
-          "title": "从Hotel Aziza｜酒店 走向老城",
-          "description": "下坡、石板路慢行；时间为家庭步行预算。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_03",
-          "start_time": "09:30",
-          "end_time": "10:00",
-          "title": "Sebilj与巴什察尔希亚广场",
-          "description": "先看老城街景和喷泉外观，不把喷泉的具体镜头身份当作已核实事实。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_04",
-          "start_time": "10:00",
-          "end_time": "10:40",
-          "title": "铜匠街（Kazandžiluk）慢逛",
-          "description": "看铜器和传统小店；购买随意，不指定未经证实的“电影原店”。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_05",
-          "start_time": "10:40",
-          "end_time": "11:00",
-          "title": "沿老城街巷走向钟楼",
-          "description": "留出拍照和辨认建筑的时间。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_06",
-          "start_time": "11:00",
-          "end_time": "12:00",
-          "title": "钟楼与清真寺周边电影打卡",
-          "description": "从公共街巷找钟楼视角，对照电影截图；不安排登钟楼或上屋顶。清真寺院内/室内访问依开放、礼拜及现场要求决定。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_07",
-          "start_time": "12:00",
-          "end_time": "13:00",
-          "title": "Dveri｜餐厅 午餐（可与前晚二选一执行）",
-          "description": "若24日晚已满意用餐可换不同菜；24日晚因转场未吃成则今天优先完成。保留面包、汤、蔬菜及主菜组合，不虚构另一家店评分。 【预约】建议提前预约；9/24跨境日抵达时间明确后再确认，9/25午餐可提前1–2天约位；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前预约；9/24跨境日抵达时间明确后再确认，9/25午餐可提前1–2天约位",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_04_event_08",
-          "start_time": "13:00",
-          "end_time": "13:20",
-          "title": "步行至拉丁桥（Latin Bridge）",
-          "description": "从老城走向河边。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_09",
-          "start_time": "13:20",
-          "end_time": "13:50",
-          "title": "拉丁桥（Latin Bridge）与河岸短走",
-          "description": "作为顺路历史景点，了解城市背景；不是本次核实的电影取景点。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_10",
-          "start_time": "13:50",
-          "end_time": "14:15",
-          "title": "沿河走向市政厅",
-          "description": "边走边看城市建筑。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_11",
-          "start_time": "14:15",
-          "end_time": "14:45",
-          "title": "市政厅外观",
-          "description": "拍建筑外观；不默认入内参观，也不标成电影原景。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_12",
-          "start_time": "14:45",
-          "end_time": "16:15",
-          "title": "老城咖啡与自由慢逛",
-          "description": "主方案在老城坐下喝咖啡、看喜欢的小店；电影迷可用此段替换为Bistrik旧站外观或主题展，但须先核实开放和往返所需时间，不能两项叠加。",
-          "category": "free_time",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_13",
-          "start_time": "16:15",
-          "end_time": "17:00",
-          "title": "提前吃晚餐",
-          "description": "日落前先吃好，避免看景时孩子饿；选择老城东侧顺路餐点。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_14",
-          "start_time": "17:00",
-          "end_time": "17:45",
-          "title": "经Kovači方向上黄堡（Yellow Fortress / Žuta tabija）",
-          "description": "给坡路、孩子慢走和中途停顿留45分钟。上坡不便时提前请酒店协助确定适合全员的接近方式，不默认堡旁有停车位。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_15",
-          "start_time": "17:45",
-          "end_time": "19:00",
-          "title": "黄堡（Yellow Fortress / Žuta tabija）看城市全景与日落",
-          "description": "先拍白天全景和人物照，18:40左右为天文日落参考，之后看短暂暮色；山体可能更早挡住太阳，不能等到18:40才到。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_04_event_16",
-          "start_time": "19:00",
-          "end_time": "19:45",
-          "title": "返回Hotel Aziza｜酒店",
-          "description": "使用有照明的公共道路，坡路慢行；不再追加白堡或夜间登高。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_aziza",
       "overnight_label": "Hotel Aziza｜酒店",
       "source_refs": [
@@ -1272,10 +422,9 @@
     {
       "day": 5,
       "date": "2026-09-26",
-      "title": "穿行内雷特瓦河（Neretva）谷 · 邂逅莫斯塔尔（Mostar）",
-      "description": "经Konjic河谷到Mostar，先放行李，再去老桥（Stari Most）；晚餐MEGI后回酒店。",
-      "budget_note": "09:00–13:30河谷转场含午餐和短停；16:45–17:15取车赴MEGI。",
-      "time_guard": "河谷仅正规停车处短停；老桥（Stari Most）后留返回停车点的时间。",
+      "title": "内雷特瓦河谷与莫斯塔尔",
+      "description": "离开萨拉热窝，沿内雷特瓦河谷南下，经 Konjic 前往莫斯塔尔，下午游览老桥和老城。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "hotel-aziza",
@@ -1286,7 +435,7 @@
         },
         {
           "id": "konjic",
-          "name": "Konjic河谷（途经）",
+          "name": "途经Konjic河谷",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Konjic+Bosnia+Herzegovina",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -1320,156 +469,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina&destination=Stari+Most&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Stari+Most&destination=MEGI+Le+Petit+Restaurant+Kralja+Tomislava+29%2C+Mostar&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_05_event_01",
-          "start_time": "08:00",
-          "end_time": "09:00",
-          "title": "早餐、退房",
-          "description": "订单含早餐，09:00左右离开。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_02",
-          "start_time": "09:00",
-          "end_time": "13:30",
-          "title": "经Konjic方向前往莫斯塔尔（Mostar）",
-          "description": "以主干道路实际导航为准。选一处有正规停车条件的河谷点短停20–30分钟，中间安排45–60分钟午餐；不在公路弯道停车，不额外绕湖。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_03",
-          "start_time": "13:30",
-          "end_time": "14:00",
-          "title": "到达住宿区域",
-          "description": "提前到达时等待正常入住，不假设房间已可使用。",
-          "category": "buffer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_04",
-          "start_time": "14:00",
-          "end_time": "14:45",
-          "title": "Hotel Karting｜酒店 入住",
-          "description": "放行李、洗漱后继续出门，不安排午睡。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_05",
-          "start_time": "14:45",
-          "end_time": "15:15",
-          "title": "前往老桥（Stari Most）周边",
-          "description": "含停车及走到老城的时间。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_06",
-          "start_time": "15:15",
-          "end_time": "16:00",
-          "title": "老桥（Stari Most）与两侧老街",
-          "description": "缓慢过桥、看石建筑与小店，石板湿滑时缩短。",
-          "category": "culture",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_07",
-          "start_time": "16:00",
-          "end_time": "16:45",
-          "title": "内雷特瓦河（Neretva）景与老桥（Stari Most）远景",
-          "description": "选择公共步道上容易到达的视角，不下到难走的河滩；此段主看河流与峡谷水色。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_08",
-          "start_time": "16:45",
-          "end_time": "17:15",
-          "title": "老桥（Stari Most）区域取车前往MEGI",
-          "description": "包括返回停车点和市内移动；按实际交通顺延。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_05_event_09",
-          "start_time": "17:15",
-          "end_time": "18:30",
-          "title": "MEGI晚餐",
-          "description": "披萨、意面、千层面，Google收录4.7/1763条；不安排莫斯塔尔（Mostar）超市采购。 【预约】建议提前1天预约；未核实为强制预约；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1天预约；未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_05_event_10",
-          "start_time": "18:30",
-          "end_time": "19:00",
-          "title": "返回Hotel Karting｜酒店",
-          "description": "采购用品由24日一站覆盖。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_karting",
       "overnight_label": "Hotel Karting｜酒店",
       "source_refs": [
@@ -1480,10 +482,9 @@
     {
       "day": 6,
       "date": "2026-09-27",
-      "title": "布纳河源（Vrelo Bune）秘境 · 跨越亚得里亚（Adriatic）山海",
-      "description": "布纳河源（Vrelo Bune）后经Trebinje、Zupci／Sitnica进入黑山（Montenegro）；在科托尔（Kotor）先到管理办公室。",
-      "budget_note": "10:00–17:00到办公室含短休与跨境；17:20–17:40去公寓是预留，非已核实车程。",
-      "time_guard": "提前确认办公室周日接待及晚到方案；导航核对不经克罗地亚。",
+      "title": "布纳河源与亚得里亚山海",
+      "description": "上午游览布拉加伊布纳河源，随后经 Trebinje 和 Zupci / Sitnica 跨境进入黑山，傍晚抵达科托尔。",
+      "time_guard": "提前确认办公室周日接待及晚到方案。",
       "nodes": [
         {
           "id": "hotel-karting",
@@ -1501,7 +502,7 @@
         },
         {
           "id": "trebinje",
-          "name": "Trebinje（途经）",
+          "name": "途经Trebinje",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Trebinje+Bosnia+Herzegovina",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -1515,7 +516,7 @@
         },
         {
           "id": "office",
-          "name": "管理办公室",
+          "name": "黑山旅行社办公室",
           "map_url": "https://goo.gl/maps/LXH6jhJyKaMQ8QJm7",
           "navigation_query": null,
           "coordinate_status": "host_link_only"
@@ -1550,174 +551,9 @@
           }
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Karting%2C+Vukovarska+bb%2C+88000+Mostar%2C+Bosnia+and+Herzegovina&destination=Vrelo+Bune&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_06_event_01",
-          "start_time": "07:30",
-          "end_time": "08:15",
-          "title": "早餐、退房",
-          "description": "订单含早餐；装车后直接出发。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_06_event_02",
-          "start_time": "08:15",
-          "end_time": "09:00",
-          "title": "前往布拉加伊（Blagaj）",
-          "description": "留出停车与入口步行时间。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_event_03",
-          "start_time": "09:00",
-          "end_time": "10:00",
-          "title": "布纳河源（Vrelo Bune）短游",
-          "description": "重点看岩壁、泉水与河边建筑外观；修道院入内仅在时间允许时考虑，不另做长停。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_event_04",
-          "start_time": "10:00",
-          "end_time": "17:00",
-          "title": "经Trebinje和Sitnica前往科托尔（Kotor）管理办公室",
-          "description": "途中择便于停车的位置午餐45–60分钟；约每90–120分钟短停，跨境预留1–2小时机动。沿海段交通慢时取消晚间散步。该7小时包含全部短休，不是纯驾驶时间。 17:00为到办公室目标，先确认周日接待；不要先去公寓。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_office",
-          "start_time": "17:00",
-          "end_time": "17:20",
-          "title": "先到管理办公室办理旅游税登记",
-          "description": "房东称手续只需几分钟；这里预留20分钟。办公室不是公寓，周日接待时间与税额待确认。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_office_to_property",
-          "start_time": "17:20",
-          "end_time": "17:40",
-          "title": "按房东路线前往公寓并停车",
-          "description": "使用公寓地图链接和房东视频，楼前找第一个空车位；20分钟为含找路停车的预算，非核实车程。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_checkin",
-          "start_time": "17:40",
-          "end_time": "18:15",
-          "title": "爬楼取钥匙，入住6号公寓",
-          "description": "走左侧第一组楼梯，到楼后左侧第一个入口，按楼层标识找SECOND floor的6号；密码见私用入住卡。先保持热水器开关开启，检查每个阳台排水桶。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_dinner_transfer",
-          "start_time": "18:15",
-          "end_time": "18:45",
-          "title": "前往Kotor老城南侧",
-          "description": "按实际导航核对，30分钟为交通及停车步行预算；入住晚到则晚餐顺延。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_06_event_07",
-          "start_time": "18:45",
-          "end_time": "19:45",
-          "title": "BBQ Tanjga｜餐厅 晚餐",
-          "description": "Google收录4.7/7230条；烤肉拼盘按食量分享。选E65科托尔（Kotor）店，不是Tivat同名店；排队超过20分钟就近替换。 【预约】以当天营业和现场排队为主，预约受理规则待确认；排队超过20分钟就近替换；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "以当天营业和现场排队为主，预约受理规则待确认；排队超过20分钟就近替换",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_06_return",
-          "start_time": "19:45",
-          "end_time": "20:15",
-          "title": "返回Apartment Prosperus with Sea View｜公寓民宿",
-          "description": "周日不安排完整超市采购，使用已备早餐；确实缺基本用品时先向房东问营业中的加油站，不承诺24小时或库存。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_prosperus",
       "overnight_label": "Apartment Prosperus with Sea View｜公寓民宿",
       "source_refs": [
@@ -1728,9 +564,8 @@
     {
       "day": 7,
       "date": "2026-09-28",
-      "title": "洛夫琴（Lovćen）山林 · 俯瞰科托尔（Kotor）峡湾",
-      "description": "采用Budva／Cetinje方向抵达Ivanova Korita，沿来路方向回科托尔（Kotor）购物和晚餐。",
-      "budget_note": "08:30–11:00上山，14:00–16:30返科托尔（Kotor）；含短休与道路机动。",
+      "title": "洛夫琴山林与科托尔湾",
+      "description": "从科托尔出发，经 Cetinje 前往洛夫琴国家公园，在山林中轻松散步，下午返回科托尔采购和晚餐。",
       "time_guard": "Budva和Cetinje是路线途经，不增加老城游览；不自动改走科托尔（Kotor）急弯山路。",
       "nodes": [
         {
@@ -1746,14 +581,14 @@
         },
         {
           "id": "budva",
-          "name": "Budva方向（途经）",
+          "name": "途经Budva方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Budva+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
         },
         {
           "id": "cetinje",
-          "name": "Cetinje方向（途经）",
+          "name": "途经Cetinje方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -1767,14 +602,14 @@
         },
         {
           "id": "cetinje",
-          "name": "Cetinje方向（途经）",
+          "name": "途经Cetinje方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Cetinje+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
         },
         {
           "id": "budva",
-          "name": "Budva方向（途经）",
+          "name": "途经Budva方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Budva+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -1805,183 +640,9 @@
           }
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Aroma+Kamelija+Trg+Mata+Petrovi%C4%87a%2C+Kotor&destination=Konoba+Scala+Santa+Kotor+Old+Town&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 7,
-          "to_index": 8,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_07_event_01",
-          "start_time": "07:45",
-          "end_time": "08:30",
-          "title": "早餐、带上山物品",
-          "description": "带外套、饮水与午餐备选食物，出发前查看山上天气。 出门前检查每个阳台5升空调排水桶，保持热水器开关开启。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_02",
-          "start_time": "08:30",
-          "end_time": "11:00",
-          "title": "经Cetinje方向前往Ivanova Korita",
-          "description": "给山路和途中一次短休留时间；具体道路按当日状态核对。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_03",
-          "start_time": "11:00",
-          "end_time": "12:30",
-          "title": "林地与山景短走",
-          "description": "到访游客中心或入口询问当前适合儿童的短线；走30–45分钟即可折返，留出拍照和观察时间。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_04",
-          "start_time": "12:30",
-          "end_time": "13:30",
-          "title": "山间午餐或野餐",
-          "description": "有营业餐馆就近吃；否则在允许区域使用自备简餐，垃圾带走。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_05",
-          "start_time": "13:30",
-          "end_time": "14:00",
-          "title": "林地最后一段与返程准备",
-          "description": "只在停车点附近活动，不临时追加登顶、陵墓或冒险项目。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_06",
-          "start_time": "14:00",
-          "end_time": "16:30",
-          "title": "返回科托尔（Kotor）",
-          "description": "不额外串联Budva老城；这是返程通道而非新增游览目的地。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_07",
-          "start_time": "16:30",
-          "end_time": "17:15",
-          "title": "第3次正式采购：Aroma Kamelija｜超市",
-          "description": "27日周日不做完整采购，今天下山后完成。房东另提供公寓主路对面超市定位，分店及周一营业未核验；若现场确认更顺路，可替换Aroma，不增加采购次数。",
-          "category": "conditional_supplies",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_08",
-          "start_time": "17:15",
-          "end_time": "17:45",
-          "title": "前往Scala Santa",
-          "description": "含停车、步行进老城及机动。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_07_event_09",
-          "start_time": "17:45",
-          "end_time": "19:00",
-          "title": "Scala Santa晚餐",
-          "description": "海鲜烩饭或蘑菇烩饭；Google收录4.5/2122条。建议提前约位，未预订。 【预约】建议提前1–2天预约；未核实为强制预约；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1–2天预约；未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_07_event_10",
-          "start_time": "19:00",
-          "end_time": "19:45",
-          "title": "返回Apartment Prosperus with Sea View｜公寓民宿",
-          "description": "不追加湾岸专程散步；顺路看景即可。 回房后再次留意排水桶，热水用后需等待再加热；整理次日退房垃圾。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_prosperus",
       "overnight_label": "Apartment Prosperus with Sea View｜公寓民宿",
       "source_refs": [
@@ -1992,9 +653,8 @@
     {
       "day": 8,
       "date": "2026-09-29",
-      "title": "佩拉斯特（Perast）海湾 · 从峡湾驶向高山",
-      "description": "公寓退房处理垃圾→Perast短游→经Nikšić、Šavnik方向进入山区，先Voli再公寓。",
-      "budget_note": "10:30–16:30至Žabljak镇含午餐短休；17:15–18:00赴公寓为含找路的预算。",
+      "title": "佩拉斯特湾驶向高山",
+      "description": "告别科托尔湾，上午游览佩拉斯特，随后穿越黑山内陆一路向北，傍晚抵达杜米托尔山区。",
       "time_guard": "公寓精确入口仍待确认；镇区不是住宿定位，晚到先联系房东。",
       "nodes": [
         {
@@ -2024,14 +684,14 @@
         },
         {
           "id": "niksic",
-          "name": "Nikšić方向（途经）",
+          "name": "途经Nikšić方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Niksic+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
         },
         {
           "id": "savnik",
-          "name": "Šavnik方向（途经）",
+          "name": "途经Šavnik方向",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Savnik+Montenegro",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -2065,193 +725,9 @@
           "coordinate_status": "address_query"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 5,
-          "to_index": 6,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Voli+%C5%BDabljak+Narodnih+heroja+1%2C+%C5%BDabljak&destination=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 6,
-          "to_index": 7,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro&destination=Izvor+R-5%2C+%C5%BDabljak&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 7,
-          "to_index": 8,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Izvor+R-5%2C+%C5%BDabljak&destination=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_08_breakfast_prosperus",
-          "start_time": "07:30",
-          "end_time": "08:00",
-          "title": "早餐与行李整理",
-          "description": "用采购食品安排早餐，确认没有遗落充电器和孩子物品。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_08_checkout_prosperus",
-          "start_time": "08:00",
-          "end_time": "08:30",
-          "title": "收垃圾、锁门还钥匙并退房",
-          "description": "带垃圾到房东给的垃圾点；锁好公寓，把钥匙放回原钥匙盒。08:30离开为建议，房东规定最迟10:00退房。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_02",
-          "start_time": "08:30",
-          "end_time": "09:15",
-          "title": "前往佩拉斯特（Perast）",
-          "description": "预留找合法停车位和走到海滨的时间。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_03",
-          "start_time": "09:15",
-          "end_time": "10:30",
-          "title": "海滨慢走与望岛",
-          "description": "沿岸看山、海湾和远处岛屿；保留10–15分钟饮品短休，以岸上游览为主。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_04",
-          "start_time": "10:30",
-          "end_time": "16:30",
-          "title": "经内陆前往Žabljak镇区",
-          "description": "目标16:30到镇区Voli，保留6小时含午餐和短休预算；采购后再去公寓，不把镇中心当作公寓定位。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_05",
-          "start_time": "16:30",
-          "end_time": "17:15",
-          "title": "第4次采购：Voli Žabljak｜超市",
-          "description": "采购两天早餐、黑湖（Crno jezero）活动零食、饮水；先在镇区完成，减少住下后再次进镇。",
-          "category": "supplies",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_06",
-          "start_time": "17:15",
-          "end_time": "18:00",
-          "title": "前往Smrcevo Brdo公寓",
-          "description": "准确定位依房东，45分钟为交通缓冲。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_07",
-          "start_time": "18:00",
-          "end_time": "18:30",
-          "title": "公寓入住",
-          "description": "提前告知房东预计较晚抵达。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_08",
-          "start_time": "18:30",
-          "end_time": "19:00",
-          "title": "前往Izvor｜餐厅",
-          "description": "以公寓实际位置核对车程；不把地图页面误标的Podgorica当目的地。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_08_event_09",
-          "start_time": "19:00",
-          "end_time": "20:00",
-          "title": "Izvor｜餐厅 山区晚餐",
-          "description": "Google收录4.7/1801条；热汤、炖羊肉或烤鸡，需先确认晚餐营业及厨房截止时间。转场晚到时就近解决，次日仍可去Izvor｜餐厅。 【预约】当天联系确认营业、厨房截止及座位；9/29晚到可改次日午餐；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "当天联系确认营业、厨房截止及座位；9/29晚到可改次日午餐",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_08_event_10",
-          "start_time": "20:00",
-          "end_time": "20:30",
-          "title": "返回公寓",
-          "description": "不再安排其他活动。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_smrcevo",
       "overnight_label": "Smrcevo Brdo Apartments｜公寓民宿",
       "source_refs": [
@@ -2262,9 +738,8 @@
     {
       "day": 9,
       "date": "2026-09-30",
-      "title": "杜米托尔（Durmitor）秘境 · 黑湖（Crno jezero）与高原森林",
-      "description": "主线公寓→黑湖（Crno jezero）→Izvor｜餐厅 午餐→公寓；Vražje湖单独作为午后分支。",
-      "budget_note": "09:00–09:45赴黑湖（Crno jezero），09:45–12:15湖岸；12:15–13:00赴Izvor｜餐厅。",
+      "title": "杜米托尔黑湖与森林",
+      "description": "今天不赶路，把一天留给杜米托尔。上午漫步黑湖与森林，午后视天气前往高原湖泊。",
       "time_guard": "不要求完整环湖；午后湖泊仅天气好且能正规停车时执行。",
       "nodes": [
         {
@@ -2296,35 +771,7 @@
           "coordinate_status": "address_query"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro&destination=Crno+jezero&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Crno+jezero&destination=Izvor+R-5%2C+%C5%BDabljak&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [
         {
           "title": "Vražje湖午后分支",
@@ -2354,108 +801,7 @@
           "condition": "天气好、可正规停车才走；14:00–14:30前往，14:30–15:30短游，15:30–16:15返回。否则午餐后直接回公寓。"
         }
       ],
-      "timeline": [
-        {
-          "id": "day_09_event_01",
-          "start_time": "08:15",
-          "end_time": "09:00",
-          "title": "早餐与出发准备",
-          "description": "按公寓实际供餐条件安排，带一套儿童备用衣物。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_02",
-          "start_time": "09:00",
-          "end_time": "09:45",
-          "title": "前往黑湖（Crno jezero）入口",
-          "description": "含停车与入口步行时间。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_03",
-          "start_time": "09:45",
-          "end_time": "12:15",
-          "title": "黑湖（Crno jezero）森林与湖岸慢游",
-          "description": "先走到主湖景观处，再沿容易折返的一侧分段散步；实际步行约60–90分钟，其余观景、喝水和拍照，不赶完整环湖。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_04",
-          "start_time": "12:15",
-          "end_time": "13:00",
-          "title": "从黑湖（Crno jezero）前往Izvor｜餐厅",
-          "description": "含返回停车点、驾驶和找餐厅的45分钟预算。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_05",
-          "start_time": "13:00",
-          "end_time": "14:00",
-          "title": "Izvor｜餐厅 午餐",
-          "description": "前一晚若未吃成，今天优先；若已吃过可换鱼、汤和当地奶酪。重复一店减少绕路，未为求不同店名虚构高分。 【预约】当天联系确认营业、厨房截止及座位；9/29晚到可改次日午餐；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "当天联系确认营业、厨房截止及座位；9/29晚到可改次日午餐",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_09_event_06",
-          "start_time": "14:00",
-          "end_time": "14:30",
-          "title": "前往Vražje湖方向",
-          "description": "天气允许才执行，走可通行道路，不开入草地或无明确路况的支路。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_07",
-          "start_time": "14:30",
-          "end_time": "15:30",
-          "title": "高原湖泊与开阔山景",
-          "description": "只在合法停车点附近短走、看湖面与草地，约30–45分钟足够，不强行绕湖或下水；没有安全停车条件直接取消。",
-          "category": "optional_nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_08",
-          "start_time": "15:30",
-          "end_time": "16:15",
-          "title": "返回公寓区域",
-          "description": "途中如需采购仅顺路短停。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_09",
-          "start_time": "16:15",
-          "end_time": "17:30",
-          "title": "自由活动、照片整理与洗漱",
-          "description": "可在住宿允许的公共区域坐看风景；这是可自由支配时间，不是必须回房午睡。",
-          "category": "free_time",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_09_event_10",
-          "start_time": "17:30",
-          "end_time": "18:30",
-          "title": "晚餐",
-          "description": "早点吃好，为翌日跨境转场整理行李。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_smrcevo",
       "overnight_label": "Smrcevo Brdo Apartments｜公寓民宿",
       "source_refs": [
@@ -2466,9 +812,8 @@
     {
       "day": 10,
       "date": "2026-10-01",
-      "title": "塔拉峡谷（Tara Canyon）之巅 · 穿越边境回到塞尔维亚（Serbia）",
-      "description": "先塔拉大桥一带看峡谷，再经Dobrakovo／Gostun入塞，抵达Zlatibor入住。",
-      "budget_note": "08:00–09:15赴桥；09:45–17:00到Zlatibor含午餐、短休、口岸机动。",
+      "title": "塔拉峡谷穿越边境",
+      "description": "离开杜米托尔，先在塔拉大桥看峡谷风光，再经 Dobrakovo / Gostun 返回塞尔维亚，傍晚抵达兹拉蒂博尔。",
       "time_guard": "桥边只短停30分钟；道路或天气差则取消观景支线，不安排滑索或漂流。",
       "nodes": [
         {
@@ -2514,136 +859,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Smrcevo+Brdo+Apartments+Smrcevo+Brdo%2C+%C5%BDabljak%2C+Montenegro&destination=%C4%90ur%C4%91evi%C4%87a+Tara+Bridge&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia&destination=Konoba+Akustik+Strahinje+Popovi%C4%87a%2C+Zlatibor&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_10_event_01",
-          "start_time": "07:15",
-          "end_time": "08:00",
-          "title": "早餐、退房、装车",
-          "description": "早餐条件依公寓确认，自备食品可减少早间等待。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_02",
-          "start_time": "08:00",
-          "end_time": "09:15",
-          "title": "前往塔拉大桥",
-          "description": "道路状态不好时放弃观景支线，优先过境。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_03",
-          "start_time": "09:15",
-          "end_time": "09:45",
-          "title": "塔拉河（Tara）峡谷短停",
-          "description": "在有防护的公共区域看桥与峡谷，留在可安全返回停车点的范围；不安排漂流或滑索。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_04",
-          "start_time": "09:45",
-          "end_time": "17:00",
-          "title": "经Dobrakovo/Gostun前往Zlatibor",
-          "description": "中途留45–60分钟午餐、每90–120分钟短休，并预留约1–2小时口岸机动；具体行驶路线和到达时刻当日核对。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_05",
-          "start_time": "17:00",
-          "end_time": "17:45",
-          "title": "Šafran Zlatibor｜酒店 入住",
-          "description": "原订单允许15:00后入住，预计17:00不构成固定预约。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_06",
-          "start_time": "17:45",
-          "end_time": "18:15",
-          "title": "前往Konoba Akustik｜餐厅",
-          "description": "入住后按实际步行路线前往湖区。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_10_event_07",
-          "start_time": "18:15",
-          "end_time": "19:15",
-          "title": "Konoba Akustik｜餐厅 晚餐",
-          "description": "选汤和烤肉/炖菜；订位时询问安静位置。Google汇总评分未完整核实，作为口碑候选而非已确认高分店。 【预约】建议提前1天预约，要求安静座位；未核实为强制预约；尚未订位。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1天预约，要求安静座位；未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_10_event_08",
-          "start_time": "19:15",
-          "end_time": "19:45",
-          "title": "返回Šafran Zlatibor｜酒店",
-          "description": "回房后确认最后一晚停车与提前还车衔接。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_safran",
       "overnight_label": "Šafran Zlatibor｜酒店",
       "source_refs": [
@@ -2654,9 +872,8 @@
     {
       "day": 11,
       "date": "2026-10-02",
-      "title": "黄金缆车（Gold Gondola）越群山 · 重返贝尔格莱德（Belgrade）",
-      "description": "乘黄金缆车（Gold Gondola）欣赏高原山景，午餐后返回贝尔格莱德（Belgrade）；入住Villa 1927｜酒店，再到米哈伊洛大公街（Knez Mihailova）挑选伴手礼、享用晚餐。",
-      "budget_note": "09:00–11:15缆车以已开放为前提；11:45–16:30直接返城为含短休预算。",
+      "title": "黄金缆车越群山",
+      "description": "上午乘黄金缆车俯瞰兹拉蒂博尔高原，午餐后返回贝尔格莱德，最后逛一次市中心并采购伴手礼。",
       "time_guard": "若缆车10:00才开放，后续时间顺延；返城较晚则缩短购物，并联系餐厅确认晚餐时间。",
       "nodes": [
         {
@@ -2668,7 +885,7 @@
         },
         {
           "id": "gold-gondola",
-          "name": "黄金缆车 Gold Gondola",
+          "name": "黄金缆车（Gold Gondola）",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Gold%20Gondola%20Zlatibor%20Ulica%20Sportova",
           "navigation_query": "黄金缆车 Gold Gondola",
           "coordinate_status": "not_resolved"
@@ -2702,186 +919,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=%C5%A0afran+Zlatibor%2C+Krfska%2C+31315+Zlatibor%2C+Serbia&destination=%E9%BB%84%E9%87%91%E7%BC%86%E8%BD%A6+Gold+Gondola&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=%E9%BB%84%E9%87%91%E7%BC%86%E8%BD%A6+Gold+Gondola&destination=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 2,
-          "to_index": 3,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=Villa+1927%2C+26+Ruzveltova%2C+Zvezdara%2C+Zvezdara%2C+11050+Belgrade%2C+Serbia&destination=%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E5%A4%A7%E5%85%AC%E8%A1%97%E4%BC%B4%E6%89%8B%E7%A4%BC%E8%B4%AD%E7%89%A9&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 3,
-          "to_index": 4,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": "https://www.google.com/maps/dir/?api=1&origin=%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E5%A4%A7%E5%85%AC%E8%A1%97%E4%BC%B4%E6%89%8B%E7%A4%BC%E8%B4%AD%E7%89%A9&destination=Lorenzo+%26+Kakalamba+Cviji%C4%87eva+110%2C+Belgrade%EF%BC%88Vladetina%E8%A1%97%E5%85%A5%E5%8F%A3%EF%BC%89&travelmode=driving",
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 4,
-          "to_index": 5,
-          "mode": "on_site_choice",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_11_rev_1",
-          "start_time": "07:30",
-          "end_time": "08:15",
-          "title": "酒店早餐",
-          "description": "按酒店早餐供应时间确认，提前整理行李。",
-          "category": "meal",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_2",
-          "start_time": "08:15",
-          "end_time": "08:45",
-          "title": "退房装车，前往黄金缆车（Gold Gondola）下站",
-          "description": "先退房，避免下山赶酒店退房窗口；车内不留可见贵重物品。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_3",
-          "start_time": "08:45",
-          "end_time": "09:00",
-          "title": "确认运行、购票候乘",
-          "description": "09:00开始乘坐是有条件的规划：须确认10/2首班；官网当前状态不能证明该日时刻。",
-          "category": "buffer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_4",
-          "start_time": "09:00",
-          "end_time": "11:15",
-          "title": "黄金缆车（Gold Gondola）往返与山景",
-          "description": "乘车欣赏高原、Ribnica湖及Tornik方向山景，含排队与山顶短停。若10:00才开放，约12:15结束，返城后缩短购物；风大停运则直接返城。",
-          "category": "nature",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_5",
-          "start_time": "11:15",
-          "end_time": "11:45",
-          "title": "简便午餐",
-          "description": "午餐后直接前往贝尔格莱德（Belgrade），途中按需要短休。",
-          "category": "meal",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_6",
-          "start_time": "11:45",
-          "end_time": "16:30",
-          "title": "直接返回贝尔格莱德（Belgrade）",
-          "description": "4小时45分为含短休与进城缓冲的规划预算，按实际导航更新；不承诺抵达时刻。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_7",
-          "start_time": "16:30",
-          "end_time": "17:00",
-          "title": "Villa 1927｜酒店 入住、放行李",
-          "description": "提前与住宿确认自助入住及车位；楼梯搬运行李。",
-          "category": "lodging",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_8",
-          "start_time": "17:00",
-          "end_time": "17:45",
-          "title": "前往米哈伊洛大公街（Knez Mihailova）购物区域",
-          "description": "预留市内交通与步行，不保证路边车位；根据实际情况选择交通方式。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_9",
-          "start_time": "17:45",
-          "end_time": "18:30",
-          "title": "第5次采购：冰箱贴、钥匙扣等伴手礼",
-          "description": "在Knez Mihailova纪念品店挑选，先买送人的数量再选自留款；门店营业、具体商品及库存现场确认。Super Vero不再作为主采购地，机场早餐仅顺路少量补充。",
-          "category": "shopping",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_10",
-          "start_time": "18:30",
-          "end_time": "19:00",
-          "title": "前往Lorenzo & Kakalamba｜餐厅",
-          "description": "市区交通按实际情况更新，提前告知餐厅可能晚到。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_11",
-          "start_time": "19:00",
-          "end_time": "20:00",
-          "title": "Lorenzo & Kakalamba｜餐厅 晚餐",
-          "description": "意面、汤或塞尔维亚（Serbia）主菜。【预约】建议提前1–2天约19:00，尚未订位；若返城延误，缩短购物并联系餐厅改时间。",
-          "category": "meal",
-          "reservation_guidance": "建议提前1–2天预约；返城延误及时改时间，未核实为强制预约",
-          "booking_status": "not_booked"
-        },
-        {
-          "id": "day_11_rev_12",
-          "start_time": "20:00",
-          "end_time": "20:30",
-          "title": "返回Villa 1927｜酒店",
-          "description": "不再追加逛街。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_11_rev_13",
-          "start_time": "20:30",
-          "end_time": "21:00",
-          "title": "整理次日机场与还车用品",
-          "description": "提前准备早餐和证件，按已确认的燃油政策、提前还车方式执行。",
-          "category": "preparation",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": "stay_villa1927",
       "overnight_label": "Villa 1927｜酒店",
       "source_refs": [
@@ -2892,10 +932,9 @@
     {
       "day": 12,
       "date": "2026-10-03",
-      "title": "告别贝尔格莱德（Belgrade） · 启程回家",
-      "description": "Villa 1927｜酒店→SIXT机场还车区→航站楼；不插入采购或观景。",
-      "budget_note": "06:45–07:30赴机场；建议07:30–08:00还车，08:15前后进入值机流程。",
-      "time_guard": "原订单10:00还车未修改；提前还车须获车行确认，11:00为票面起飞。",
+      "title": "启程回家",
+      "description": "早起退房，前往机场还车。",
+      "time_guard": [],
       "nodes": [
         {
           "id": "villa-1927",
@@ -2906,7 +945,7 @@
         },
         {
           "id": "airport-return",
-          "name": "SIXT还车：停车楼四层",
+          "name": "SIXT还车",
           "map_url": "https://www.google.com/maps/search/?api=1&query=Sixt+Belgrade+Airport",
           "navigation_query": null,
           "coordinate_status": "named_waypoint_not_geocoded"
@@ -2919,99 +958,9 @@
           "coordinate_status": "recorded_not_freshly_geocoded"
         }
       ],
-      "edges": [
-        {
-          "from_index": 0,
-          "to_index": 1,
-          "mode": "driving",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        },
-        {
-          "from_index": 1,
-          "to_index": 2,
-          "mode": "walking",
-          "distance_km": null,
-          "duration_minutes": null,
-          "navigation_url": null,
-          "status": "planned_order_not_verified_road_geometry"
-        }
-      ],
+      "edges": [],
       "alternatives": [],
-      "timeline": [
-        {
-          "id": "day_12_event_01",
-          "start_time": "06:00",
-          "end_time": "06:45",
-          "title": "简便早餐、退房",
-          "description": "前一天准备早餐，检查全员证件和随身行李。",
-          "category": "meal",
-          "reservation_guidance": "未指定具体餐厅／酒店早餐或自备食品；无需安排餐厅订位，具体供应现场确认",
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_02",
-          "start_time": "06:45",
-          "end_time": "07:30",
-          "title": "前往机场还车区域",
-          "description": "如仍需加油，提前出门并按合同政策执行。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_03",
-          "start_time": "07:30",
-          "end_time": "08:00",
-          "title": "建议提前还车，需车行确认",
-          "description": "凭证还车位置为停车楼四层；保留验车、行李搬运与交接时间。原订单10:00不改写。",
-          "category": "rental",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_04",
-          "start_time": "08:00",
-          "end_time": "08:15",
-          "title": "前往航站楼",
-          "description": "停车楼至航站楼步行时间为预算。",
-          "category": "transfer",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_05",
-          "start_time": "08:15",
-          "end_time": "10:15",
-          "title": "值机托运、安检与出境",
-          "description": "以航司当日开放和截止时间为准；预留带儿童办理手续的时间。",
-          "category": "airport",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_06",
-          "start_time": "10:15",
-          "end_time": "11:00",
-          "title": "候机并按通知登机",
-          "description": "10:15只是准备候机的计划时刻，不是航司公布的登机时间。",
-          "category": "airport",
-          "reservation_guidance": null,
-          "booking_status": null
-        },
-        {
-          "id": "day_12_event_07",
-          "start_time": "11:00",
-          "end_time": null,
-          "title": "HU7970飞往北京（Beijing）",
-          "description": "订单11:00自贝尔格莱德（Belgrade）起飞，北京（Beijing）当地10月4日03:00抵达；飞行约10小时。",
-          "category": "flight",
-          "reservation_guidance": null,
-          "booking_status": null
-        }
-      ],
+      "timeline": [],
       "stay_id": null,
       "overnight_label": "机上",
       "source_refs": [
