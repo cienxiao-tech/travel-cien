@@ -3149,9 +3149,9 @@
     },
     {
       "id": "packing-category-6",
-      "category": "儿童衣物",
-      "title": "儿童衣物",
-      "requirements": "短袖4–5件；长袖2–3件；卫衣/抓绒2件；轻薄羽绒1件；防水外套1件；长裤3–4条；秋衣秋裤1套；运动鞋2双；睡衣2套"
+      "category": "儿童",
+      "title": "儿童",
+      "requirements": "短袖2件；长袖2件；卫衣/抓绒2件；轻薄羽绒1件；防水外套1件；长裤2条；秋衣秋裤1套；运动鞋2双；睡衣2套；纸尿裤20片"
     },
     {
       "id": "packing-category-7",
@@ -3182,12 +3182,6 @@
       "category": "随身用品",
       "title": "随身用品",
       "requirements": "小双肩包、斜挎包、折叠购物袋2个"
-    },
-    {
-      "id": "packing-category-12",
-      "category": "收纳",
-      "title": "收纳",
-      "requirements": "行李分装袋、脏衣袋、密封袋"
     }
   ],
   "point_media_manifest": {
