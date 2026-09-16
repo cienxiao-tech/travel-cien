@@ -1,11 +1,16 @@
 # 巴尔干旅行网页
 
-直接打开 index.html；照片已内嵌，无需联网加载。地图和地点照片链接需要联网。
+直接打开 index.html 查看网页。每日行程共12天、77项安排，使用预计时长；点击“＋”展开简介、图片与地图入口。
 
-修改每日安排：编辑 page-data.json 的 days[].timeline（time、title、activity、place_ids）；点位简介位于 places，照片位于 assets。
+21段景点简介均配有图片，其中9张为外部图片，须联网加载；其他图片内嵌在网页。外部图片无法加载时，可点击图片来源查看原图。地图链接需联网。
 
-运行 `python render.py` 重新生成 index.html（仅使用Python标准库）。page-template.html 保存整体布局、航班、住宿及清单；修改这些栏目时请同步模板和数据。
+## 修改和生成
 
-每日时间为用户提供的计划。还车卡显示10月3日07:30–08:00行程安排，原订单时间保留在数据中，不表示车行已修改订单。
+- page-data.json：days[].timeline 内编辑 title、activity、duration_label、duration_text、intro、place_ids；closing_note 为每日结束语。
+- places：地点信息与地图链接；point_media_manifest：图片来源。
+- page-template.html：整体页面布局、航班、住宿、租车和清单。
+- assets：本地图片。
 
-18处点位有内嵌实景图；其余点位提供地图照片入口。图片来源与许可见卡片及point-media-manifest.json。
+运行 `python render.py` 重新生成 index.html，仅依赖Python标准库。
+
+租车金额及付款状态沿用已确认内容；每日安排未改动航班、住宿、租车或清单栏目。
