@@ -62,7 +62,7 @@ main{padding-bottom:var(--directory-clearance)}
 @media print{main{padding-bottom:0}.bottom{display:none!important}.hero-photo{height:260px}}
 
 /* City route index: alternating labels with a continuous 1px route. */
-#overview .overview-heading:has(+ .journey-line){font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif;font-size:30px;font-weight:600;line-height:1.4;letter-spacing:-.025em;color:var(--ink);margin:32px 0 12px}
+
 #overview .journey-line{display:flex;flex-wrap:nowrap;align-items:stretch;gap:0;position:relative;width:100%;max-width:100%;padding:4px 0;margin:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;scroll-snap-type:x proximity;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;background:transparent;border:0;border-radius:0}
 #overview .journey-line::-webkit-scrollbar{display:none}
 #overview .journey-line a{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;flex:1 0 96px;min-width:96px;height:112px;min-height:44px;padding:12px 0;white-space:nowrap;line-height:22px;font-size:13px;font-weight:500;letter-spacing:0;color:#304c43;text-decoration:none;border:0;border-radius:0;background:transparent;box-shadow:none;scroll-snap-align:start;transition:color .18s ease}
@@ -75,7 +75,7 @@ main{padding-bottom:var(--directory-clearance)}
 #overview .journey-line a:hover,#overview .journey-line a:active{color:#245b59;background:transparent;border:0;text-decoration:none;box-shadow:none;transform:none}
 #overview .journey-line a:hover::after,#overview .journey-line a:active::after{transform:scale(1.2)}
 #overview .journey-line a:focus-visible{outline:2px solid #245b59;outline-offset:-4px;border-radius:0}
-@media(max-width:700px){#overview .overview-heading:has(+ .journey-line){font-size:27px}}
+@media(max-width:700px){}
 @media(prefers-reduced-motion:reduce){#overview .journey-line{scroll-behavior:auto}#overview .journey-line a,#overview .journey-line a::after{transition:none}}
 @media print{#overview .journey-line{overflow:visible}#overview .journey-line a{flex-basis:0;min-width:0;font-size:10px}}
 
@@ -205,3 +205,29 @@ main>#daily>.chapter-opening>.eyebrow{margin:0;color:var(--forest);font-size:10p
  main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing){margin-top:32px;padding-top:20px;padding-bottom:16px}
  main>:is(#daily,#hotels,#tools)>.chapter-opening{min-height:0;padding:16px}
 }
+
+/* Semantic title scale: chapters / modules / entries / detail headings. */
+:root{--font-heading:"Songti SC","Noto Serif CJK SC","SimSun",serif;--font-body:"Avenir Next","PingFang SC","Microsoft YaHei",sans-serif;--title-chapter:28px;--title-day:24px;--title-module:18px;--title-point:16px;--title-detail:15px;--text:var(--ink-soft);--muted:var(--ink-soft)}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening{gap:6px}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening>h2{font-family:var(--font-heading);font-size:var(--title-chapter);font-weight:650;line-height:1.25;letter-spacing:-.02em;color:var(--ink);margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening>:is(small,.pill,.muted,.overview-stats){font-family:var(--font-body);font-size:13px;font-weight:400;line-height:1.5;color:var(--muted);margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>#overview>.chapter-opening>.overview-stats :is(strong,b){font-size:inherit;font-weight:400;color:inherit}
+/* Modules, including the city route index, share one restrained sans-serif style. */
+main>#overview h3.overview-heading,
+main>#tools :is(.todo-group>h3,h3),
+main>#rental>h3,
+main>#rental .rental-movement h3{font-family:var(--font-body);font-size:var(--title-module);font-weight:600;line-height:1.4;letter-spacing:0;color:var(--ink);margin:32px 0 16px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>#rental>h3{margin-top:0;margin-bottom:8px}
+main>#rental .rental-movement h3{margin:0}
+main>#tools .todo-group{margin-top:32px}
+main>#tools .todo-group>h3{margin-top:0}
+/* Day themes remain inside the itinerary and do not inherit chapter styling. */
+main>#daily .dayhead h2{font-family:var(--font-body);font-size:var(--title-day);font-weight:600;line-height:1.4;letter-spacing:0;color:var(--ink);margin:0 0 8px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>#daily .dayhead .daynum{font-family:var(--font-body);font-size:12px;font-weight:600;line-height:1.5;letter-spacing:.06em;color:var(--muted);margin:0 0 8px;background:transparent}
+main>#hotels .hotel-card summary strong{font-family:var(--font-body);font-size:var(--title-module);font-weight:600;line-height:1.4;letter-spacing:0;color:var(--ink);margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>#daily h3.stop-title{font-family:var(--font-body);font-size:var(--title-point);font-weight:600;line-height:1.5;letter-spacing:0;color:var(--ink);margin:0 0 8px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>:is(#tools,#packing) .todo-row>span>strong{font-family:var(--font-body);font-size:var(--title-point);font-weight:600;line-height:1.5;color:var(--ink);background:transparent}
+main>#daily .point-body :is(h4,h5,h6){font-family:var(--font-body);font-size:var(--title-detail);font-weight:600;line-height:1.5;letter-spacing:0;color:var(--text);margin:16px 0 8px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main>#daily .point-body .dish-recommendations h4{margin:0 0 8px}
+main>#rental>details>summary{font-family:var(--font-body);font-size:var(--title-detail);font-weight:600;line-height:1.5;letter-spacing:0;color:var(--text);background:transparent;border-radius:0;box-shadow:none}
+main>:is(#hotels,#rental) .fact small{font-family:var(--font-body);font-size:14px;font-weight:600;line-height:1.5;color:var(--text)}
