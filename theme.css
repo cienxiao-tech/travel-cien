@@ -140,3 +140,48 @@ a.semantic-link.link-external::after,#daily .point-body a.semantic-link.link-ext
 a.semantic-link.link-mail::before,#daily .point-body a.semantic-link.link-mail::before{content:"";mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%223%22%20y%3D%225%22%20width%3D%2218%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22m3%206%209%207%209-7%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") center/contain no-repeat}
 a.semantic-link.link-chat::before,#daily .point-body a.semantic-link.link-chat::before{content:"";mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M21%2011a9%209%200%200%201-9%209%2010%2010%200%200%201-4-1l-5%202%202-5a9%209%200%201%201%2016-5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") center/contain no-repeat}
 #daily .point-body .actions{gap:8px 16px}#daily .point-body figcaption a.semantic-link{font-size:12px;min-height:32px}
+
+/* Booking records reuse the surrounding editorial chapter styles and palette. */
+:is(#hotels,#rental){--accent:var(--forest);--text:var(--ink-soft);--muted:var(--ink-soft);background:transparent;color:var(--text);border:0;border-radius:0;box-shadow:none;padding:0;line-height:1.7}
+:is(#hotels,#rental) .section-heading{display:flex;flex-direction:column;align-items:flex-start;gap:4px;margin:0 0 20px}
+:is(#hotels,#rental) .section-heading :is(small,.pill){font-size:12px;font-weight:650;line-height:1.7;color:var(--muted);background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0}
+#hotels .hotel-card{margin:0;padding:0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
+#hotels .hotel-card:first-of-type{border-top:0}
+#hotels .hotel-card summary{display:flex;flex-direction:column;gap:4px;position:relative;padding:24px 44px 24px 0;min-height:44px;list-style:none;cursor:pointer}
+#hotels .hotel-card summary::-webkit-details-marker{display:none}
+#hotels .hotel-card summary strong{font-size:18px;font-weight:600;line-height:1.5;color:var(--ink);margin:0;overflow-wrap:anywhere}
+#hotels .hotel-card summary span{font-size:13px;font-weight:400;line-height:1.7;color:var(--muted);margin:0}
+#hotels .hotel-card summary::after{content:'＋';position:absolute;right:0;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:44px;height:44px;font-size:20px;line-height:1;color:var(--accent);background:transparent;border:0;border-radius:0;box-shadow:none}
+#hotels .hotel-card[open] summary::after{content:'−'}
+#hotels .hotel-card[open]{padding-bottom:24px}
+#hotels .hotel-card>p{font-size:14px;line-height:1.6;color:var(--text);margin:0 0 16px;overflow-wrap:anywhere}
+:is(#hotels,#rental) .facts{display:block;margin:16px 0 24px;padding:0;background:transparent}
+:is(#hotels,#rental) .fact{display:grid;grid-template-columns:92px minmax(0,1fr);align-items:baseline;column-gap:12px;padding:8px 0;margin:0;background:transparent;border:0;border-radius:0;box-shadow:none;overflow-wrap:anywhere}
+:is(#hotels,#rental) .fact small{font-size:13px;line-height:1.7;color:var(--muted);font-weight:400;margin:0}
+:is(#hotels,#rental) .fact b{font-size:14px;line-height:1.7;color:var(--ink);font-weight:400;margin:0}
+:is(#hotels,#rental) .fact.booking-amount b{color:var(--accent);font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums}
+:is(#hotels,#rental) .actions{display:flex;flex-wrap:wrap;gap:8px 16px;margin:16px 0;padding:0}
+:is(#hotels,#rental) a.semantic-link{display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:8px 0;color:var(--accent);font-size:13px;font-weight:500;line-height:1.7;background:transparent;border:0;border-radius:0;box-shadow:none}
+:is(#hotels,#rental) a.semantic-link:hover{color:var(--ink);text-decoration:underline;transform:none}
+:is(#hotels,#rental) .note{font-size:14px;line-height:1.7;color:var(--text);background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:16px 0 0;margin:16px 0}
+:is(#hotels,#rental) .note b{font-size:14px;font-weight:600;color:var(--ink)}
+#rental>h3{font-size:18px;font-weight:600;line-height:1.5;margin:0 0 8px;color:var(--ink)}
+#rental .vehicle-capacity{font-size:14px;color:var(--text);margin:0 0 4px}
+#rental .vehicle-condition{font-size:13px;color:var(--muted);margin:0 0 24px}
+#rental .rental-airport{font-size:15px;font-weight:600;color:var(--ink);margin:24px 0 8px}
+#rental .rental-movements{margin:0 0 24px}
+#rental .rental-movement{padding:16px 0;background:transparent;border:0;box-shadow:none;border-radius:0}
+#rental .rental-movement+.rental-movement{border-top:1px solid var(--line)}
+#rental .rental-movement header{display:grid;grid-template-columns:92px minmax(0,1fr);align-items:baseline;gap:12px}
+#rental .rental-movement h3{font-size:14px;font-weight:600;color:var(--ink);margin:0}
+#rental .rental-movement time{font-size:14px;font-weight:600;color:var(--accent);line-height:1.7;white-space:nowrap}
+#rental .rental-movement p{font-size:14px;color:var(--text);margin:8px 0 0;line-height:1.7}
+#rental>details{border-block:1px solid var(--line);margin:24px 0 16px;padding:0;background:transparent}
+#rental>details>summary{position:relative;min-height:44px;padding:16px 44px 16px 0;list-style:none;font-size:15px;font-weight:600;line-height:1.7;color:var(--ink)}
+#rental>details>summary::-webkit-details-marker{display:none}
+#rental>details>summary::after{content:'＋';position:absolute;right:0;top:50%;transform:translateY(-50%);width:44px;height:44px;display:grid;place-items:center;color:var(--accent);font-size:20px;font-weight:400}
+#rental>details[open]>summary::after{content:'−'}
+#rental>details>p{font-size:14px;line-height:1.7;color:var(--text);margin:0 0 16px}
+:is(#hotels,#rental) summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+@media(min-width:900px){:is(#hotels,#rental) .section-heading{margin-bottom:26px}}
+@media(max-width:350px){:is(#hotels,#rental) .fact,#rental .rental-movement header{grid-template-columns:80px minmax(0,1fr);gap:8px}#rental .rental-movement time{font-size:13px}}
