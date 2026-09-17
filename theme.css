@@ -86,3 +86,14 @@ main{padding-bottom:var(--directory-clearance)}
 #daily .point-body figure>img[hidden]{display:none!important}
 #daily .point-body figure>figcaption{grid-area:2 / 1;margin:6px 0 0;min-width:0;overflow-wrap:anywhere}
 #daily .point-body figure:has(>img[hidden])::before{display:none}
+
+/* Compact airport pickup and return instructions. */
+#rental .rental-airport{margin:24px 0 4px;font-size:15px;font-weight:600;color:var(--forest)}
+#rental .rental-movements{margin:0 0 22px;padding:0;background:transparent}
+#rental .rental-movement{padding:17px 0 18px;margin:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+#rental .rental-movement+.rental-movement{border-top:1px solid var(--line)}
+#rental .rental-movement header{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+#rental .rental-movement h3{margin:0;font-family:inherit;font-size:15px;line-height:1.6;font-weight:500;letter-spacing:0;color:var(--ink)}
+#rental .rental-movement time{font-size:16px;line-height:1.6;font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink)}
+#rental .rental-movement p{margin:6px 0 0;font-size:14px;line-height:1.7;color:var(--ink-soft)}
+@media(max-width:350px){#rental .rental-movement time{font-size:14px}}
