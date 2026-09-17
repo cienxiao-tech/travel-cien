@@ -185,3 +185,23 @@ a.semantic-link.link-chat::before,#daily .point-body a.semantic-link.link-chat::
 :is(#hotels,#rental) summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 @media(min-width:900px){:is(#hotels,#rental) .section-heading{margin-bottom:26px}}
 @media(max-width:350px){:is(#hotels,#rental) .fact,#rental .rental-movement header{grid-template-columns:80px minmax(0,1fr);gap:8px}#rental .rental-movement time{font-size:13px}}
+
+/* Top-level chapter rhythm. Existing cards and detail components remain untouched. */
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing){display:flow-root;margin:48px 0 0;padding:28px 0 24px;border:0;border-top:1px solid var(--line-strong);border-radius:0;background:transparent;box-shadow:none;scroll-margin-top:24px}
+main>:is(#daily,#hotels,#tools){margin-top:64px}
+main>#flights{margin-top:64px;padding-top:0;border-top:0}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;margin:0 0 28px;padding:0;border:0;border-radius:0;box-shadow:none;background:transparent}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening>h2{font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif;font-size:30px;font-weight:600;line-height:1.4;letter-spacing:-.025em;color:var(--ink);margin:0;text-wrap:balance}
+main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening>:is(small,.pill,.muted,.overview-stats){margin:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--ink-soft);font-size:13px;font-weight:400;line-height:1.7}
+main>#overview>.chapter-opening>.overview-stats{display:flex;flex-wrap:wrap;gap:8px}
+main>#overview>.chapter-opening>.overview-stats strong{font-weight:400}
+main>:is(#daily,#hotels,#tools)>.chapter-opening{box-sizing:border-box;min-height:140px;padding:24px 20px;background:var(--surface-soft)}
+main>#daily>.chapter-opening>.eyebrow{margin:0;color:var(--forest);font-size:10px;font-weight:500;line-height:1.4;letter-spacing:.15em}
+@media(max-width:700px){
+ main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing)>.chapter-opening>h2{font-size:28px}
+ main>:is(#daily,#hotels,#tools)>.chapter-opening{min-height:132px;padding:20px 16px}
+}
+@media print{
+ main>:is(#flights,#overview,#daily,#hotels,#rental,#tools,#packing){margin-top:32px;padding-top:20px;padding-bottom:16px}
+ main>:is(#daily,#hotels,#tools)>.chapter-opening{min-height:0;padding:16px}
+}
