@@ -46,3 +46,17 @@ a,button,summary{transition:background-color .2s,color .2s,transform .2s}button:
 @media(max-width:370px){main{padding-inline:14px}.hero-photo{height:370px}.hero-content{padding:26px 18px}.hero h1{font-size:30px}.hero .pill{font-size:9px}.ticket{padding:18px}.ticket-code{font-size:34px}.ticket-clock{font-size:25px}.facts{grid-template-columns:1fr}.section-heading{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.hero{display:block;min-height:0}.hero-photo{height:260px;min-height:0}.hero-content{padding:24px}.hero .pills{margin-top:20px}.panel{break-inside:auto}.bottom,.skip-link{display:none!important}.ticket-track{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.day-card{display:block!important}.topnav{display:none}}
+
+/* Fixed directory: 56px content + 1px divider + device safe area. */
+:root{--directory-height:57px;--directory-safe:env(safe-area-inset-bottom,0px);--directory-clearance:calc(var(--directory-height) + var(--directory-safe) + 24px)}
+html{scroll-padding-bottom:var(--directory-clearance)}
+main{padding-bottom:var(--directory-clearance)}
+.bottom{position:fixed;inset:auto 0 0;transform:none;width:100%;max-width:none;height:calc(var(--directory-height) + var(--directory-safe));margin:0;padding:0 16px var(--directory-safe);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch;gap:0;border:0;border-top:1px solid rgba(107,122,112,.28);border-radius:0;background:#f5f5ef;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;z-index:10}
+.bottom a{display:flex;align-items:center;justify-content:center;min-width:0;min-height:44px;padding:6px 4px;margin:0;border:0;border-radius:0;white-space:nowrap;font-size:13px;line-height:1.4;font-weight:500;letter-spacing:.04em;color:#667970;background:transparent;text-decoration:none}
+.bottom a:hover,.bottom a:active,.bottom a[aria-current],.bottom a.active{color:#245b59;background:transparent;font-weight:600;transform:none}
+.bottom a:focus-visible{outline:2px solid #245b59;outline-offset:-5px}
+.hero .pills,.point-body,main>section:last-of-type{scroll-margin-bottom:var(--directory-clearance)}
+@media(min-width:700px){.bottom{padding-inline:max(16px,calc((100vw - 620px)/2))}}
+/* Keep the cover's existing layout, reserving visible room for the fixed directory on phones. */
+@media(max-width:700px){.hero-photo{height:clamp(150px,calc(100svh - 330px - var(--directory-height) - var(--directory-safe)),440px)}}
+@media print{main{padding-bottom:0}.bottom{display:none!important}.hero-photo{height:260px}}

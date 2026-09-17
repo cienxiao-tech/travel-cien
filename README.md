@@ -9,3 +9,5 @@
 
 保留日期切换、+展开、地图放大、清单与备忘本地保存。
 设计参考：https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md
+
+底部目录调整：固定贴底、细分隔线、四项纯文字，57px高度加设备安全区；正文预留同高再加24px间距，手机封面图片自适应可用屏高。导航文字、链接及全部脚本保持原样。
