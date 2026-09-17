@@ -34,7 +34,7 @@ p{text-wrap:pretty}.muted,.fine,.todo-detail{color:var(--ink-soft)}
 .stop-shell{border:0;border-bottom:1px solid var(--line);background:transparent;border-radius:0}.stop-overview{padding:19px 58px 22px 0}.stop-title{font-size:17px;font-weight:600;line-height:1.6}.stop-activity{font-size:14px;line-height:1.9;margin-top:7px;color:var(--ink-soft)}.stop-duration{background:transparent;padding:0;margin-top:10px;font-size:12px;color:var(--ink-soft)}.stop-duration b{color:var(--forest);font-weight:600}
 .stop-more>summary{top:13px;width:44px;height:44px;border-radius:5px;color:var(--forest)}.stop-more[open]>summary{background:var(--surface-soft)}.stop-more[open]>.point-body{border:0;padding:0 0 22px}.point-body>p{font-size:14px;color:var(--ink-soft)}.point-body img{border-radius:6px;border:0}.stop-more .point-body img{max-height:440px;object-fit:contain;background:var(--surface-soft)}
 .actions a,.action-button,.point-body .actions a.map-locate{border-radius:5px;min-height:44px;padding:10px 14px;background:var(--surface-soft);border:0;color:var(--forest)}
-.dish-recommendations{border-radius:6px!important;background:var(--surface-soft)!important}.dish-recommendations strong{color:var(--forest)}
+.dish-recommendations strong{color:var(--forest)}
 .hotel-card{border-top:1px solid var(--line);padding:6px 0}.hotel-card summary{min-height:86px}.hotel-card summary strong{font-size:17px;font-weight:600}.hotel-card summary span{font-size:13px;color:var(--ink-soft)}.hotel-card summary:after{border-radius:5px;color:var(--forest);background:var(--surface-soft)}
 .facts{gap:12px}.fact{border:0;border-radius:6px;background:var(--surface-soft);padding:16px}.fact small{font-size:12px;color:var(--ink-soft)}.fact b{font-size:14px;color:var(--ink)}.note,.warn{background:var(--surface-soft);border-left-color:var(--forest);border-radius:0 6px 6px 0}
 .todo-group{margin-top:30px}.todo-group h3{font-size:16px}.todo-row{padding:18px 0;border-color:var(--line)}.todo-row span>strong{font-size:15px}.todo-detail{font-size:14px;line-height:1.85}.todo-row input{margin-top:4px}.note-input{border-radius:6px;background:var(--surface)}
@@ -97,3 +97,34 @@ main{padding-bottom:var(--directory-clearance)}
 #rental .rental-movement time{font-size:16px;line-height:1.6;font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink)}
 #rental .rental-movement p{margin:6px 0 0;font-size:14px;line-height:1.7;color:var(--ink-soft)}
 @media(max-width:350px){#rental .rental-movement time{font-size:14px}}
+
+/* Shared point-detail typography. Scope excludes overview, bookings and controls. */
+#daily .point-body{--detail-text:var(--ink-soft);--detail-accent:var(--forest);--detail-muted:#68766e;--detail-small:6px;--detail-gap:12px;--detail-section:20px;font-size:14px;line-height:1.7;color:var(--detail-text);background:transparent;border:0;border-radius:0;box-shadow:none;min-width:0;overflow-wrap:anywhere}
+#daily .stop-more .point-body,#daily .stop-more[open]>.point-body{padding:0 0 var(--detail-section);border:0;background:transparent;border-radius:0;box-shadow:none}
+#daily .point-body :is(p,li,strong,b,span,mark,a,h4,h5,h6,.tag,.badge,.pill,.chip,.recommend,.dish-recommendations,.detail-content){background:transparent;border:0;border-radius:0;box-shadow:none}
+#daily .point-body :is(strong,b,mark,.tag,.badge,.pill,.chip){padding:0;color:inherit;font-size:inherit;line-height:inherit}
+#daily .point-body :is(strong,b){font-weight:600}
+#daily .point-body :is(h4,h5,h6){font-family:inherit;font-size:15px;font-weight:600;line-height:1.7;letter-spacing:0;color:var(--ink);margin:var(--detail-section) 0 8px;padding:0}
+#daily .point-body p{font-size:14px;line-height:1.7;color:var(--detail-text);margin:0 0 var(--detail-gap);padding:0}
+#daily .point-body :is(ul,ol){margin:8px 0 var(--detail-gap);padding:0 0 0 1.1em;background:transparent;border:0;border-radius:0;box-shadow:none;font-size:14px;line-height:1.7;color:var(--detail-text)}
+#daily .point-body li{margin:0 0 var(--detail-small);padding:0;font-size:14px;line-height:1.7;color:var(--detail-text)}
+#daily .point-body li::marker{color:var(--detail-accent);font-size:.85em}
+#daily .point-body .dish-recommendations{margin:var(--detail-section) 0 var(--detail-gap);padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+#daily .point-body .dish-recommendations h4{margin:0 0 10px}
+#daily .point-body .dish-recommendations ul{list-style:none;margin:0;padding:0}
+#daily .point-body .dish-recommendations li{margin:0 0 var(--detail-gap);padding:0;border:0}
+#daily .point-body .dish-recommendations strong{display:block;font-size:14px;line-height:1.7;font-weight:600;color:var(--ink);margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+#daily .point-body .dish-recommendations span{display:block;font-size:14px;line-height:1.7;font-weight:400;color:var(--detail-text);margin:0;padding:0}
+#daily .point-body :is(.actions,.dish-source){display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:var(--detail-gap) 0 var(--detail-section);padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+#daily .point-body a,#daily .point-body .actions a,#daily .point-body .actions a.map-locate{font-size:13px;font-weight:500;line-height:1.7;color:var(--detail-accent);background:transparent;border:0;border-radius:0;box-shadow:none;text-decoration:none;text-underline-offset:3px;overflow-wrap:anywhere}
+#daily .point-body .actions a,#daily .point-body .dish-source a{display:inline-flex;align-items:center;justify-content:flex-start;gap:6px;min-height:44px;max-width:100%;padding:6px 0}
+#daily .point-body a:hover,#daily .point-body a:active{color:var(--detail-accent);background:transparent;box-shadow:none;text-decoration:underline;transform:none}
+#daily .point-body a:focus-visible{outline:2px solid var(--detail-accent);outline-offset:3px}
+#daily .point-body .map-pin-icon{width:17px;height:17px;flex:0 0 17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;background:transparent;border:0;box-shadow:none}
+/* Named map links retain their exact labels and use the same line icon. */
+#daily .point-body .actions a:is([href*="google.com/maps"],[href*="goo.gl/maps"],[href*="maps.app.goo.gl"]):not(.map-locate)::before{content:"";width:17px;height:17px;flex:0 0 17px;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 21c-4-4.35-6-7.2-6-10a6 6 0 1 1 12 0c0 2.8-2 5.65-6 10Z'/%3E%3Ccircle cx='12' cy='11' r='2.25'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
+#daily .point-body figure{margin:16px 0 var(--detail-section)}
+#daily .point-body figure>img{border-radius:14px;object-fit:cover;object-position:center;box-shadow:none;border:0}
+#daily .point-body figure>figcaption{margin:var(--detail-small) 0 0;font-size:12px;line-height:1.7;color:var(--detail-muted)}
+#daily .point-body figure>figcaption a{font-size:12px}
+#daily .point-body>:last-child{margin-bottom:0}
