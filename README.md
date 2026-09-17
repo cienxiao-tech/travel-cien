@@ -14,3 +14,17 @@
 运行 `python render.py` 重新生成 index.html，仅依赖Python标准库。
 
 租车金额及付款状态沿用已确认内容；每日安排未改动航班、住宿、租车或清单栏目。
+
+
+## 封面主图
+- 方案：A · 画册留白
+- 图片：Piva Lake in Montenegro, Bulhakova Yuliia / Unsplash
+- 页面：https://unsplash.com/photos/a-road-winds-through-mountains-beside-a-lake-v0013iELXUs
+- 当前网页使用 Unsplash 3000 px CDN 高清源。
+
+
+## 离线封面
+
+- 封面主图已改为本地文件：`assets/cover/cover-hero.jpg`。
+- 网页加载封面时不再访问 Unsplash CDN。
+- 封面原图来自用户上传文件，尺寸 1638 × 2048。
