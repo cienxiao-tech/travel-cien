@@ -2,12 +2,12 @@
 <html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#174549" name="theme-color"/><title>巴尔干山海之旅 · 2026家庭自驾计划</title>
 <meta content="2026年巴尔干三国12天11晚家庭自驾计划：每日安排、航班、住宿与行前清单。" name="description"/><link href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"%3E%3Crect width="32" height="32" rx="6" fill="%23245b59"/%3E%3Cpath d="M9 26L20 17L13 11L22 5" fill="none" stroke="%23f0f3ef" stroke-width="3"/%3E%3C/svg%3E' rel="icon"/><style id="balkan-design-system">/* Balkan field handbook · preserve redesign
    DESIGN_VARIANCE:7 / MOTION_INTENSITY:3 / VISUAL_DENSITY:5
-   One source of truth. Chapter paper:0; photos:14px; objects:16px;
+   One source of truth. Chapter openings:unboxed; photos:14px; objects:16px;
    information surfaces:12px; small controls:8px. Layers:sticky 5 / directory 10.
    Photography and all business data remain in the original template. */
 :root{
  --paper:#f7f7f2;--surface:#eaf0ec;--surface-soft:#eff3ef;--surface-deep:#dce6e0;
- --section-bg:#d6e3dc;--ink:#203a33;--text:#405b52;--muted:#52675e;--accent:#245b59;
+ --ink:#203a33;--text:#405b52;--muted:#52675e;--accent:#245b59;
  --line:#d4dfd7;--line-strong:#b5c8bd;--gutter:20px;--nav-height:57px;
  --bottom-clearance:calc(var(--nav-height) + env(safe-area-inset-bottom,0px) + 24px);
  --font-body:"Avenir Next","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
@@ -33,12 +33,25 @@ summary{list-style:none}summary::-webkit-details-marker{display:none}.hidden,[hi
 .hero-content>p{font-size:12px;line-height:1.85;margin:0;max-width:32em}
 .pills{display:flex;justify-content:space-between;gap:6px;margin-top:24px;padding-top:16px;border-top:1px solid var(--line-strong)}
 .pill{font-size:11px;font-weight:400;color:var(--muted)}
-/* Seven identical chapter bands; all summaries are stacked, normal-weight. */
+/* Chapter sketchbook: shared type and divider, two editorial compositions.
+   Icons are decorative local assets; original DOM, text and interactions are untouched. */
 main>section{display:flow-root;margin-top:80px;padding:0;scroll-margin-top:16px}
-.chapter-opening{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;min-height:128px;margin:0 calc(-1 * var(--gutter)) 32px;padding:16px var(--gutter);border-block:1px solid var(--line-strong);background:var(--section-bg);border-radius:0}
-.chapter-opening>h2{font-size:29px;font-weight:650;line-height:1.2;letter-spacing:-.02em}
-.chapter-opening>:is(p,small,.pill){font-size:13px;font-weight:400;line-height:1.5;color:var(--muted);margin:0;padding:0}
-.chapter-opening :is(strong,b){font-weight:400}.chapter-opening>.eyebrow{font-size:10px}
+ .chapter-opening{display:grid;grid-template-columns:64px minmax(0,1fr);align-content:center;align-items:center;column-gap:20px;row-gap:8px;min-height:154px;margin:0 0 32px;padding:20px 0 28px;border-bottom:1px solid var(--line-strong);background:transparent;border-radius:0}
+.chapter-opening::before{content:"";grid-column:1;grid-row:1 / span 3;display:block;width:64px;height:64px;align-self:center;background:var(--chapter-sketch) center/contain no-repeat;pointer-events:none}
+.chapter-opening>h2{grid-column:2;font-size:29px;font-weight:650;line-height:1.2;letter-spacing:-.02em}
+.chapter-opening>:is(p,small,.pill){grid-column:2;font-size:13px;font-weight:400;line-height:1.5;color:var(--muted);margin:0;padding:0;max-width:34em}
+.chapter-opening :is(strong,b){font-weight:400}.chapter-opening>.eyebrow{grid-column:2;font-size:10px}
+#flights>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/flights.png")}
+#overview>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/overview.png")}
+#daily>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/daily.png")}
+#hotels>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/hotels.png")}
+#rental>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/rental.png")}
+#tools>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/tools.png")}
+#packing>.chapter-opening{--chapter-sketch:url("assets/chapter-icons/packing.png")}
+:is(#flights,#daily,#packing)>.chapter-opening{display:block;padding-top:0}
+:is(#flights,#daily,#packing)>.chapter-opening::before{margin:0 0 18px 6px}
+:is(#flights,#daily,#packing)>.chapter-opening>:is(p,small,.pill){display:block;margin-top:8px}
+#daily>.chapter-opening>.eyebrow{margin-bottom:8px}
 .overview-stats{display:flex;gap:6px;flex-wrap:wrap}
 /* Independent flight objects, horizontal snap track. */
 .ticket-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 0 16px;scrollbar-width:thin;scrollbar-color:var(--line-strong) transparent}
