@@ -1,0 +1,1347 @@
+{
+  "headings": [
+    {
+      "text": "航班机票",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "行程总览",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "城市轨迹",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "巴尔干三国自驾路线",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "跨境口岸",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "每日行程",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "多瑙河畔初见贝城",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "抵达贝尔格莱德",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "SIXT 取车 · 前往泽蒙",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Lidl 采购",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "午餐 · 前往 Hotel LoRa",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "泽蒙多瑙河岸",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Šaran 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "贝尔格莱德城市漫步",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往市中心 · 停车",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "卡莱梅格丹公园",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "米哈伊洛大公街",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Casa Nova 午餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "共和国广场",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "斯卡达利亚老街",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Sea You甜品",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "德里纳河一路向西",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往德里纳河小屋",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "德里纳河小屋",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "经 Mokra Gora 前往边境",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Kotroman / Vardište 跨境",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往萨拉热窝",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Bingo Plus ALTA 采购",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "入住 Hotel Aziza",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Dveri 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "瓦尔特老城与黄堡日落",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "巴什察尔希亚",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "铜匠街 · 老城街巷",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "钟楼与加齐胡斯雷夫贝清真寺周边",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Ćevabdžinica Željo 午餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "拉丁桥 · 米利亚茨卡河岸 · 市政厅",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "老城自由时间",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "提前晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "经 Kovači 前往黄堡",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "黄堡日落",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "内雷特瓦河谷与莫斯塔尔",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "沿内雷特瓦河谷南下",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "入住 Hotel Karting",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "莫斯塔尔老桥 · 老城",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "MEGI 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "布纳河源与亚得里亚山海",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往布拉加伊",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "布纳河源",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "经 Trebinje 前往科托尔",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "办理入住",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "BBQ Tanjga 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "洛夫琴山林与科托尔湾",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 出发",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "经 Cetinje 前往洛夫琴",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "洛夫琴山林漫步",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "返回科托尔",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Aroma Kamelija 采购",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "科托尔老城 · Scala Santa 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "佩拉斯特湾驶向高山",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往佩拉斯特",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "佩拉斯特海滨",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "驶向札布利亚克",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Voli 超市采购",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "入住 Smrcevo Brdo Apartments",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Izvor 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "杜米托尔黑湖与森林",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往黑湖",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "黑湖与森林",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Izvor 午餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Vražje 湖 · 高原风光",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "返回公寓 · 自由时间",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "塔拉峡谷穿越边境",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往塔拉大桥",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "塔拉大桥 · 峡谷",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "跨境前往兹拉蒂博尔",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "入住 Šafran Zlatibor",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "兹拉蒂博尔湖区",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Konoba Akustik 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "黄金缆车重返贝城",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Gold Gondola 黄金缆车",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "返回贝尔格莱德",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "入住 Villa 1927",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "米哈伊洛大公街 · 伴手礼采购",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "Lorenzo & Kakalamba 晚餐",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "推荐尝尝",
+      "size": "13px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "告别贝城启程回家",
+      "size": "24px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "早餐 · 退房",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "前往贝尔格莱德机场",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "SIXT 还车",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "值机 · 托运 · 安检出境",
+      "size": "16px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "住宿预订",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "SIXT 自驾租车",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "BMW X1 sDrive 或同组车型",
+      "size": "17px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "none"
+    },
+    {
+      "text": "取车",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "还车",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "行前准备",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    },
+    {
+      "text": "人员证件",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "驾驶与车辆",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "行程证明",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "支付与联系",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "电子备份",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "同行备忘",
+      "size": "18px",
+      "font": "\"Avenir Next\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "prefix": "\"\""
+    },
+    {
+      "text": "行装指南",
+      "size": "29px",
+      "font": "\"Songti SC\", \"Noto Serif CJK SC\", SimSun, serif",
+      "bg": "rgba(0, 0, 0, 0)",
+      "parentBg": "rgb(220, 229, 222)",
+      "prefix": "none"
+    }
+  ],
+  "styles": [
+    {
+      "id": "",
+      "bytes": 14742
+    },
+    {
+      "id": "point-detail-style",
+      "bytes": 1360
+    },
+    {
+      "id": "schedule-style",
+      "bytes": 1367
+    },
+    {
+      "id": "estimated-day-style",
+      "bytes": 1989
+    },
+    {
+      "id": "minimal-expander-style",
+      "bytes": 1058
+    },
+    {
+      "id": "taste-skill-refresh",
+      "bytes": 15693
+    },
+    {
+      "id": "taste-skill-cover-v4",
+      "bytes": 4431
+    },
+    {
+      "id": "piva-canyon-theme-v1",
+      "bytes": 5655
+    },
+    {
+      "id": "piva-editorial-11-6",
+      "bytes": 34772
+    }
+  ],
+  "inline": [
+    [
+      "DIV",
+      "",
+      "float:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "float:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "float:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "float:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "DIV",
+      "",
+      "text-align:right"
+    ],
+    [
+      "H3",
+      "",
+      "margin-top:24px"
+    ]
+  ],
+  "images": [
+    {
+      "alt": "皮瓦湖峡谷、森林与沿崖蜿蜒的自驾公路",
+      "width": 1365,
+      "height": 2048,
+      "ratio": "auto"
+    },
+    {
+      "alt": "巴尔干三国整体旅行路线图",
+      "width": 1024,
+      "height": 1536,
+      "ratio": "auto 1024 / 1536"
+    },
+    {
+      "alt": "Hotel LoRa｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "泽蒙多瑙河岸实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Šaran｜餐厅实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "卡莱梅格丹公园实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "米哈伊洛大公街（Knez Mihailova）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "共和国广场（Trg republike）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "斯卡达利亚老街（Skadarlija）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Hotel LoRa｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "德里纳河小屋（Drina River House）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Hotel Aziza｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Dveri｜餐厅实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "萨拉热窝老集市（Baščaršija）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "铜匠街（Kazandžiluk）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "萨拉热窝钟楼（Sahat-kula）与加齐胡斯雷夫贝清真寺（Gazi Husrev-beg Mosque）周边实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "拉丁桥（Latin Bridge）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "黄堡（Yellow Fortress / Žuta tabija）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Hotel Aziza｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "内雷特瓦河谷实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Hotel Karting｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "莫斯塔尔老桥（Stari Most）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Hotel Karting｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "布拉加伊（Blagaj）布纳河源（Vrelo Bune）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "洛夫琴（Lovćen）森林与山景实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "科托尔老城实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "佩拉斯特（Perast）海湾实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "杜米托尔（Durmitor）黑湖（Crno jezero）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Vražje 湖实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "塔拉河大桥（Đurđevića Tara Bridge）与峡谷实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Šafran Zlatibor｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Šafran Zlatibor｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "黄金缆车（Gold Gondola）实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Villa 1927｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    },
+    {
+      "alt": "Villa 1927｜酒店实景",
+      "width": 0,
+      "height": 0,
+      "ratio": "16 / 10"
+    }
+  ],
+  "text": [
+    "DAY 01 · 2026-09-22\n多瑙河畔初见贝城\n\n抵达贝尔格莱德后取车，在泽蒙采购、入住，下午沿多瑙河轻松散步。首日不进市中心，以休整和适应节奏为主。\n\n抵达贝尔格莱德\n\n预计 08:00 抵达。办理入境、领取行李，并在机场简单早餐。\n\n预计用时：约 2 小时\n\n贝尔格莱德尼古拉·特斯拉机场，航班票面标注 T2。\n\n地图定位\nSIXT 取车 · 前往泽蒙\n\n核对跨境许可、儿童座椅和车辆情况后出发。\n\n预计用时：约 1 小时\n\n从贝尔格莱德机场T1出口前往多层停车楼五层，与SIXT工作人员会合。\n\n地图定位\nLidl 采购\n\n补充未来两天的早餐、饮水、水果和儿童食品。\n\n预计停留：约 45 分钟\n地图定位\n午餐 · 前往 Hotel LoRa\n\n在泽蒙就近午餐，随后前往酒店办理入住。\n\n预计用时：约 2 小时\n图片来源\n地图定位\n泽蒙多瑙河岸\n\n沿河岸轻松散步，看河景和水鸟，中途找一家河岸咖啡馆休息。\n\n预计停留：约 2–2.5 小时\n图片来源\n · Nicolo at Serbian Wikipedia · \n许可\n\n泽蒙曾是多瑙河畔独立发展的历史小镇，如今仍保留着与贝尔格莱德市中心不同的悠闲气质。开阔的河岸步道很适合作为长途飞行后的第一站。\n\n地图定位\nŠaran 晚餐\n\n在多瑙河畔享用河鱼料理。\n\n预计停留：约 1 小时\n图片来源\n推荐尝尝\n传统鱼汤\nRiblja čorba，泽蒙河鱼风味的经典汤品。\n烤梭鲈\nGrilled zander，搭配蔬菜或土豆。\n菜品参考\n菜品参考2\n地图定位\n\n晚餐后返回酒店休息。",
+    "DAY 02 · 2026-09-23\n贝尔格莱德城市漫步\n\n全天游览贝尔格莱德市中心。自驾停车后以步行为主，从卡莱梅格丹一路走到共和国广场和斯卡达利亚。\n\n前往市中心 · 停车\n\n从泽蒙自驾进入市中心，停车后开始步行游览。\n\n预计用时：约 45 分钟\n卡莱梅格丹公园\n\n漫步堡垒、公园和观景平台，眺望萨瓦河与多瑙河交汇。\n\n预计停留：约 1.5 小时\n图片来源\n · Andrija12345678 · \n许可\n\n卡莱梅格丹位于贝尔格莱德古城制高点，堡垒遗迹、公园绿地与两河交汇的开阔视野共同构成这里最具代表性的城市景观。\n\n地图定位\n米哈伊洛大公街\n\n沿步行街看看老建筑、街景和沿街小店。\n\n预计停留：约 1 小时\n图片来源\n\n米哈伊洛大公街连接卡莱梅格丹与共和国广场，是贝尔格莱德最重要的步行街之一。\n\n地图定位\nCasa Nova 午餐\n预计停留：约 1 小时\n\n意式午餐，按当天菜单挑选主菜。\n\n地图定位\n共和国广场\n\n看看国家博物馆、国家剧院和米哈伊洛大公骑马雕像。\n\n预计停留：约 30–45 分钟\n图片来源\n\n共和国广场是贝尔格莱德老城的重要公共空间。\n\n地图定位\n斯卡达利亚老街\n\n漫步石板街，在老街找咖啡或甜点稍作休息。\n\n预计停留：约 1–1.5 小时\n图片来源\n\n斯卡达利亚以石板路、老餐馆和低层街巷闻名，是贝尔格莱德颇具波希米亚气息的历史街区。\n\n地图定位\nSea You甜品\n预计停留：约 1 小时\n\n挑选甜品和饮品，坐下小憩。地址：Cara Lazara 13。\n\n地图定位\n\n随后步行返回停车处，取车回酒店。",
+    "DAY 03 · 2026-09-24\n德里纳河一路向西\n\n从贝尔格莱德一路向西，经德里纳河小屋和 Mokra Gora，从 Kotroman / Vardište 进入波黑，傍晚抵达萨拉热窝。\n\n早餐 · 退房\n图片来源\n地图定位\n前往德里纳河小屋\n\n一路向西前往 Bajina Bašta。\n\n预计车程：约 4 小时，含途中短休\n德里纳河小屋\n\n在塞尔维亚一侧河岸短暂停留。\n\n预计停留：约 30 分钟\n图片来源\n\n这座小木屋独自立在德里纳河中的岩石上，是塞尔维亚西部极具辨识度的景观之一。\n\n地图定位\n经 Mokra Gora 前往边境\n\n继续向 Kotroman 方向行驶，途中安排简便午餐。\n\n预计用时：约 2.5 小时\nKotroman / Vardište 跨境\n\n塞尔维亚 → 波黑\n\n预计过境：约 1 小时，视现场排队情况调整\nKotroman · 塞尔维亚\nVardište · 波黑\n前往萨拉热窝\n\n经 Višegrad 一路西行。\n\n预计车程：约 3–3.5 小时\nBingo Plus ALTA 采购\n\n补充饮水、早餐和儿童零食。\n\n预计停留：约 45 分钟\n地图定位\n入住 Hotel Aziza\n图片来源\n地图定位\nDveri 晚餐\n\n品尝波黑家常菜。\n\n预计停留：约 1 小时\n图片来源\n推荐尝尝\n波黑炖牛肉\nGulaš，浓郁炖汁适合蘸面包。\n自制面包\nDomaća pogača，餐厅颇受欢迎的现烤面包。\n菜品参考\n地图定位",
+    "DAY 04 · 2026-09-25\n瓦尔特老城与黄堡日落\n\n全天步行游览萨拉热窝老城，寻找《瓦尔特保卫萨拉热窝》的城市记忆，傍晚上黄堡看日落。\n\n巴什察尔希亚\n\n从 Hotel Aziza 步行进入老城，从 Sebilj 喷泉开始慢慢逛。\n\n预计停留：约 1 小时\n图片来源\n · Stechshotme · \n许可\n\n巴什察尔希亚是萨拉热窝老城的核心，狭窄街巷、传统商铺与奥斯曼时期建筑交织在一起，集中呈现了这座城市最具辨识度的历史风貌。\n\n地图定位\n铜匠街 · 老城街巷\n\n看看传统铜器店和老城日常。\n\n预计停留：约 45 分钟\n图片来源\n\n铜匠街延续着传统铜器制作与销售，是巴什察尔希亚最具手工艺气息的一段街巷。\n\n地图定位\n钟楼与加齐胡斯雷夫贝清真寺周边\n\n沿老城街巷寻找电影中的熟悉视角。\n\n预计停留：约 1 小时\n图片来源\n\n钟楼与清真寺周边保留了较完整的奥斯曼时期城市格局，也是感受萨拉热窝历史层次和《瓦尔特保卫萨拉热窝》城市记忆的重要区域。\n\n地图定位\nĆevabdžinica Željo 午餐\n预计停留：约 1 小时\n\n主营 ćevapi 烤肉。地址：Kundurdžiluk 19, Sarajevo 71000波斯尼亚和黑塞哥维那。\n\n地图定位\n拉丁桥 · 米利亚茨卡河岸 · 市政厅\n\n沿河向东步行，串联几处代表性的城市地标。\n\n预计停留：约 1.5 小时\n图片来源\n\n从拉丁桥沿米利亚茨卡河一路走向市政厅，可以连续看到萨拉热窝不同时期的城市建筑与河岸风貌。\n\n拉丁桥（Latin Bridge）\n萨拉热窝市政厅（Vijećnica）\n老城自由时间\n\n喝咖啡、逛小店；如想继续寻找电影记忆，可改去 Bistrik 旧火车站。\n\n预计停留：约 1–1.5 小时\n提前晚餐\n经 Kovači 前往黄堡\n\n沿山坡缓慢步行上行。\n\n预计步行：约 45 分钟\n黄堡日落\n\n俯瞰萨拉热窝老城、河谷与周围群山，在山坡上等待暮色降临。\n\n预计停留：约 1 小时\n图片来源\n\n黄堡位于老城东侧山坡，视野正对萨拉热窝河谷，是傍晚俯瞰城市全景和看日落的经典位置。\n\n地图定位\n\n随后步行返回 Hotel Aziza。",
+    "DAY 05 · 2026-09-26\n内雷特瓦河谷与莫斯塔尔\n\n离开萨拉热窝，沿内雷特瓦河谷南下，经 Konjic 前往莫斯塔尔，下午游览老桥和老城。\n\n早餐 · 退房\n图片来源\n地图定位\n沿内雷特瓦河谷南下\n\n经 Konjic 前往莫斯塔尔，途中安排午餐，并选择一处河谷位置短停。\n\n预计用时：约 4–4.5 小时\n图片来源\n\n萨拉热窝至莫斯塔尔沿途紧贴内雷特瓦河谷展开，峡谷、湖面与山地景观连续变化，这段自驾本身就是当天行程的重要组成部分。\n\n地图定位\n入住 Hotel Karting\n图片来源\n地图定位\n莫斯塔尔老桥 · 老城\n\n漫步老桥两侧石板街，欣赏内雷特瓦河与老桥景观。\n\n预计停留：约 2 小时\n图片来源\n · Ramirez · \n许可\n\n莫斯塔尔老桥横跨内雷特瓦河，是城市最具代表性的地标。两侧老城沿河谷展开，石板街、石屋与河景共同构成莫斯塔尔最经典的画面。\n\n地图定位\nMEGI 晚餐\n预计停留：约 1 小时\n推荐尝尝\n海鲜意大利面\nSpaghetti seafood，品尝餐厅的地中海风味。\n千层面\nLasagna，焗烤类主食。\n菜品参考\n菜品参考2\n地图定位\n\n随后返回 Hotel Karting。",
+    "DAY 06 · 2026-09-27\n布纳河源与亚得里亚山海\n\n上午游览布拉加伊布纳河源，随后经 Trebinje 和 Zupci / Sitnica 跨境进入黑山，傍晚抵达科托尔。\n\n早餐 · 退房\n图片来源\n地图定位\n前往布拉加伊\n预计车程：约 45 分钟\n布纳河源\n\n看看岩壁下涌出的泉水、河畔建筑和修道院外观。\n\n预计停留：约 1 小时\n图片来源\n · lasserbua · \n许可\n\n布纳河从巨大岩壁脚下涌出，清澈泉水、峭壁与河畔的德尔维希修道院共同构成了布拉加伊最具代表性的景观。\n\n地图定位\n经 Trebinje 前往科托尔\n\n从 Zupci / Sitnica 跨境进入黑山，途中安排午餐和休息。\n\n预计用时：约 6–7 小时，含过境\n地图定位\n办理入住\n\n先到管理办公室办理旅游税登记，再前往 Apartment Prosperus with Sea View。\n\n黑山旅行社办公室\nApartment Prosperus with Sea View｜公寓民宿\nBBQ Tanjga 晚餐\n\n品尝当地烤肉。\n\n预计停留：约 1 小时\n推荐尝尝\n混合烤肉拼盘\nMixed grill，多种烤肉适合分享。\n烤鸡\nRotisserie chicken，可与拼盘搭配。\n菜品参考\n地图定位\n\n随后返回公寓。",
+    "DAY 07 · 2026-09-28\n洛夫琴山林与科托尔湾\n\n从科托尔出发，经 Cetinje 前往洛夫琴国家公园，在山林中轻松散步，下午返回科托尔。\n\n早餐 · 出发\n经 Cetinje 前往洛夫琴\n\n前往 Ivanova Korita。\n\n预计车程：约 2–2.5 小时\n洛夫琴山林漫步\n\n选择适合带孩子的轻松短线，在森林和山景间慢慢散步。\n\n预计停留：约 1.5 小时\n图片来源\n · Michal Krumnikl · \n许可\n\n洛夫琴国家公园位于黑山内陆山地与亚得里亚海沿岸之间，高海拔森林、石灰岩山体和远眺海湾的开阔视野是这里最鲜明的特色。\n\n地图定位\n返回科托尔\n预计车程：约 2–2.5 小时\nAroma Kamelija 采购\n\n补充后续山区行程需要的早餐、饮水和零食。\n\n预计停留：约 45 分钟\n地图定位\n科托尔老城 · Scala Santa 晚餐\n\n晚餐前后顺便在老城街巷散步。\n\n预计停留：约 1–1.5 小时\n图片来源\n · Marcin Konsek · \n许可\n\n科托尔老城依山临湾，被城墙与陡峭山体环绕，石墙、教堂、小广场和狭窄街巷集中在不大的范围内。\n\n推荐尝尝\n墨鱼汁烩饭\nBlack cuttlefish risotto，浓郁的海鲜风味。\n炭烤鱿鱼\nGrilled squid，配土豆与叶菜。\n菜品参考\n科托尔老城\nKonoba Scala Santa｜餐厅\n\n晚餐后返回公寓。",
+    "DAY 08 · 2026-09-29\n佩拉斯特湾驶向高山\n\n告别科托尔湾，上午游览佩拉斯特，随后穿越黑山内陆一路向北，傍晚抵达杜米托尔山区。\n\n早餐 · 退房\n地图定位\n前往佩拉斯特\n预计车程：约 45 分钟\n佩拉斯特海滨\n\n沿海湾散步，远眺圣母岩岛和峡湾群山。\n\n预计停留：约 1–1.5 小时\n图片来源\n · FrDr · \n许可\n\n佩拉斯特沿科托尔湾狭长展开，海滨建筑安静紧凑，正对圣母岩岛，是感受科托尔湾山海层次很轻松的一站。\n\n地图定位\n驶向札布利亚克\n\n经 Nikšić、Šavnik 穿越黑山内陆，途中安排午餐和休息。\n\n预计车程：约 5–6 小时\nVoli 超市采购\n\n准备两天早餐、饮水和黑湖游览食品。\n\n预计停留：约 45 分钟\n地图定位\n入住 Smrcevo Brdo Apartments\n地图定位\nIzvor 晚餐\n\n热汤、炖肉或烤鸡。\n\n预计停留：约 1 小时\n推荐尝尝\n烤羊肉\nGrilled lamb，体验黑山山区肉食风味。\n奶酪 Kačamak\n传统山区主食，适合搭配烤肉。\n菜品参考\n地图定位\n\n随后返回公寓休息。",
+    "DAY 09 · 2026-09-30\n杜米托尔黑湖与森林\n\n今天不赶路，把一天留给杜米托尔。上午漫步黑湖与森林，午后视天气前往高原湖泊。\n\n前往黑湖\n预计车程：约 30–45 分钟\n黑湖与森林\n\n前往主湖景观区，再沿湖岸选择一段轻松步道。\n\n预计停留：约 2–2.5 小时\n图片来源\n · Jshnay · \n许可\n\n黑湖位于杜米托尔群峰脚下，被大片森林环绕，是国家公园最具代表性的景观之一。带孩子游览以湖畔慢走和观景为主，不必追求完整环湖。\n\n地图定位\nIzvor 午餐\n预计停留：约 1 小时\n推荐尝尝\n烤羊肉\nGrilled lamb，体验黑山山区肉食风味。\n奶酪 Kačamak\n传统山区主食，适合搭配烤肉。\n菜品参考\n地图定位\nVražje 湖 · 高原风光\n\n天气合适时前往湖边和草原短暂停留。\n\n预计停留：约 1–1.5 小时\n图片来源\n\nVražje 湖位于开阔高原，与黑湖浓密的森林环境形成鲜明对比，更适合感受杜米托尔外围草原、湖泊与远山组成的辽阔景观。\n\n地图定位\n返回公寓 · 自由时间\n\n休息、整理照片，在住宿周边看看山景。\n\n预计停留：约 2 小时\n地图定位\n\n晚餐后整理行李，为次日跨境做准备。",
+    "DAY 10 · 2026-10-01\n塔拉峡谷穿越边境\n\n离开杜米托尔，先在塔拉大桥看峡谷风光，再经 Dobrakovo / Gostun 返回塞尔维亚，傍晚抵达兹拉蒂博尔。\n\n早餐 · 退房\n地图定位\n前往塔拉大桥\n预计车程：约 1 小时\n塔拉大桥 · 峡谷\n\n在大桥附近短暂停留，俯瞰峡谷和塔拉河。\n\n预计停留：约 30–45 分钟\n图片来源\n · Daniel Borsos · \n许可\n\n塔拉河峡谷以深切河谷、森林山地和清澈河流闻名，大桥横跨峡谷上方，是自驾途中感受这一地貌最直观的一站。\n\n地图定位\n跨境前往兹拉蒂博尔\n\n经 Dobrakovo / Gostun 进入塞尔维亚，途中安排午餐和休息。\n\n预计用时：约 6–7 小时，含过境\n地图定位\n入住 Šafran Zlatibor\n图片来源\n地图定位\n兹拉蒂博尔湖区\n\n到湖边简单散步，舒缓长途驾驶后的节奏。\n\n预计停留：约 30 分钟\n地图定位\nKonoba Akustik 晚餐\n预计停留：约 1 小时\n推荐尝尝\n小牛肉卷\nRolled veal，可作为晚餐主菜。\n火腿与奶酪拼盘\nProsciutto and cheese，适合多人分享。\n菜品参考\n地图定位\n\n随后返回酒店。",
+    "DAY 11 · 2026-10-02\n黄金缆车重返贝城\n\n上午乘黄金缆车俯瞰兹拉蒂博尔高原，午餐后返回贝尔格莱德，最后逛一次市中心并采购伴手礼。\n\n早餐 · 退房\n图片来源\n地图定位\nGold Gondola 黄金缆车\n\n乘缆车穿越高原、Ribnica 湖和 Tornik 山区，在山顶短暂停留。\n\n预计游览：约 2–2.5 小时\n图片来源\n\n黄金缆车从兹拉蒂博尔镇区出发，可在乘坐中连续欣赏高原景观。\n\n地图定位\n返回贝尔格莱德\n预计车程：约 4–5 小时\n入住 Villa 1927\n图片来源\n地图定位\n米哈伊洛大公街 · 伴手礼采购\n\n最后逛逛市中心，购买冰箱贴、钥匙扣等纪念品。\n\n预计停留：约 1–1.5 小时\n地图定位\nLorenzo & Kakalamba 晚餐\n预计停留：约 1 小时\n推荐尝尝\n手工意式饺子\nHandmade ravioli，乳清奶酪、菠菜与帕尔马干酪馅。\n帕尔马风味焗茄子\nMelanzana parmigiana，餐厅意式菜品之一。\n菜品参考\n地图定位\n\n随后返回酒店，整理行李、证件和次日还车用品。",
+    "DAY 12 · 2026-10-03\n告别贝城启程回家\n\n早起退房，前往机场还车，返回北京。\n\n早餐 · 退房\n\n检查护照、行李和随身物品。\n\n图片来源\n地图定位\n前往贝尔格莱德机场\n预计车程：约 45 分钟\nSIXT 还车\n\n完成验车、交接，并取好全部行李。\n\n预计用时：约 30 分钟\n\n贝尔格莱德机场多层停车楼四层 SIXT 还车区。\n\n地图定位\n值机 · 托运 · 安检出境\n\n预留充足时间完成国际航班出境手续。\n\n贝尔格莱德尼古拉·特斯拉机场，航班票面标注 T2。\n\n地图定位"
+  ],
+  "strongBg": [],
+  "classes": [
+    "skip-link",
+    "hero",
+    "hero-photo",
+    "hero-content",
+    "eyebrow",
+    "pills",
+    "pill",
+    "panel",
+    "section-heading",
+    "chapter-opening",
+    "ticket-track",
+    "ticket",
+    "ticket-airports",
+    "ticket-code",
+    "ticket-clock",
+    "ticket-bottom",
+    "ticket-count",
+    "fine",
+    "overview-stats",
+    "overview-heading",
+    "journey-line",
+    "merged-map",
+    "map-enlarge",
+    "map-caption",
+    "border-grid",
+    "border-card",
+    "border-date",
+    "muted",
+    "topnav",
+    "switch",
+    "day-card",
+    "dayhead",
+    "daynum",
+    "daily-stops",
+    "daily-stop",
+    "stop-shell",
+    "stop-overview",
+    "stop-title",
+    "stop-activity",
+    "stop-duration",
+    "stop-more",
+    "point-body",
+    "actions",
+    "map-locate",
+    "semantic-link",
+    "link-map",
+    "link-label",
+    "link-external",
+    "dish-recommendations",
+    "dish-source",
+    "day-closing",
+    "hotel-card",
+    "facts",
+    "fact",
+    "booking-amount",
+    "link-phone",
+    "note",
+    "link-chat",
+    "vehicle-capacity",
+    "vehicle-condition",
+    "rental-airport",
+    "rental-movements",
+    "rental-movement",
+    "link-mail",
+    "todo-group",
+    "todo-row",
+    "todo-detail",
+    "note-input",
+    "edit-status",
+    "action-button",
+    "bottom",
+    "map-dialog",
+    "map-scroll"
+  ]
+}

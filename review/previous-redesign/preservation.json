@@ -1,0 +1,12 @@
+{
+  "scripts_identical": true,
+  "image_src_identical": true,
+  "event_handlers_identical": true,
+  "business_links_identical": true,
+  "checkbox_ids_identical": true,
+  "main_text_identical": true,
+  "chapter_count": 7,
+  "days": 12,
+  "point_count": 77,
+  "embedded_images": 33
+}
