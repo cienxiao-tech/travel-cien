@@ -1,0 +1,62 @@
+[
+  {
+    "id": "flights",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/flights.png\")",
+    "height": 173.296875,
+    "overflow": 0
+  },
+  {
+    "id": "overview",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/overview.png\")",
+    "height": 154,
+    "overflow": 0
+  },
+  {
+    "id": "daily",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/daily.png\")",
+    "height": 195.296875,
+    "overflow": 0
+  },
+  {
+    "id": "hotels",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/hotels.png\")",
+    "height": 154,
+    "overflow": 0
+  },
+  {
+    "id": "rental",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/rental.png\")",
+    "height": 154,
+    "overflow": 0
+  },
+  {
+    "id": "tools",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/tools.png\")",
+    "height": 154,
+    "overflow": 0
+  },
+  {
+    "id": "packing",
+    "background": "rgba(0, 0, 0, 0)",
+    "title": "29px",
+    "icon": "url(\"http://127.0.0.1:8765/redesigned/assets/chapter-icons/packing.png\")",
+    "height": 173.296875,
+    "overflow": 0
+  },
+  {
+    "desktopOverflow": 0,
+    "errors": []
+  }
+]

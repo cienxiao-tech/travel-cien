@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "links": [
+    [
+      "航班",
+      "#flights"
+    ],
+    [
+      "行程",
+      "#daily"
+    ],
+    [
+      "预定",
+      "#hotels"
+    ],
+    [
+      "清单",
+      "#tools"
+    ]
+  ],
+  "clicks": [
+    {
+      "id": "flights",
+      "top": 92.0625,
+      "active": "航班"
+    },
+    {
+      "id": "daily",
+      "top": 92.421875,
+      "active": "行程"
+    },
+    {
+      "id": "hotels",
+      "top": 91.84375,
+      "active": "预定"
+    },
+    {
+      "id": "tools",
+      "top": 91.890625,
+      "active": "清单"
+    }
+  ],
+  "scroll": [
+    [
+      "daily",
+      "行程"
+    ],
+    [
+      "hotels",
+      "预定"
+    ],
+    [
+      "flights",
+      "航班"
+    ],
+    [
+      "tools",
+      "清单"
+    ],
+    [
+      "packing",
+      "清单"
+    ]
+  ],
+  "packingWeights": [
+    "400"
+  ],
+  "packingBold": 0,
+  "todoCount": 20,
+  "packingCount": 11,
+  "overflow": 0,
+  "storage": true,
+  "bottomGap": 23.515625
+}

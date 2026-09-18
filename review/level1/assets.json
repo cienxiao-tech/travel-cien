@@ -1,0 +1,121 @@
+[
+  {
+    "name": "flights",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 8858893,
+      "squaresSum": 2136012809,
+      "mean": 33.79399490356445,
+      "stdev": 83.703254757238,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 441,
+      "maxY": 138
+    }
+  },
+  {
+    "name": "overview",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 32681798,
+      "squaresSum": 8186615544,
+      "mean": 124.6711654663086,
+      "stdev": 125.24623855190096,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 147,
+      "maxY": 79
+    }
+  },
+  {
+    "name": "daily",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 25935406,
+      "squaresSum": 6488301320,
+      "mean": 98.93572235107422,
+      "stdev": 122.32205534955929,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 187,
+      "maxY": 107
+    }
+  },
+  {
+    "name": "hotels",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 39981507,
+      "squaresSum": 9958577783,
+      "mean": 152.5173454284668,
+      "stdev": 121.35680847252115,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 110,
+      "maxY": 62
+    }
+  },
+  {
+    "name": "rental",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 40178373,
+      "squaresSum": 10031813911,
+      "mean": 153.26832962036133,
+      "stdev": 121.56154244460727,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 135,
+      "maxY": 62
+    }
+  },
+  {
+    "name": "tools",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 32755377,
+      "squaresSum": 8227380083,
+      "mean": 124.95184707641602,
+      "stdev": 125.58686389788245,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 309,
+      "maxY": 46
+    }
+  },
+  {
+    "name": "packing",
+    "width": 512,
+    "height": 512,
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "sum": 35169303,
+      "squaresSum": 8828308803,
+      "mean": 134.1602439880371,
+      "stdev": 125.21347448406388,
+      "minX": 0,
+      "minY": 0,
+      "maxX": 269,
+      "maxY": 31
+    }
+  }
+]
