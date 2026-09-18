@@ -22,18 +22,20 @@ a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{t
 :where(button,summary):active{opacity:.75}a,button,summary{transition:color 180ms,background-color 180ms,opacity 180ms}
 summary{list-style:none}summary::-webkit-details-marker{display:none}.hidden,[hidden]{display:none!important}
 .skip-link{position:fixed;top:-80px;left:16px;z-index:11;padding:12px;background:var(--paper)}.skip-link:focus{top:12px}
-/* Photography cover, overlapped with a solid lake-colored title leaf. */
-.hero{display:grid;grid-template-columns:minmax(0,1fr);margin:0 calc(-1 * var(--gutter));isolation:isolate}
-.hero-photo{height:420px;overflow:hidden}
-.hero-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 58%}
-.hero-content{position:relative;margin:-100px 0 0 24px;padding:30px 24px 26px;background:var(--ink);color:var(--on-accent)}
+/* Photography-led opening. Text prints directly onto the lake shadows;
+   the edited photograph supplies the paper transition. No title panel. */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr);min-height:620px;margin:0 calc(-1 * var(--gutter));isolation:isolate}
+.hero-photo{position:absolute;inset:0;overflow:hidden;z-index:-1}
+.hero-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center bottom;mask-image:linear-gradient(to bottom,#000 94%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 94%,transparent 100%)}
+.hero-content{position:relative;align-self:end;margin:0;padding:0 24px 96px;background:transparent;color:var(--on-accent);max-width:330px}
 .eyebrow{font-size:10px;line-height:1.4;letter-spacing:.15em;color:var(--muted)}
-.hero .eyebrow{color:#c4d6ce}
-.hero h1{font-family:var(--font-editorial);font-size:46px;font-weight:600;line-height:1.24;letter-spacing:.02em;color:var(--on-accent);margin:20px 0}
+.hero .eyebrow{color:var(--on-accent);font-size:10px;letter-spacing:.12em}
+.hero h1{font-family:var(--font-editorial);font-size:46px;font-weight:600;line-height:1.2;letter-spacing:.02em;color:var(--on-accent);margin:14px 0 18px}
 .hero h1 span{display:block}
-.hero-content>p{font-size:12px;line-height:1.85;margin:0;max-width:32em;color:#d4e1da}
+.hero-content>p{font-size:12px;line-height:1.7;margin:0;max-width:22em;color:var(--on-accent)}
 .pills{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:28px}
-.pill{font-size:11px;font-weight:400;color:var(--muted)}.hero .pill{color:#d4e1da}
+.pill{font-size:11px;font-weight:400;color:var(--muted)}.hero .pill{color:var(--on-accent);white-space:nowrap}.hero .pills{justify-content:flex-start;column-gap:14px;row-gap:4px;margin-top:18px}
+.hero + #flights{margin-top:44px}
 /* One chapter grammar: editorial text left, unframed travel sketch right. */
 main>section{display:flow-root;margin-top:84px;padding:0;scroll-margin-top:16px}
 .chapter-opening{display:grid;grid-template-columns:minmax(0,1fr) 64px;column-gap:16px;align-items:center;margin:0 0 32px;padding:0;background:transparent}
@@ -130,7 +132,7 @@ a.semantic-link.link-chat::before,#daily .point-body a.semantic-link.link-chat::
 /* Map keeps its complete aspect ratio. Zoom dialog is a functional exception. */
 .map-dialog{width:96vw;max-width:1100px;height:90dvh;margin:auto;padding:0;border:1px solid var(--line-strong);border-radius:14px;background:var(--paper);color:var(--text)}.map-dialog::backdrop{background:rgb(32 58 51 / .6)}.map-dialog header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:var(--paper);font-size:13px}.map-dialog button{min-width:64px;min-height:44px;border:1px solid var(--line-strong);border-radius:8px;background:transparent}.map-scroll{overflow:auto;height:calc(100% - 64px);touch-action:pan-x pan-y pinch-zoom}.map-scroll img{display:block;width:960px;max-width:none;height:auto}
 @media(min-width:768px){
- :root{--gutter:40px}main{padding-top:28px}.hero{grid-template-columns:1.2fr 1fr;margin:0;align-items:center}.hero-photo{height:610px;grid-column:1 / -1;grid-row:1}.hero-content{grid-column:2;grid-row:1;margin:0 0 0 -28px;padding:40px;align-self:end}.hero h1{font-size:54px}.hero-content>p{font-size:13px}
+ :root{--gutter:40px}main{padding-top:28px}.hero{min-height:680px;margin:0}.hero-photo img{object-position:center 70%}.hero-content{max-width:400px;padding:0 40px 112px}.hero h1{font-size:54px}.hero-content>p{font-size:13px}
  main>section{margin-top:96px}.chapter-opening{grid-template-columns:minmax(0,1fr) 80px;column-gap:32px;margin-bottom:40px}.chapter-opening::before{width:80px;height:80px}.chapter-opening__content>h2{font-size:38px}
  #overview,#rental{padding-block:44px}.ticket{flex-basis:calc(50% - 7px);padding:26px}.border-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.border-card{display:block;padding:0}.border-card+.border-card{border:0}.border-date{display:block;margin-bottom:8px}.border-card p{margin-top:6px}
  .dayhead{padding:24px}.dayhead h2{font-size:30px}.day-card>p{max-width:60ch}.daily-stops{margin-left:40px}.stop-overview{padding-right:52px}.point-body figure{max-width:680px}
@@ -138,7 +140,7 @@ a.semantic-link.link-chat::before,#daily .point-body a.semantic-link.link-chat::
  .rental-movements{gap:40px;max-width:600px}.rental-movement time{font-size:22px}#rental>.facts{display:grid;grid-template-columns:1fr 1fr;gap:4px 32px}#rental>.facts .booking-amount{grid-row:1 / span 3;display:block}#rental>.facts .booking-amount b{display:block;margin-top:10px;font-size:38px}
  .todo-group{display:grid;grid-template-columns:140px minmax(0,1fr);gap:32px}.todo-group h3{padding-top:14px}.packing-group{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 36px}.bottom{padding-inline:max(16px,calc((100vw - 660px)/2))}
 }
-@media(max-width:370px){:root{--gutter:18px}.hero-photo{height:370px}.hero-content{margin-left:18px;padding:26px 20px}.hero h1{font-size:40px}.hero .eyebrow{font-size:9px}.chapter-opening{grid-template-columns:minmax(0,1fr) 48px;gap:12px}.chapter-opening::before{width:48px;height:48px}.chapter-opening__content>h2{font-size:28px}.ticket{padding:16px}.ticket-code{font-size:34px}.ticket-clock{font-size:24px}.daily-stop{grid-template-columns:20px minmax(0,1fr);gap:8px}.daily-stop:not(:last-child):after{left:10px}.dayhead h2{font-size:24px}.hotel-card>summary{padding-left:34px}.booking-detail{padding-left:0}.rental-movements{grid-template-columns:1fr;gap:18px}.rental-movement{padding:0}.rental-movement header{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px}.rental-movement time{font-size:14px}.rental-movement p{margin-left:56px}.fact{grid-template-columns:70px minmax(0,1fr);gap:8px}}
+@media(max-width:370px){:root{--gutter:18px}.hero{min-height:600px}.hero-content{padding:0 20px 96px;max-width:294px}.hero h1{font-size:42px}.hero .eyebrow{font-size:9px}.chapter-opening{grid-template-columns:minmax(0,1fr) 48px;gap:12px}.chapter-opening::before{width:48px;height:48px}.chapter-opening__content>h2{font-size:28px}.ticket{padding:16px}.ticket-code{font-size:34px}.ticket-clock{font-size:24px}.daily-stop{grid-template-columns:20px minmax(0,1fr);gap:8px}.daily-stop:not(:last-child):after{left:10px}.dayhead h2{font-size:24px}.hotel-card>summary{padding-left:34px}.booking-detail{padding-left:0}.rental-movements{grid-template-columns:1fr;gap:18px}.rental-movement{padding:0}.rental-movement header{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px}.rental-movement time{font-size:14px}.rental-movement p{margin-left:56px}.fact{grid-template-columns:70px minmax(0,1fr);gap:8px}}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
-@media print{html{scroll-behavior:auto}body{background:white}main{max-width:none;padding:0}.bottom,.topnav,.switch,.skip-link{display:none!important}.day-card.hidden{display:block!important}.hero{display:grid;grid-template-columns:1fr 1fr}.hero-photo{height:320px}.hero h1{font-size:30px}.chapter-opening{margin-inline:0;print-color-adjust:exact;break-inside:avoid}.ticket-track{display:grid;grid-template-columns:1fr 1fr;overflow:visible}main>section{margin-top:40px}.day-card{break-before:auto}.dayhead{break-after:avoid}.point-body figure{break-inside:avoid}}
+@media print{html{scroll-behavior:auto}body{background:white}main{max-width:none;padding:0}.bottom,.topnav,.switch,.skip-link{display:none!important}.day-card.hidden{display:block!important}.hero{min-height:540px;print-color-adjust:exact;-webkit-print-color-adjust:exact}.hero h1{font-size:40px}.chapter-opening{margin-inline:0;print-color-adjust:exact;break-inside:avoid}.ticket-track{display:grid;grid-template-columns:1fr 1fr;overflow:visible}main>section{margin-top:40px}.day-card{break-before:auto}.dayhead{break-after:avoid}.point-body figure{break-inside:avoid}}
