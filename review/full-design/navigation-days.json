@@ -1,0 +1,86 @@
+{
+  "nav": [
+    {
+      "id": "flights",
+      "top": 92.234375,
+      "active": "航班"
+    },
+    {
+      "id": "daily",
+      "top": 92.125,
+      "active": "行程"
+    },
+    {
+      "id": "hotels",
+      "top": 91.5625,
+      "active": "预定"
+    },
+    {
+      "id": "tools",
+      "top": 91.6875,
+      "active": "清单"
+    }
+  ],
+  "days": [
+    {
+      "n": 1,
+      "visible": "day-1",
+      "title": "多瑙河畔初见贝城"
+    },
+    {
+      "n": 2,
+      "visible": "day-2",
+      "title": "贝尔格莱德城市漫步"
+    },
+    {
+      "n": 3,
+      "visible": "day-3",
+      "title": "德里纳河一路向西"
+    },
+    {
+      "n": 4,
+      "visible": "day-4",
+      "title": "瓦尔特老城与黄堡日落"
+    },
+    {
+      "n": 5,
+      "visible": "day-5",
+      "title": "内雷特瓦河谷与莫斯塔尔"
+    },
+    {
+      "n": 6,
+      "visible": "day-6",
+      "title": "布纳河源与亚得里亚山海"
+    },
+    {
+      "n": 7,
+      "visible": "day-7",
+      "title": "洛夫琴山林与科托尔湾"
+    },
+    {
+      "n": 8,
+      "visible": "day-8",
+      "title": "佩拉斯特湾驶向高山"
+    },
+    {
+      "n": 9,
+      "visible": "day-9",
+      "title": "杜米托尔黑湖与森林"
+    },
+    {
+      "n": 10,
+      "visible": "day-10",
+      "title": "塔拉峡谷穿越边境"
+    },
+    {
+      "n": 11,
+      "visible": "day-11",
+      "title": "黄金缆车重返贝城"
+    },
+    {
+      "n": 12,
+      "visible": "day-12",
+      "title": "告别贝城启程回家"
+    }
+  ]
+}
