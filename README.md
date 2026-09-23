@@ -15,3 +15,7 @@
 
 底部导航：航班 / 行程 / 预定 / 清单。
 勾选和备忘沿用原 localStorage 逻辑，数据取决于浏览器和访问地址；两个文件不会自动共享进度。外部地图、酒店网站等跳转仍需网络。
+
+## 2026-09 内容同步与部署修复
+
+本轮更新说明以 `review/content-sync/变更摘要.md` 为准。`itinerary-content-verified.md` 现在是每日行程的直接构建源，`python3 build.py` 会同步生成网页和独立 `dist/`。Cloudflare 使用说明见 `DEPLOYMENT.md`；不要发布仓库根目录。

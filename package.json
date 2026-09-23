@@ -1,0 +1,11 @@
+{
+  "name": "balkan-travel",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py",
+    "deploy": "wrangler deploy --config wrangler.toml",
+    "deploy:pages": "npm run build && wrangler pages deploy dist --config wrangler.pages.toml",
+    "deploy:check": "wrangler deploy --dry-run --config wrangler.toml"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}
